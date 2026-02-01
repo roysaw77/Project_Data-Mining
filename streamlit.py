@@ -185,8 +185,8 @@ def perform_association_rules(df):
     frequent_itemsets = apriori(arm_df, min_support=0.05, use_colnames=True)
     rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1.2)
     
-    # Filter for revenue rules
-    revenue_rules = rules[rules['consequents'].apply(lambda x: 'Is_Revenue' in str(x))]
+    # Filter for rules where consequent is ONLY Is_Revenue (avoid duplicates)
+    revenue_rules = rules[rules['consequents'].apply(lambda x: x == frozenset({'Is_Revenue'}))]
     revenue_rules = revenue_rules.sort_values(by='lift', ascending=False)
     
     return frequent_itemsets, rules, revenue_rules
@@ -875,37 +875,64 @@ elif page == "🔗 Association Rules":
     st.subheader("🏆 Top 5 Rules Leading to Purchases")
     
     if len(revenue_rules) > 0:
-        top_5_rules = revenue_rules.head(5).copy()
+        # Get top 5 unique rules (drop duplicate antecedents, keep highest lift)
+        top_5_rules = revenue_rules.drop_duplicates(subset=['antecedents'], keep='first').head(5).copy()
+        
+        # Create clean, readable rule labels
+        top_5_rules['rule_label'] = top_5_rules['antecedents'].apply(
+            lambda x: ' + '.join([str(item).replace('_', ' ').replace('Is ', '').replace('High ', 'High ') 
+                                  for item in x])
+        )
         top_5_rules['antecedents_str'] = top_5_rules['antecedents'].apply(lambda x: ', '.join(list(x)))
-        top_5_rules['consequents_str'] = top_5_rules['consequents'].apply(lambda x: ', '.join(list(x)))
         
         col1, col2 = st.columns([2, 1])
         
         with col1:
+            # Grouped bar chart with Support, Confidence, and Lift
             fig, ax = plt.subplots(figsize=(12, 6))
-            colors = plt.cm.viridis(np.linspace(0.2, 0.8, len(top_5_rules)))
-            bars = ax.barh(range(len(top_5_rules)), top_5_rules['lift'].values, color=colors)
-            ax.set_yticks(range(len(top_5_rules)))
-            ax.set_yticklabels(top_5_rules['antecedents_str'].values)
-            ax.set_xlabel('Lift', fontsize=12)
-            ax.set_title('Top 5 Association Rules Leading to Purchase (by Lift)', fontsize=14, fontweight='bold')
+            
+            # Bar positions
+            y_pos = range(len(top_5_rules))
+            bar_height = 0.25
+            
+            # Create grouped bars
+            bars1 = ax.barh([y - bar_height for y in y_pos], top_5_rules['support'], 
+                            height=bar_height, color='#3498db', edgecolor='black', label='Support')
+            bars2 = ax.barh(y_pos, top_5_rules['confidence'], 
+                            height=bar_height, color='#2ecc71', edgecolor='black', label='Confidence')
+            bars3 = ax.barh([y + bar_height for y in y_pos], top_5_rules['lift'] / top_5_rules['lift'].max(), 
+                            height=bar_height, color='#e74c3c', edgecolor='black', label='Lift (normalized)')
+            
+            # Add value labels
+            for i, (s, c, l) in enumerate(zip(top_5_rules['support'], top_5_rules['confidence'], top_5_rules['lift'])):
+                ax.text(s + 0.01, i - bar_height, f'{s:.3f}', va='center', fontsize=9, color='#2c3e50')
+                ax.text(c + 0.01, i, f'{c:.1%}', va='center', fontsize=9, color='#2c3e50')
+                ax.text(l/top_5_rules['lift'].max() + 0.01, i + bar_height, f'{l:.2f}', va='center', fontsize=9, color='#2c3e50')
+            
+            # Styling
+            ax.set_yticks(y_pos)
+            ax.set_yticklabels(top_5_rules['rule_label'], fontsize=11, fontweight='bold')
+            ax.set_xlabel('Metric Value', fontsize=12, fontweight='bold')
+            ax.set_title('Top 5 Association Rules Leading to Purchases\n(Unique Antecedents Only)', 
+                         fontsize=14, fontweight='bold', pad=15)
+            ax.legend(loc='lower right', fontsize=10)
+            ax.set_xlim(0, 1.15)
+            ax.invert_yaxis()
+            ax.grid(axis='x', alpha=0.3, linestyle='--')
             ax.spines['top'].set_visible(False)
             ax.spines['right'].set_visible(False)
             
-            for i, bar in enumerate(bars):
-                width = bar.get_width()
-                ax.text(width + 0.05, bar.get_y() + bar.get_height()/2, 
-                       f'{width:.2f}', va='center', fontsize=10, fontweight='bold')
-            
+            plt.tight_layout()
             st.pyplot(fig)
         
         with col2:
             st.markdown("""
             <div class="insight-box">
-            <h4>💡 Understanding Lift</h4>
-            <p><strong>Lift > 1:</strong> Items are more likely to be bought together than independently.</p>
-            <p><strong>Higher Lift = Stronger Association</strong></p>
-            <p>A lift of 3.5 means customers with these attributes are 3.5x more likely to purchase!</p>
+            <h4>💡 Understanding the Metrics</h4>
+            <p><strong>🔵 Support:</strong> How often this pattern appears in all transactions.</p>
+            <p><strong>🟢 Confidence:</strong> When we see the antecedent, how often does purchase occur?</p>
+            <p><strong>🔴 Lift:</strong> How much more likely is purchase compared to random chance?</p>
+            <p><em>Lift > 1 means the pattern increases purchase probability!</em></p>
             </div>
             """, unsafe_allow_html=True)
         
