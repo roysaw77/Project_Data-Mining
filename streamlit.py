@@ -274,6 +274,7 @@ if page == "📊 Data Overview":
         ax.set_title("Distribution of Purchase Intention", fontsize=14, fontweight='bold')
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)
+        ax.set_ylim(0, max(target_counts.values) * 1.2)
         st.pyplot(fig)
     
     with col2:
