@@ -73,8 +73,14 @@ def load_data():
 
 @st.cache_data
 def prepare_encoded_data(df):
-    """Prepare encoded data for modeling"""
+    """Prepare encoded data for modeling with highly correlated features dropped"""
     df_encoded = df.copy()
+    
+    # Drop highly correlated features (correlation > 0.85)
+    # BounceRates <-> ExitRates: 0.90 (drop BounceRates, keep ExitRates - higher Revenue corr)
+    # ProductRelated <-> ProductRelated_Duration: 0.86 (drop ProductRelated_Duration, keep ProductRelated)
+    features_to_drop = ['BounceRates', 'ProductRelated_Duration']
+    df_encoded = df_encoded.drop(columns=features_to_drop)
     
     # Encode Month
     month_order = {'Feb': 1, 'Mar': 2, 'May': 3, 'June': 4, 'Jul': 5, 
@@ -110,11 +116,11 @@ def train_xgboost(df_encoded):
     
     # Train XGBoost with best parameters from GridSearchCV
     model = XGBClassifier(
-        n_estimators=100,
-        max_depth=3,
+        n_estimators=50,
+        max_depth=7,
         learning_rate=0.1,
         subsample=0.8,
-        colsample_bytree=0.8,
+        colsample_bytree=1.0,
         use_label_encoder=False,
         eval_metric='logloss',
         random_state=42
@@ -202,7 +208,7 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("### Navigation")
 page = st.sidebar.radio(
     "Select a Page:",
-    ["📊 Data Overview", "🤖 Classification", "🎯 Clustering", "🔗 Association Rules", "💬 AI Analyst"],
+    ["📊 Data Overview", "🤖 Classification Dashboard", "🎯 Clustering", "🔗 Association Rules", "💬 AI Analyst"],
     label_visibility="collapsed"
 )
 
@@ -235,7 +241,7 @@ if page == "📊 Data Overview":
         purchase_rate = (df['Revenue'].sum() / len(df)) * 100
         st.metric("✅ Purchase Rate", f"{purchase_rate:.1f}%")
     with col4:
-        st.metric("❌ Bounce Rate", f"{100 - purchase_rate:.1f}%")
+        st.metric("❌ Non-Purchase Rate", f"{100 - purchase_rate:.1f}%")
     with col5:
         st.metric("👥 Returning Visitors", f"{(df['VisitorType'] == 'Returning_Visitor').sum():,}")
     
@@ -371,15 +377,15 @@ if page == "📊 Data Overview":
         """, unsafe_allow_html=True)
 
 # ==================== PAGE 2: Classification ====================
-elif page == "🤖 Classification":
+elif page == "🤖 Classification Dashboard":
     st.header("🤖 XGBoost Classification Model")
     st.markdown("*Predict whether a customer will make a purchase using XGBoost*")
     
     # Model Info Box
     st.info("""🚀 **Model:** XGBoost (Extreme Gradient Boosting)
     
-**Optimized Hyperparameters (from GridSearchCV):**
-- `n_estimators`: 100 | `max_depth`: 3 | `learning_rate`: 0.1 | `subsample`: 0.8 | `colsample_bytree`: 0.8""")
+**Optimized Hyperparameters (from GridSearchCV with SMOTE):**
+- `n_estimators`: 50 | `max_depth`: 7 | `learning_rate`: 0.1 | `subsample`: 0.8 | `colsample_bytree`: 1.0""")
     
     st.markdown("---")
     
@@ -399,270 +405,222 @@ elif page == "🤖 Classification":
         st.metric("📈 ROC-AUC", f"{model_results['ROC-AUC']:.4f}")
     
     st.markdown("---")
-    
-    # Confusion Matrix Section
-    st.subheader("🎯 Confusion Matrix Analysis")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        cm = confusion_matrix_result
-        fig, ax = plt.subplots(figsize=(8, 6))
-        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', ax=ax,
-                    xticklabels=['No Purchase', 'Purchase'],
-                    yticklabels=['No Purchase', 'Purchase'])
-        ax.set_title('Confusion Matrix - XGBoost', fontsize=14, fontweight='bold')
-        ax.set_ylabel('Actual', fontsize=12)
-        ax.set_xlabel('Predicted', fontsize=12)
-        st.pyplot(fig)
-    
-    with col2:
-        tn, fp, fn, tp = cm.ravel()
-        st.markdown(f"""
-        **Confusion Matrix Breakdown:**
-        
-        | Metric | Value | Description |
-        |--------|-------|-------------|
-        | True Negatives | {tn:,} | Correctly predicted No Purchase |
-        | False Positives | {fp:,} | Incorrectly predicted Purchase |
-        | False Negatives | {fn:,} | Missed actual Purchases |
-        | True Positives | {tp:,} | Correctly predicted Purchase |
-        
-        **Key Ratios:**
-        - Specificity: {tn/(tn+fp)*100:.1f}%
-        - Sensitivity: {tp/(tp+fn)*100:.1f}%
-        """)
-    
-    st.markdown("---")
-    
-    # Feature Importance
-    st.subheader("🔍 Feature Importance Analysis")
-    
+  
+    # Create importance dataframe sorted by importance 
     importance_data = pd.DataFrame({
         'Feature': feature_columns,
         'Importance': feature_importance
-    }).sort_values('Importance', ascending=True)
+    }).sort_values('Importance', ascending=False)
     
-    fig, ax = plt.subplots(figsize=(12, 8))
-    colors = plt.cm.viridis(np.linspace(0.2, 0.8, len(importance_data)))
-    ax.barh(importance_data['Feature'], importance_data['Importance'], color=colors)
-    ax.set_xlabel('Importance Score', fontsize=12)
-    ax.set_title('Feature Importance - XGBoost', fontsize=14, fontweight='bold')
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    st.pyplot(fig)
+    # Get top 10 features
+    top_10 = importance_data.head(10)
     
-    st.markdown("""
-    <div class="insight-box">
-    <h4>💡 Key Feature Insights</h4>
-    <ul>
-        <li><strong>PageValues</strong> is consistently the most important feature across all models</li>
-        <li>This metric represents the average value of pages visited before completing a transaction</li>
-        <li><strong>ExitRates</strong> and <strong>BounceRates</strong> are also significant predictors</li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
+    
+    # ==================== HIGH POTENTIAL CUSTOMERS DETECTION ====================
+    st.subheader("🎯 High Potential Customers Detection")
+    st.markdown("*Identify sessions with high purchase probability from your own dataset*")
+    
+    # File uploader for custom CSV
+    st.markdown("#### 📁 Upload Your Data")
+    uploaded_file = st.file_uploader(
+        "Upload a CSV file with customer session data",
+        type=['csv'],
+        help="Upload your own CSV file with the same columns as the original dataset to predict purchase probability for each session."
+    )
+    
+    if uploaded_file is not None:
+        try:
+            # Load uploaded data
+            df_upload = pd.read_csv(uploaded_file)
+            df_upload = df_upload.drop_duplicates().reset_index(drop=True)
+            
+            # Prepare encoded data for the uploaded file
+            df_upload_encoded = df_upload.copy()
+            
+            # Drop highly correlated features
+            features_to_drop = ['BounceRates', 'ProductRelated_Duration']
+            df_upload_encoded = df_upload_encoded.drop(columns=[f for f in features_to_drop if f in df_upload_encoded.columns])
+            
+            # Encode Month
+            month_order = {'Feb': 1, 'Mar': 2, 'May': 3, 'June': 4, 'Jul': 5, 
+                           'Aug': 6, 'Sep': 7, 'Oct': 8, 'Nov': 9, 'Dec': 10}
+            if 'Month' in df_upload_encoded.columns:
+                df_upload_encoded['Month'] = df_upload_encoded['Month'].map(month_order)
+            
+            # VisitorType
+            if 'VisitorType' in df_upload_encoded.columns:
+                le = LabelEncoder()
+                df_upload_encoded['VisitorType'] = le.fit_transform(df_upload_encoded['VisitorType'])
+            
+            # Weekend & Revenue
+            if 'Weekend' in df_upload_encoded.columns:
+                df_upload_encoded['Weekend'] = df_upload_encoded['Weekend'].astype(int)
+            if 'Revenue' in df_upload_encoded.columns:
+                df_upload_encoded['Revenue'] = df_upload_encoded['Revenue'].astype(int)
+            
+            st.success(f"✅ Successfully loaded {len(df_upload):,} sessions from your file!")
+            
+            # Use uploaded data for prediction
+            df_for_prediction = df_upload
+            df_encoded_for_prediction = df_upload_encoded
+            
+        except Exception as e:
+            st.error(f"❌ Error loading file: {str(e)}")
+            st.info("Using the default dataset instead.")
+            df_for_prediction = df
+            df_encoded_for_prediction = df_encoded
+    else:
+        st.info("💡 **No file uploaded.** Using the built-in dataset for demonstration. Upload your own CSV to analyze your customer data!")
+        df_for_prediction = df
+        df_encoded_for_prediction = df_encoded
     
     st.markdown("---")
     
-    # ==================== BUSINESS ANALYSIS SECTION ====================
-    st.subheader("💼 Business Analysis & Revenue Optimization Strategy")
+    # Prepare dataset for prediction
+    df_predict = df_encoded_for_prediction.copy()
     
-    # Calculate business metrics from confusion matrix
-    best_cm = confusion_matrix_result
-    tn, fp, fn, tp = best_cm.ravel()
-    total_test = tn + fp + fn + tp
+    # Check if Revenue column exists
+    has_revenue = 'Revenue' in df_predict.columns
     
-    # Business KPIs
-    st.markdown("### 📊 Key Business Metrics")
+    if has_revenue:
+        X_full = df_predict.drop('Revenue', axis=1)
+        y_actual = df_predict['Revenue']
+    else:
+        X_full = df_predict.copy()
+        y_actual = None
     
-    col1, col2, col3, col4 = st.columns(4)
+    # Scale the full dataset
+    X_full_scaled = scaler.transform(X_full)
+    
+    # Predict probabilities for all sessions
+    all_probabilities = xgb_model.predict_proba(X_full_scaled)[:, 1]
+    all_predictions = xgb_model.predict(X_full_scaled)
+    
+    # Add predictions to dataframe
+    df_with_predictions = df_for_prediction.copy()
+    df_with_predictions['Purchase_Probability'] = all_probabilities
+    df_with_predictions['Predicted_Purchase'] = all_predictions
+    df_with_predictions['Session_ID'] = range(1, len(df_for_prediction) + 1)
+    
+    # Threshold explanation and selector
+    st.markdown("#### 🎚️Probability Threshold?")
+    st.markdown("""
+    The **Probability Threshold** determines which customers are considered "high potential" buyers:
+    
+    - **Filtering:** Only sessions with probability **≥ threshold** are shown as high potential
+ 
+    **💡 Choosing a threshold:**
+    - **Higher threshold (80-95%):** Fewer customers, but **very likely** to buy 
+    - **Lower threshold (50-60%):** More customers identified, but **less certain**
+    """)
+    
+    col1, col2 = st.columns([1, 2])
     with col1:
-        capture_rate = tp / (tp + fn) * 100
-        st.metric("🎯 Customer Capture Rate", f"{capture_rate:.1f}%", 
-                  help="Percentage of actual buyers we correctly identify")
+        threshold = st.slider(
+            "🎚️ Select Threshold",
+            min_value=0.5, max_value=0.95, value=0.7, step=0.05,
+            help="Sessions with purchase probability above this threshold are considered high potential"
+        )
+    
+    # Filter high potential customers
+    high_potential = df_with_predictions[df_with_predictions['Purchase_Probability'] >= threshold].copy()
+    high_potential = high_potential.sort_values('Purchase_Probability', ascending=False)
+    
     with col2:
-        precision_val = tp / (tp + fp) * 100
-        st.metric("✅ Marketing Efficiency", f"{precision_val:.1f}%",
-                  help="When we target someone, how often are they actual buyers?")
-    with col3:
-        missed_customers = fn
-        st.metric("⚠️ Missed Customers", f"{missed_customers:,}",
-                  help="Actual buyers we failed to identify")
-    with col4:
-        false_targets = fp
-        st.metric("💸 Wasted Targeting", f"{false_targets:,}",
-                  help="Non-buyers we incorrectly targeted")
+        # Metrics
+        metric_cols = st.columns(4)
+        with metric_cols[0]:
+            st.metric("🎯 High Potential", f"{len(high_potential):,}")
+        with metric_cols[1]:
+            st.metric("📊 Total Sessions", f"{len(df_for_prediction):,}")
+        with metric_cols[2]:
+            percentage = len(high_potential) / len(df_for_prediction) * 100 if len(df_for_prediction) > 0 else 0
+            st.metric("📈 Percentage", f"{percentage:.1f}%")
+        with metric_cols[3]:
+            # How many of these actually purchased? (only if Revenue column exists)
+            if len(high_potential) > 0 and 'Revenue' in high_potential.columns:
+                actual_buyers = high_potential['Revenue'].sum()
+                accuracy = actual_buyers / len(high_potential) * 100
+                st.metric("✅ Actual Buyers", f"{accuracy:.1f}%")
+            else:
+                st.metric("✅ Actual Buyers", "N/A")
     
     st.markdown("---")
     
-    # Detailed Business Strategy
-    st.markdown("### 🎯 Strategic Recommendations for Revenue Growth")
-    
-    tab1, tab2, tab3, tab4 = st.tabs(["📧 Marketing Strategy", "🌐 Website Optimization", "👥 Customer Targeting", "📅 Action Plan"])
-    
-    with tab1:
-        st.markdown("""
-        ## 📧 Data-Driven Marketing Strategy
+    if len(high_potential) > 0:
+        # Display high potential customers list
+        st.markdown(f"### 📋 High Potential Customer List (Top {min(50, len(high_potential))} Sessions)")
         
-        ### 1. Personalized Email Campaigns
-        Based on our model's predictions, implement **targeted email marketing**:
+        # Select columns to display
+        display_cols = ['Session_ID', 'Purchase_Probability', 'Revenue', 'PageValues', 'Month', 
+                        'ExitRates', 'ProductRelated', 'Administrative', 'VisitorType', 'TrafficType']
         
-        | Customer Segment | Predicted Behavior | Recommended Action | Expected ROI |
-        |-----------------|-------------------|-------------------|--------------|
-        | **High PageValue Visitors** | Very likely to buy | Send exclusive deals, limited-time offers | ⭐⭐⭐⭐⭐ Highest |
-        | **Returning Visitors** | Moderate likelihood | Loyalty rewards, personalized recommendations | ⭐⭐⭐⭐ High |
-        | **Low Bounce Rate Users** | Engaged, may convert | Cart abandonment emails, product highlights | ⭐⭐⭐ Medium |
-        | **New Visitors** | Lower likelihood | Welcome series, brand introduction | ⭐⭐ Lower |
+        # Filter available columns
+        available_cols = [col for col in display_cols if col in high_potential.columns]
         
-        ### 2. Retargeting Campaigns
-        - **Focus budget on predicted buyers** (saves 60-70% marketing cost)
-        - Use **dynamic ads** showing products they viewed
-        - Implement **urgency triggers** ("Only 3 left in stock!")
+        # Create display dataframe
+        display_df = high_potential[available_cols].head(50).copy()
+        display_df['Purchase_Probability'] = display_df['Purchase_Probability'].apply(lambda x: f"{x*100:.1f}%")
+        if 'Revenue' in display_df.columns:
+            display_df['Revenue'] = display_df['Revenue'].apply(lambda x: "✅ Yes" if x else "❌ No")
         
-        ### 3. Budget Allocation
-        ```
-        🎯 Predicted Buyers: 70% of marketing budget
-        🔄 Returning Visitors: 20% of marketing budget  
-        🆕 New Visitor Acquisition: 10% of marketing budget
-        ```
-        """)
-    
-    with tab2:
-        st.markdown(f"""
-        ## 🌐 Website Optimization Strategy
+        # Rename for better display
+        rename_cols = {
+            'Session_ID': 'Session #',
+            'Purchase_Probability': 'Buy Probability',
+            'PageValues': 'Page Value',
+            'ExitRates': 'Exit Rate',
+            'ProductRelated': 'Product Pages',
+            'Administrative': 'Admin Pages',
+            'VisitorType': 'Visitor Type',
+            'TrafficType': 'Traffic Type'
+        }
+        if 'Revenue' in display_df.columns:
+            rename_cols['Revenue'] = 'Actually Bought'
         
-        Based on feature importance analysis, focus on these **high-impact areas**:
+        display_df = display_df.rename(columns=rename_cols)
         
-        ### 1. PageValues Optimization (Most Important Feature!)
-        **What it means:** PageValues measures the average contribution of pages to a transaction.
+        st.dataframe(display_df, use_container_width=True, hide_index=True)
         
-        **Action Items:**
-        - ✅ **Improve product pages** with better descriptions, images, and reviews
-        - ✅ **Add social proof** (customer reviews, ratings, "X people bought this")
-        - ✅ **Implement urgency elements** (limited stock, countdown timers)
-        - ✅ **Optimize checkout flow** to reduce friction
+        # Export functionality
+        st.markdown("---")
+        col1, col2 = st.columns(2)
         
-        ### 2. Reduce Exit Rates (Negative Predictor)
-        **Current Issue:** High exit rates indicate customers leaving without action.
+        with col1:
+            # Prepare export data - only include columns that exist
+            export_cols = ['Session_ID', 'Purchase_Probability']
+            optional_cols = ['Revenue', 'PageValues', 'Month', 'VisitorType', 'TrafficType', 'Region']
+            export_cols.extend([c for c in optional_cols if c in high_potential.columns])
+            
+            export_df = high_potential[export_cols].copy()
+            export_df['Purchase_Probability'] = export_df['Purchase_Probability'].apply(lambda x: f"{x*100:.2f}%")
+            
+            csv = export_df.to_csv(index=False)
+            st.download_button(
+                label="📥 Download High Potential Customers (CSV)",
+                data=csv,
+                file_name=f"high_potential_customers_threshold_{int(threshold*100)}.csv",
+                mime="text/csv",
+                use_container_width=True
+            )
         
-        **Solutions:**
-        - 🔧 Add **exit-intent popups** with special offers
-        - 🔧 Implement **live chat support** on high-exit pages
-        - 🔧 Use **related products** recommendations
-        - 🔧 Simplify navigation and reduce page load time
+        with col2:
+            # Build summary statistics dynamically
+            summary_lines = [
+                f"- **Threshold:** {threshold*100:.0f}% probability",
+                f"- **Identified:** {len(high_potential):,} high potential sessions"
+            ]
+            if 'Revenue' in high_potential.columns:
+                actual_buyers = high_potential['Revenue'].sum()
+                summary_lines.append(f"- **Actual Buyers:** {actual_buyers:,} ({actual_buyers/len(high_potential)*100:.1f}%)")
+            if 'PageValues' in high_potential.columns:
+                summary_lines.append(f"- **Avg Page Value:** {high_potential['PageValues'].mean():.2f}")
+            
+            st.markdown("**📊 Summary Statistics:**\n" + "\n".join(summary_lines))
         
-        ### 3. Reduce Bounce Rates
-        **Strategies:**
-        - 📱 Ensure **mobile responsiveness** (40%+ traffic is mobile)
-        - ⚡ Improve **page load speed** (target < 3 seconds)
-        - 🎨 Use **engaging landing pages** with clear CTAs
-        - 🔍 Match **ad content to landing page** content
-        
-        ### Expected Impact:
-        | Optimization | Effort | Potential Revenue Increase |
-        |-------------|--------|---------------------------|
-        | PageValue Improvement | Medium | +15-25% |
-        | Exit Rate Reduction | Low | +5-10% |
-        | Bounce Rate Reduction | Medium | +10-15% |
-        """)
-    
-    with tab3:
-        # Get XGBoost model metrics for display
-        xgb_recall = model_results['Recall']
-        xgb_precision = model_results['Precision']
-        
-        st.markdown(f"""
-        ## 👥 Customer Targeting Strategy
-        
-        ### Model Performance Summary
-        Our **XGBoost** model enables smart customer targeting:
-        
-        - **Recall: {xgb_recall*100:.1f}%** - We catch {xgb_recall*100:.1f}% of all actual buyers
-        - **Precision: {xgb_precision*100:.1f}%** - {xgb_precision*100:.1f}% of people we target actually buy
-        
-        ### Customer Prioritization Framework
-        
-        | Priority | Customer Profile | Model Score | Action | Resource Allocation |
-        |----------|-----------------|-------------|--------|-------------------|
-        | 🔴 **Tier 1** | High probability (>70%) | Predicted: Buy | Personal outreach, VIP offers | 50% of efforts |
-        | 🟡 **Tier 2** | Medium probability (40-70%) | Predicted: Maybe | Email campaigns, retargeting | 35% of efforts |
-        | 🟢 **Tier 3** | Low probability (<40%) | Predicted: No | Automated nurturing | 15% of efforts |
-        
-        ### Real-Time Implementation
-        
-        1. **Integrate model with CRM**
-           - Score every website visitor in real-time
-           - Trigger personalized experiences based on prediction
-        
-        2. **Dynamic Pricing & Offers**
-           - High probability customers: Standard pricing (they'll buy anyway)
-           - Medium probability: Small discount to push conversion
-           - Low probability: Bigger incentive if they're valuable long-term
-        """)
-    
-    with tab4:
-        st.markdown("""
-        ## 📅 90-Day Implementation Action Plan
-        
-        ### Phase 1: Quick Wins (Days 1-30)
-        
-        | Week | Action | Owner | Expected Impact |
-        |------|--------|-------|-----------------|
-        | 1 | Deploy model to score existing customer database | Data Team | Baseline established |
-        | 2 | Segment email list by predicted purchase probability | Marketing | +10% email revenue |
-        | 3 | Create targeted campaigns for high-probability segment | Marketing | +15% conversion |
-        | 4 | A/B test personalized vs generic messaging | Marketing | Data for optimization |
-        
-        ### Phase 2: Website Optimization (Days 31-60)
-        
-        | Week | Action | Owner | Expected Impact |
-        |------|--------|-------|-----------------|
-        | 5 | Audit high-exit pages, identify issues | UX Team | Problem identification |
-        | 6 | Implement exit-intent popups on key pages | Dev Team | -5% exit rate |
-        | 7 | Optimize product pages (images, descriptions) | Content | +8% PageValue |
-        | 8 | Speed optimization for mobile | Dev Team | -10% bounce rate |
-        
-        ### Phase 3: Full Integration (Days 61-90)
-        
-        | Week | Action | Owner | Expected Impact |
-        |------|--------|-------|-----------------|
-        | 9 | Real-time scoring API integration | Dev Team | Live predictions |
-        | 10 | Dynamic content personalization | Dev Team | +12% engagement |
-        | 11 | Automated trigger campaigns | Marketing | Scalable personalization |
-        | 12 | Performance review & model retraining | Data Team | Continuous improvement |
-        
-        ### 📈 Expected Results After 90 Days
-        
-        - **Revenue Increase:** 15-25%
-        - **Marketing Cost Reduction:** 40-60%
-        - **Customer Acquisition Cost:** -30%
-        - **Conversion Rate:** +20-40%
-        
-        ### 🔑 Key Success Metrics to Track
-        
-        1. **Model Accuracy** - Retrain monthly with new data
-        2. **Conversion Rate by Segment** - Validate predictions
-        3. **ROI per Marketing Dollar** - Measure efficiency gains
-        4. **Customer Lifetime Value** - Long-term impact
-        """)
+      
     
     st.markdown("---")
-    
-    # Summary Box
-    st.markdown("""
-    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 2rem; border-radius: 15px; color: white;">
-    <h3>💎 Executive Summary: How XGBoost Drives Revenue</h3>
-    <p><strong>The Bottom Line:</strong> By using our XGBoost classification model, you can:</p>
-    <ul>
-        <li>🎯 <strong>Target 3x more effectively</strong> - Focus on customers most likely to buy</li>
-        <li>💰 <strong>Reduce marketing waste by 60%</strong> - Stop spending on unlikely buyers</li>
-        <li>📈 <strong>Increase conversion rates by 20-40%</strong> - Personalized experiences convert better</li>
-        <li>⚡ <strong>Make real-time decisions</strong> - Score visitors instantly for immediate action</li>
-    </ul>
-    <p><em>The model pays for itself within the first month of implementation.</em></p>
-    </div>
-    """, unsafe_allow_html=True)
 
 # ==================== PAGE 3: Clustering ====================
 elif page == "🎯 Clustering":
