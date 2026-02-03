@@ -354,7 +354,7 @@ if page == "📊 Data Overview":
     
     with tab3:
         fig, ax = plt.subplots(figsize=(12, 10))
-        correlation_matrix = df[numerical_features].corr()
+        correlation_matrix = df[numerical_features + ['Revenue']].corr()
         sns.heatmap(correlation_matrix, annot=True, fmt='.2f', cmap='RdYlBu_r', 
                     linewidths=0.5, square=True, ax=ax, center=0)
         ax.set_title('Correlation Matrix of Numerical Features', fontsize=14, fontweight='bold')
