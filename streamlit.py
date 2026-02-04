@@ -334,7 +334,7 @@ if page == "📊 Data Overview":
             """)
     
     with tab2:
-        cat_columns = ['Month', 'VisitorType', 'Weekend', 'Browser', 'Region', 'TrafficType']
+        cat_columns = ['Month', 'VisitorType', 'Weekend', 'OperatingSystems', 'Browser', 'Region', 'TrafficType']
         selected_cat = st.selectbox("Select a categorical feature:", cat_columns)
         
         col1, col2 = st.columns(2)
