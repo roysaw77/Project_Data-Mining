@@ -831,18 +831,18 @@ elif page == "🔗 Association Rules":
     st.markdown("---")
     
     # Top Rules Leading to Purchase
-    st.subheader("🏆 Top 5 Rules Leading to Purchases")
+    st.subheader("🏆 Top 4 Rules Leading to Purchases")
     
     if len(revenue_rules) > 0:
-        # Get top 5 unique rules (drop duplicate antecedents, keep highest lift)
-        top_5_rules = revenue_rules.drop_duplicates(subset=['antecedents'], keep='first').head(5).copy()
+        # Get top 4 unique rules (drop duplicate antecedents, keep highest lift)
+        top_4_rules = revenue_rules.drop_duplicates(subset=['antecedents'], keep='first').head(5).copy()
         
         # Create clean, readable rule labels
-        top_5_rules['rule_label'] = top_5_rules['antecedents'].apply(
+        top_4_rules['rule_label'] = top_4_rules['antecedents'].apply(
             lambda x: ' + '.join([str(item).replace('_', ' ').replace('Is ', '').replace('High ', 'High ') 
                                   for item in x])
         )
-        top_5_rules['antecedents_str'] = top_5_rules['antecedents'].apply(lambda x: ', '.join(list(x)))
+        top_4_rules['antecedents_str'] = top_4_rules['antecedents'].apply(lambda x: ', '.join(list(x)))
         
         col1, col2 = st.columns([2, 1])
         
@@ -851,28 +851,28 @@ elif page == "🔗 Association Rules":
             fig, ax = plt.subplots(figsize=(12, 6))
             
             # Bar positions
-            y_pos = range(len(top_5_rules))
+            y_pos = range(len(top_4_rules))
             bar_height = 0.25
             
             # Create grouped bars
-            bars1 = ax.barh([y - bar_height for y in y_pos], top_5_rules['support'], 
+            bars1 = ax.barh([y - bar_height for y in y_pos], top_4_rules['support'], 
                             height=bar_height, color='#3498db', edgecolor='black', label='Support')
-            bars2 = ax.barh(y_pos, top_5_rules['confidence'], 
+            bars2 = ax.barh(y_pos, top_4_rules['confidence'], 
                             height=bar_height, color='#2ecc71', edgecolor='black', label='Confidence')
-            bars3 = ax.barh([y + bar_height for y in y_pos], top_5_rules['lift'] / top_5_rules['lift'].max(), 
+            bars3 = ax.barh([y + bar_height for y in y_pos], top_4_rules['lift'] / top_4_rules['lift'].max(), 
                             height=bar_height, color='#e74c3c', edgecolor='black', label='Lift (normalized)')
             
             # Add value labels
-            for i, (s, c, l) in enumerate(zip(top_5_rules['support'], top_5_rules['confidence'], top_5_rules['lift'])):
+            for i, (s, c, l) in enumerate(zip(top_4_rules['support'], top_4_rules['confidence'], top_4_rules['lift'])):
                 ax.text(s + 0.01, i - bar_height, f'{s:.3f}', va='center', fontsize=9, color='#2c3e50')
                 ax.text(c + 0.01, i, f'{c:.1%}', va='center', fontsize=9, color='#2c3e50')
-                ax.text(l/top_5_rules['lift'].max() + 0.01, i + bar_height, f'{l:.2f}', va='center', fontsize=9, color='#2c3e50')
+                ax.text(l/top_4_rules['lift'].max() + 0.01, i + bar_height, f'{l:.2f}', va='center', fontsize=9, color='#2c3e50')
             
             # Styling
             ax.set_yticks(y_pos)
-            ax.set_yticklabels(top_5_rules['rule_label'], fontsize=11, fontweight='bold')
+            ax.set_yticklabels(top_4_rules['rule_label'], fontsize=11, fontweight='bold')
             ax.set_xlabel('Metric Value', fontsize=12, fontweight='bold')
-            ax.set_title('Top 5 Association Rules Leading to Purchases\n(Unique Antecedents Only)', 
+            ax.set_title('Top 4 Association Rules Leading to Purchases\n(Unique Antecedents Only)', 
                          fontsize=14, fontweight='bold', pad=15)
             ax.legend(loc='lower right', fontsize=10)
             ax.set_xlim(0, 1.15)
@@ -898,9 +898,9 @@ elif page == "🔗 Association Rules":
         st.markdown("---")
         
         # Detailed Rules Table
-        st.subheader("📋 Top 5 Rules - Detailed View")
+        st.subheader("📋 Top 4 Rules - Detailed View")
         
-        display_df = top_5_rules[['antecedents_str', 'support', 'confidence', 'lift']].copy()
+        display_df = top_4_rules[['antecedents_str', 'support', 'confidence', 'lift']].copy()
         display_df.columns = ['Antecedents (IF)', 'Support', 'Confidence', 'Lift']
         display_df = display_df.reset_index(drop=True)
         display_df.index = display_df.index + 1
