@@ -625,191 +625,193 @@ elif page == "🤖 Classification Dashboard":
 
 # ==================== PAGE 3: Clustering ====================
 elif page == "🎯 Clustering":
-    st.header("🎯 Customer Segmentation (Clustering)")
-    st.markdown("*Segment customers based on browsing behavior*")
+    st.header("🎯 Customer Segmentation Clustering")
+    st.markdown("*Segment high potential customers based on PageValue and Purchase Probability*")
     
-    # Perform clustering
-    x, y_means, centers, wcss, ari_score, cm = perform_clustering(df)
+    # File uploader for high potential customers
+    st.markdown("#### 📁 Upload High Potential Customers Data")
+    uploaded_cluster_file = st.file_uploader(
+        "Upload your high potential customers CSV file",
+        type=['csv'],
+        help="Upload the CSV file exported from Classification Dashboard (high_potential_customers_threshold_XX.csv)",
+        key="cluster_upload"
+    )
     
-    # Clustering Overview
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric("🎯 Number of Clusters", "2")
-    with col2:
-        st.metric("📊 Adjusted Rand Index", f"{ari_score:.4f}")
-    with col3:
-        st.metric("📈 Total Data Points", f"{len(x):,}")
+    if uploaded_cluster_file is not None:
+        try:
+            # Load the uploaded data
+            hp_df = pd.read_csv(uploaded_cluster_file)
+            st.success(f"✅ Successfully loaded {len(hp_df):,} high potential customer sessions!")
+        except Exception as e:
+            st.error(f"❌ Error loading file: {str(e)}")
+            hp_df = None
+    else:
+        # Try to load default file
+        try:
+            hp_df = pd.read_csv("high_potential_customers_threshold_70.csv")
+            st.info("💡 Using default high potential customers file. Upload your own CSV for custom analysis.")
+        except:
+            hp_df = None
+            st.warning("⚠ No high potential customers file found. Please upload a CSV file or generate one from the Classification Dashboard.")
     
-    st.markdown("---")
-    
-    # Elbow Method
-    st.subheader("📉 Elbow Method (Optimal Clusters)")
-    col1, col2 = st.columns([2, 1])
-    
-    with col1:
-        fig, ax = plt.subplots(figsize=(10, 5))
-        ax.plot(range(1, 11), wcss, 'bo-', linewidth=2, markersize=8)
-        ax.axvline(x=2, color='red', linestyle='--', label='Optimal k=2')
-        ax.set_title('The Elbow Method', fontsize=14, fontweight='bold')
-        ax.set_xlabel('Number of Clusters', fontsize=12)
-        ax.set_ylabel('WCSS (Within-Cluster Sum of Squares)', fontsize=12)
-        ax.legend()
-        ax.grid(True, alpha=0.3)
-        st.pyplot(fig)
-    
-    with col2:
-        st.markdown("""
-        <div class="insight-box">
-        <h4>💡 Elbow Method Explanation</h4>
-        <p>The "elbow" in the curve indicates the optimal number of clusters where adding more clusters doesn't significantly reduce WCSS.</p>
-        <p><strong>Result:</strong> k=2 is optimal for this dataset.</p>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    st.markdown("---")
-    
-    # Clustering Visualization
-    st.subheader("🔵 Customer Segments Visualization")
-    
-    col1, col2 = st.columns([2, 1])
-    
-    with col1:
-        fig, ax = plt.subplots(figsize=(12, 8))
-        scatter1 = ax.scatter(x[y_means == 0, 0], x[y_means == 0, 1], s=50, c='#FFD700', 
-                             label='Uninterested Customers', alpha=0.6, edgecolor='white')
-        scatter2 = ax.scatter(x[y_means == 1, 0], x[y_means == 1, 1], s=50, c='#FF69B4', 
-                             label='Target Customers', alpha=0.6, edgecolor='white')
-        ax.scatter(centers[:, 0], centers[:, 1], s=200, c='blue', marker='X', 
-                  label='Centroids', edgecolor='black', linewidth=2)
-        ax.set_title('Customer Segmentation: ProductRelated Duration vs Bounce Rate', fontsize=14, fontweight='bold')
-        ax.set_xlabel('ProductRelated Duration', fontsize=12)
-        ax.set_ylabel('Bounce Rates', fontsize=12)
-        ax.legend(loc='upper right')
-        ax.grid(True, alpha=0.3)
-        st.pyplot(fig)
-    
-    with col2:
-        st.markdown("""
-        ### 📊 Cluster Interpretation
+    if hp_df is not None:
+        st.markdown("---")
         
-        **🟡 Yellow - Uninterested Customers:**
-        - Lower product page duration
-        - Higher bounce rates
-        - Less engaged visitors
+        # Clean the Purchase_Probability column (remove % and convert to float)
+        if 'Purchase_Probability' in hp_df.columns:
+            if hp_df['Purchase_Probability'].dtype == 'object':
+                hp_df['Purchase_Probability_Clean'] = hp_df['Purchase_Probability'].str.rstrip('%').astype(float) / 100
+            else:
+                hp_df['Purchase_Probability_Clean'] = hp_df['Purchase_Probability']
+        else:
+            st.error("❌ 'Purchase_Probability' column not found in the file!")
+            hp_df = None
         
-        **🩷 Pink - Target Customers:**
-        - Higher product page duration
-        - Lower bounce rates
-        - More engaged & likely to purchase
-        
-        **🔵 Blue X - Centroids:**
-        - Center points of each cluster
-        """)
-    
-    st.markdown("---")
-    
-    # Clustering Evaluation
-    st.subheader("📋 Clustering Evaluation")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        fig, ax = plt.subplots(figsize=(8, 6))
-        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', ax=ax,
-                    xticklabels=['Cluster 0', 'Cluster 1'],
-                    yticklabels=['No Purchase', 'Purchase'])
-        ax.set_title('Clustering vs Actual Purchase (Confusion Matrix)', fontsize=14, fontweight='bold')
-        ax.set_ylabel('Actual Revenue', fontsize=12)
-        ax.set_xlabel('Predicted Cluster', fontsize=12)
-        st.pyplot(fig)
-    
-    with col2:
-        st.markdown(f"""
-        <div class="warning-box">
-        <h4>⚠️ Clustering Limitation</h4>
-        <p><strong>Adjusted Rand Index: {ari_score:.4f}</strong></p>
-        <p>The low ARI score indicates that clustering based only on ProductRelated_Duration and BounceRates doesn't align well with actual purchase behavior.</p>
-        <p><strong>Key Findings:</strong></p>
-        <ul>
-            <li>Many purchasers were clustered as "uninterested"</li>
-            <li>High bounce rate doesn't always mean no purchase</li>
-            <li>Additional features needed for better segmentation</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    st.markdown("---")
-    
-    # Business Insights for Clustering
-    st.subheader("💼 Business Insights from Customer Segmentation")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        ### 🎯 What This Means for Your Business
-        
-        **Key Finding:** Customers who spend **more time on product pages** and have **lower bounce rates** 
-        are significantly more engaged and likely to purchase.
-        
-        | Segment | Behavior | Business Value | Priority |
-        |---------|----------|---------------|----------|
-        | **Target Customers** | High engagement, low bounce | High conversion potential | 🔴 High |
-        | **Uninterested Visitors** | Quick exits, high bounce | Low immediate value | 🟢 Low |
-        
-        ### 📊 Segment Size Analysis
-        """)
-        
-        # Calculate segment sizes
-        cluster_0_size = (y_means == 0).sum()
-        cluster_1_size = (y_means == 1).sum()
-        total = len(y_means)
-        
-        segment_data = {
-            "Segment": ["Target Customers", "Uninterested Visitors"],
-            "Count": [cluster_1_size, cluster_0_size],
-            "Percentage": [f"{cluster_1_size/total*100:.1f}%", f"{cluster_0_size/total*100:.1f}%"]
-        }
-        st.dataframe(pd.DataFrame(segment_data), use_container_width=True, hide_index=True)
-    
-    with col2:
-        st.markdown("""
-        ### 💡 Actionable Strategies
-        
-        **For Target Customers (Engaged):**
-        - ✅ Prioritize for premium offers
-        - ✅ Upselling and cross-selling campaigns
-        - ✅ Loyalty program enrollment
-        - ✅ Personalized product recommendations
-        
-        **For Uninterested Visitors (High Bounce):**
-        - 🔧 Improve landing page relevance
-        - 🔧 Faster page load times
-        - 🔧 Compelling above-the-fold content
-        - 🔧 Exit-intent offers to re-engage
-        
-        ### ⚠️ Important Caveat
-        
-        The clustering alone **should not be used for purchase prediction**. 
-        As our analysis shows, many actual purchasers have high bounce rates. 
-        
-        **Recommendation:** Use clustering for **engagement segmentation** 
-        but rely on **Classification models** for purchase prediction.
-        """)
-    
-    st.markdown("""
-    <div class="insight-box">
-    <h4>🔑 Key Business Takeaway</h4>
-    <p><strong>Engagement ≠ Purchase Intent</strong></p>
-    <p>While engaged customers (high duration, low bounce) are valuable, our data shows that 
-    purchase behavior is influenced by many more factors. Use this clustering to:</p>
-    <ul>
-        <li>Identify website UX issues (why do some visitors bounce immediately?)</li>
-        <li>Segment for engagement-based marketing</li>
-        <li>Complement with classification models for full purchase prediction</li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
+        if hp_df is not None and 'PageValues' in hp_df.columns:
+            # Calculate medians for clustering thresholds
+            median_pagevalue = hp_df['PageValues'].median()
+            median_purchase_prob = hp_df['Purchase_Probability_Clean'].median()
+            
+            st.markdown("#### 🎚️ Clustering Thresholds")
+            col1, col2 = st.columns(2)
+            with col1:
+                pagevalue_threshold = st.slider(
+                    "PageValue Threshold",
+                    min_value=float(hp_df['PageValues'].min()),
+                    max_value=float(hp_df['PageValues'].max()),
+                    value=float(median_pagevalue),
+                    help="Sessions above this value are considered 'High PageValue'"
+                )
+            with col2:
+                purchase_prob_threshold = st.slider(
+                    "Purchase Probability Threshold",
+                    min_value=float(hp_df['Purchase_Probability_Clean'].min()),
+                    max_value=float(hp_df['Purchase_Probability_Clean'].max()),
+                    value=float(median_purchase_prob),
+                    step=0.01,
+                    format="%.2f",
+                    help="Sessions above this value are considered 'High Purchase Probability'"
+                )
+            
+            # Define clusters based on PageValue and Purchase Probability
+            def assign_cluster(row):
+                high_pv = row['PageValues'] >= pagevalue_threshold
+                high_pp = row['Purchase_Probability_Clean'] >= purchase_prob_threshold
+                
+                if high_pv and high_pp:
+                    return 0  # High Intent Buyers
+                elif not high_pv and high_pp:
+                    return 1  # Returning Buyers (know what they want)
+                else:  # high_pv and not high_pp, or low both
+                    return 2  # Window Shoppers
+            
+            hp_df['Cluster'] = hp_df.apply(assign_cluster, axis=1)
+            
+            # Cluster definitions
+            cluster_info = {
+                0: {"name": "🎯 High Intent Buyers", "color": "#4ECDC4", "desc": "High PageValue + High Purchase Probability"},
+                1: {"name": "🔄 Returning Buyers", "color": "#667eea", "desc": "Low PageValue + High Purchase Probability (know exactly what they want)"},
+                2: {"name": "👀 Window Shoppers", "color": "#FF6B6B", "desc": "High PageValue + Low Purchase Probability (browse a lot but don't convert)"}
+            }
+            
+            st.markdown("---")
+            
+            # Cluster Overview Metrics
+            st.subheader("📊 Cluster Overview")
+            
+            col1, col2, col3 = st.columns(3)
+            for i, (cluster_id, info) in enumerate(cluster_info.items()):
+                cluster_data = hp_df[hp_df['Cluster'] == cluster_id]
+                with [col1, col2, col3][i]:
+                    st.markdown(f"**{info['name']}**")
+                    st.metric("Count", f"{len(cluster_data):,}")
+                    if len(cluster_data) > 0:
+                        st.caption(f"Avg PageValue: {cluster_data['PageValues'].mean():.2f}")
+                        st.caption(f"Avg Purchase Prob: {cluster_data['Purchase_Probability_Clean'].mean()*100:.1f}%")
+            
+            st.markdown("---")
+            
+            # Visualization
+            st.subheader("📈 Cluster Visualization")
+            
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                # Pie chart of cluster distribution
+                fig, ax = plt.subplots(figsize=(10, 8))
+                cluster_counts = hp_df['Cluster'].value_counts().sort_index()
+                colors_pie = [cluster_info[i]['color'] for i in cluster_counts.index]
+                labels = [cluster_info[i]['name'] for i in cluster_counts.index]
+                
+                wedges, texts, autotexts = ax.pie(
+                    cluster_counts.values, 
+                    labels=labels,
+                    colors=colors_pie,
+                    autopct='%1.1f%%',
+                    startangle=90,
+                    explode=[0.02] * len(cluster_counts)
+                )
+                ax.set_title('Cluster Distribution', fontsize=14, fontweight='bold')
+                st.pyplot(fig)
+            
+            st.markdown("---")
+            
+            # Detailed Cluster Analysis
+            st.subheader("🔍 Detailed Cluster Analysis")
+            
+            for cluster_id, info in cluster_info.items():
+                cluster_data = hp_df[hp_df['Cluster'] == cluster_id]
+                if len(cluster_data) > 0:
+                    with st.expander(f"{info['name']} - {len(cluster_data):,} customers", expanded=False):
+                        st.markdown(f"**Description:** {info['desc']}")
+                        
+                        col1, col2, col3, col4 = st.columns(4)
+                        with col1:
+                            st.metric("Count", f"{len(cluster_data):,}")
+                        with col2:
+                            st.metric("Avg PageValue", f"{cluster_data['PageValues'].mean():.2f}")
+                        with col3:
+                            st.metric("Avg Purchase Prob", f"{cluster_data['Purchase_Probability_Clean'].mean()*100:.1f}%")
+                        with col4:
+                            if 'Revenue' in cluster_data.columns:
+                                actual_purchase = cluster_data['Revenue'].apply(lambda x: x if isinstance(x, bool) else str(x) == 'True').mean() * 100
+                                st.metric("Actual Purchase Rate", f"{actual_purchase:.1f}%")
+                        
+                        # Visitor Type breakdown
+                        if 'VisitorType' in cluster_data.columns:
+                            st.markdown("**Visitor Type Distribution:**")
+                            vt_counts = cluster_data['VisitorType'].value_counts()
+                            vt_pct = (vt_counts / len(cluster_data) * 100).round(1)
+                            vt_df = pd.DataFrame({'Count': vt_counts, 'Percentage': vt_pct.apply(lambda x: f"{x}%")})
+                            st.dataframe(vt_df, use_container_width=True)
+                        
+                        # Sample customers
+                        st.markdown("**Sample Customers (Top 5):**")
+                        display_cols = ['Session_ID', 'Purchase_Probability', 'PageValues', 'VisitorType', 'Month']
+                        available_cols = [c for c in display_cols if c in cluster_data.columns]
+                        st.dataframe(cluster_data[available_cols].head(5), use_container_width=True, hide_index=True)
+            
+            st.markdown("---")
+            
+            # Export clustered data
+            st.subheader("📥 Export Clustered Data")
+            
+            export_df = hp_df.copy()
+            export_df['Cluster_Name'] = export_df['Cluster'].map({
+                0: 'High Intent Buyers',
+                1: 'Returning Buyers',
+                2: 'Window Shoppers'
+            })
+            
+            csv_export = export_df.to_csv(index=False)
+            st.download_button(
+                label="📥 Download Clustered Customers (CSV)",
+                data=csv_export,
+                file_name="clustered_customers.csv",
+                mime="text/csv",
+                use_container_width=True
+            )
+
 
 # ==================== PAGE 4: Association Rule Mining ====================
 elif page == "🔗 Association Rules":
