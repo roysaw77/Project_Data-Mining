@@ -816,8 +816,73 @@ elif page == "🔗 Association Rules":
     st.header("🔗 Association Rule Mining")
     st.markdown("*Discover patterns that lead to purchases*")
     
-    # Perform ARM
-    frequent_itemsets, all_rules, revenue_rules = perform_association_rules(df)
+    # ==================== FILE UPLOAD FOR CUSTOM DATA ====================
+    st.subheader("📁 Upload Your Data for Feature Ranking")
+    st.markdown("*Upload your own dataset to discover which features are most important for driving purchases*")
+    
+    uploaded_arm_file = st.file_uploader(
+        "Upload a CSV file with customer session data",
+        type=['csv'],
+        key="arm_file_uploader",
+        help="Upload your own CSV file to analyze feature importance based on association rules"
+    )
+    
+    # Determine which dataset to use
+    if uploaded_arm_file is not None:
+        try:
+            df_arm = pd.read_csv(uploaded_arm_file)
+            df_arm = df_arm.drop_duplicates().reset_index(drop=True)
+            st.success(f"✅ Successfully loaded {len(df_arm):,} sessions from your file!")
+            use_uploaded_data = True
+        except Exception as e:
+            st.error(f"❌ Error loading file: {str(e)}")
+            st.info("Using the default dataset instead.")
+            df_arm = df
+            use_uploaded_data = False
+    else:
+        st.info("💡 **No file uploaded.** Using the built-in dataset for demonstration.")
+        df_arm = df
+        use_uploaded_data = False
+    
+    st.markdown("---")
+    
+    # Perform ARM on the selected dataset
+    @st.cache_data
+    def perform_association_rules_custom(data):
+        """Perform Association Rule Mining on custom data"""
+        arm_df = pd.DataFrame()
+        
+        # Discretize features
+        if 'PageValues' in data.columns:
+            arm_df['High_PageValue'] = data['PageValues'] > data['PageValues'].median()
+        if 'ExitRates' in data.columns:
+            arm_df['High_ExitRate'] = data['ExitRates'] > data['ExitRates'].median()
+        if 'Revenue' in data.columns:
+            arm_df['Is_Revenue'] = data['Revenue']
+        if 'Weekend' in data.columns:
+            arm_df['Is_Weekend'] = data['Weekend']
+        if 'VisitorType' in data.columns:
+            arm_df['Is_Returning_Visitor'] = data['VisitorType'] == 'Returning_Visitor'
+            arm_df['Is_New_Visitor'] = data['VisitorType'] == 'New_Visitor'
+        
+        # Add Month (One-hot encoding)
+        if 'Month' in data.columns:
+            month_dummies = pd.get_dummies(data['Month'], prefix='Month')
+            arm_df = pd.concat([arm_df, month_dummies], axis=1)
+        arm_df = arm_df.astype(bool)
+        
+        # Generate frequent itemsets and rules
+        frequent_itemsets = apriori(arm_df, min_support=0.05, use_colnames=True)
+        rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1.2)
+        
+        # Filter for rules where consequent is ONLY Is_Revenue
+        revenue_rules = rules[rules['consequents'].apply(lambda x: x == frozenset({'Is_Revenue'}))]
+        revenue_rules = revenue_rules.sort_values(by='lift', ascending=False)
+        
+        return frequent_itemsets, rules, revenue_rules
+    
+    # Perform ARM on the selected data
+    frequent_itemsets, all_rules, revenue_rules = perform_association_rules_custom(df_arm)
     
     # Overview Metrics
     col1, col2, col3 = st.columns(3)
@@ -910,181 +975,6 @@ elif page == "🔗 Association Rules":
             'Confidence': '{:.4f}',
             'Lift': '{:.4f}'
         }).background_gradient(subset=['Lift'], cmap='Greens'), use_container_width=True)
-        
-        st.markdown("---")
-        
-        # Business Interpretation
-        st.subheader("📈 Business Interpretation")
-        
-        st.markdown("""
-        ### 🎯 Key Findings from Association Rule Mining
-        
-        | Rule Pattern | Business Meaning | Actionable Insight |
-        |-------------|------------------|-------------------|
-        | **High_PageValue → Purchase** | Customers who view high-value pages are likely to buy | Focus marketing on high-value product pages |
-        | **High_PageValue + Returning_Visitor → Purchase** | Engaged returning visitors with high page values purchase | Create loyalty programs for returning visitors |
-        | **Month_Nov → Purchase** | November has higher conversion rates | Increase marketing spend in November (holiday season) |
-        
-        ### 💡 Recommendations for Business Managers
-        
-        1. **Prioritize PageValues Optimization:** Customers viewing high-value pages are 3.5x more likely to purchase
-        2. **Target Returning Visitors:** Combine with high-value page views for maximum conversion
-        3. **Seasonal Marketing:** Intensify campaigns during November
-        4. **Reduce Exit Rates:** High exit rates negatively impact conversions
-        """)
-        
-        st.markdown("---")
-        
-        # Detailed Business Strategy Section
-        st.subheader("💼 Strategic Business Actions from Association Rules")
-        
-        tab1, tab2, tab3 = st.tabs(["🎯 Rule-Based Marketing", "📅 Seasonal Strategy", "💰 Revenue Optimization"])
-        
-        with tab1:
-            st.markdown("""
-            ## 🎯 Rule-Based Marketing Campaigns
-            
-            ### How to Use These Rules to Drive Sales
-            
-            Each association rule tells us: **"When we see X, there's a high chance of Y (purchase)"**
-            
-            #### Campaign 1: High PageValue Visitors
-            
-            | Trigger | Action | Channel | Expected Result |
-            |---------|--------|---------|-----------------|
-            | Visitor views high-value pages | Send immediate discount code | Email/SMS | +25% conversion |
-            | Visitor leaves without purchase | Retarget with viewed products | Facebook/Google Ads | +15% return rate |
-            | Visitor adds to cart | Offer free shipping threshold | On-site popup | +20% cart value |
-            
-            #### Campaign 2: Returning Visitors
-            
-            | Trigger | Action | Channel | Expected Result |
-            |---------|--------|---------|-----------------|
-            | Return visit detected | Show "Welcome back" message | On-site | +10% engagement |
-            | 3+ return visits, no purchase | Offer exclusive loyalty discount | Email | +30% conversion |
-            | Previous purchaser returns | Show complementary products | On-site | +40% cross-sell |
-            
-            #### Implementation Checklist
-            
-            - [ ] Set up real-time PageValue tracking
-            - [ ] Create visitor identification system
-            - [ ] Build automated trigger campaigns
-            - [ ] A/B test different offers
-            - [ ] Monitor and optimize weekly
-            """)
-        
-        with tab2:
-            st.markdown("""
-            ## 📅 Seasonal Marketing Strategy
-            
-            ### November: Your Golden Opportunity
-            
-            Our data shows **November has the highest conversion rates**. Here's how to maximize it:
-            
-            #### November Marketing Calendar
-            
-            | Week | Focus | Campaign | Budget Allocation |
-            |------|-------|----------|-------------------|
-            | Week 1 | Build anticipation | "Black Friday Preview" emails | 15% |
-            | Week 2 | Early access | VIP early deals for returning visitors | 20% |
-            | Week 3 | Black Friday | Major discounts, all channels | 40% |
-            | Week 4 | Cyber Monday + extension | Extended deals, urgency messaging | 25% |
-            
-            #### Channel Strategy for Peak Season
-            
-            ```
-            📧 Email Marketing: 35% of budget
-               - Personalized recommendations
-               - Countdown timers
-               - Exclusive subscriber deals
-            
-            📱 Social Media Ads: 30% of budget
-               - Retargeting high PageValue visitors
-               - Lookalike audiences of purchasers
-               - Dynamic product ads
-            
-            🔍 Search Marketing: 25% of budget
-               - Bid increases for high-intent keywords
-               - Shopping campaigns optimization
-            
-            🎯 Display/Programmatic: 10% of budget
-               - Brand awareness
-               - Remarketing
-            ```
-            
-            #### Year-Round Calendar Insights
-            
-            | Month | Relative Performance | Strategy |
-            |-------|---------------------|----------|
-            | Nov | ⭐⭐⭐⭐⭐ Highest | Maximum spend, aggressive offers |
-            | Dec | ⭐⭐⭐⭐ Very High | Holiday shopping, gift guides |
-            | May | ⭐⭐⭐ Moderate | Mother's Day, Spring sales |
-            | Feb-Mar | ⭐⭐ Lower | Build lists, test campaigns |
-            | Jun-Aug | ⭐⭐ Lower | Summer sales, clear inventory |
-            """)
-        
-        with tab3:
-            st.markdown("""
-            ## 💰 Revenue Optimization Playbook
-            
-            ### Translating Rules into Revenue
-            
-            #### Strategy 1: PageValue Maximization
-            
-            **The Insight:** High PageValue = High Purchase Probability
-            
-            **Actions to Increase PageValue:**
-            
-            | Action | Implementation | Revenue Impact |
-            |--------|---------------|----------------|
-            | **Improve Product Pages** | Better images, videos, descriptions | +15% PageValue |
-            | **Add Reviews** | Social proof increases perceived value | +10% PageValue |
-            | **Bundle Products** | "Frequently bought together" | +25% AOV |
-            | **Premium Positioning** | Highlight premium features | +20% margin |
-            
-            #### Strategy 2: Returning Visitor Conversion
-            
-            **The Insight:** Returning + High PageValue = Very Likely Purchase
-            
-            **Loyalty Program Design:**
-            
-            | Tier | Requirement | Benefit | Retention Impact |
-            |------|-------------|---------|------------------|
-            | Bronze | 1st purchase | 5% next purchase | +20% return rate |
-            | Silver | 3 purchases | 10% + free shipping | +35% return rate |
-            | Gold | $500+ spent | 15% + early access | +50% return rate |
-            
-            #### Strategy 3: Exit Rate Reduction
-            
-            **The Insight:** High Exit Rate = Missed Opportunity
-            
-            **Quick Wins:**
-            
-            1. **Exit-Intent Popup** (10% discount to complete purchase)
-               - Expected result: -5% exit rate, +3% conversion
-            
-            2. **Live Chat on High-Exit Pages**
-               - Expected result: -8% exit rate, +5% conversion
-            
-            3. **Simplified Checkout** (reduce steps from 5 to 3)
-               - Expected result: -15% cart abandonment
-            
-            #### ROI Projection
-            
-            | Initiative | Investment | Expected Revenue Increase | ROI |
-            |------------|------------|---------------------------|-----|
-            | PageValue Optimization | $10,000 | +$50,000/year | 400% |
-            | Loyalty Program | $15,000 | +$75,000/year | 400% |
-            | Exit Rate Reduction | $5,000 | +$30,000/year | 500% |
-            | **Total** | **$30,000** | **+$155,000/year** | **417%** |
-            """)
-        
-        # Markdown output for notebook
-        st.markdown("---")
-        st.subheader("📝 Markdown Output (for Reports)")
-        
-        markdown_table = display_df.to_markdown(index=True)
-        st.code(f"### Top 5 Rules Leading to Purchases\n\n{markdown_table}", language='markdown')
 
     else:
         st.warning("No association rules found leading to purchase with current parameters.")
