@@ -1,0 +1,1503 @@
+Session_ID,Purchase_Probability,Revenue,PageValues,Month,VisitorType,TrafficType,Region,Purchase_Probability_Clean,Cluster,Cluster_Name
+3942,99.02%,True,98.13692308,May,New_Visitor,4,6,0.9902,0,VIP/Ready to Buy
+9891,99.01%,True,103.0610827,Dec,Other,20,9,0.9901000000000001,0,VIP/Ready to Buy
+7164,99.00%,True,78.56959864,Sep,New_Visitor,2,5,0.99,0,VIP/Ready to Buy
+3839,98.99%,True,115.98,May,New_Visitor,2,6,0.9899,0,VIP/Ready to Buy
+2362,98.99%,True,86.388,May,New_Visitor,2,6,0.9899,0,VIP/Ready to Buy
+6347,98.98%,True,83.93274289,Sep,New_Visitor,2,2,0.9898,0,VIP/Ready to Buy
+9190,98.95%,True,128.8278691,Dec,New_Visitor,2,5,0.9895,0,VIP/Ready to Buy
+4460,98.93%,True,91.246,May,New_Visitor,3,1,0.9893000000000001,0,VIP/Ready to Buy
+6421,98.91%,True,92.9041786,Oct,New_Visitor,2,1,0.9891,0,VIP/Ready to Buy
+4296,98.90%,True,54.97036364,May,New_Visitor,2,4,0.9890000000000001,0,VIP/Ready to Buy
+2432,98.90%,True,49.62545455,May,New_Visitor,2,5,0.9890000000000001,0,VIP/Ready to Buy
+2082,98.88%,True,46.00643478,May,New_Visitor,4,4,0.9887999999999999,0,VIP/Ready to Buy
+4230,98.88%,True,72.30208696,May,New_Visitor,4,1,0.9887999999999999,0,VIP/Ready to Buy
+12110,98.87%,True,81.02729581,Nov,New_Visitor,8,1,0.9887,0,VIP/Ready to Buy
+3946,98.87%,True,53.988,May,New_Visitor,2,1,0.9887,0,VIP/Ready to Buy
+3719,98.83%,True,59.988,May,New_Visitor,2,1,0.9883,0,VIP/Ready to Buy
+10932,98.83%,True,140.6621366,Dec,New_Visitor,11,1,0.9883,0,VIP/Ready to Buy
+9941,98.83%,True,76.7910465,Nov,New_Visitor,3,1,0.9883,0,VIP/Ready to Buy
+11041,98.82%,True,45.4642609,Nov,New_Visitor,8,9,0.9882,0,VIP/Ready to Buy
+5943,98.79%,True,63.45892077,Oct,New_Visitor,4,3,0.9879000000000001,0,VIP/Ready to Buy
+453,98.79%,True,61.9395,Mar,New_Visitor,2,1,0.9879000000000001,0,VIP/Ready to Buy
+11087,98.78%,True,151.5650523,Nov,New_Visitor,8,5,0.9878,0,VIP/Ready to Buy
+6357,98.75%,True,124.9045858,Nov,New_Visitor,20,9,0.9875,0,VIP/Ready to Buy
+8077,98.71%,True,62.76294758,Nov,New_Visitor,2,1,0.9871,0,VIP/Ready to Buy
+11987,98.71%,True,226.6777017,Dec,Other,20,9,0.9871,0,VIP/Ready to Buy
+11996,98.70%,True,116.3378652,Dec,Other,20,9,0.987,0,VIP/Ready to Buy
+10875,98.69%,True,47.83758971,Nov,New_Visitor,2,1,0.9869,0,VIP/Ready to Buy
+3326,98.69%,True,57.58892308,May,New_Visitor,4,3,0.9869,0,VIP/Ready to Buy
+11610,98.68%,True,61.07207396,Nov,New_Visitor,6,5,0.9868000000000001,0,VIP/Ready to Buy
+11095,98.68%,True,52.67778465,Nov,Other,20,9,0.9868000000000001,0,VIP/Ready to Buy
+2821,98.65%,True,97.98,May,New_Visitor,2,4,0.9865,0,VIP/Ready to Buy
+8253,98.64%,True,77.04199767,Dec,New_Visitor,2,7,0.9864,0,VIP/Ready to Buy
+10000,98.63%,True,103.1402899,Dec,New_Visitor,2,6,0.9863,0,VIP/Ready to Buy
+1400,98.63%,True,74.088,Mar,New_Visitor,2,1,0.9863,0,VIP/Ready to Buy
+3257,98.62%,True,58.788,May,New_Visitor,2,3,0.9862000000000001,0,VIP/Ready to Buy
+5440,98.62%,True,86.33623272,Oct,New_Visitor,2,4,0.9862000000000001,0,VIP/Ready to Buy
+5412,98.56%,True,54.56704868,Sep,New_Visitor,4,1,0.9856,0,VIP/Ready to Buy
+11698,98.55%,True,270.7846931,Nov,New_Visitor,8,1,0.9854999999999999,0,VIP/Ready to Buy
+6706,98.55%,True,75.62994948,Aug,New_Visitor,4,4,0.9854999999999999,0,VIP/Ready to Buy
+7867,98.55%,True,39.6497508,Oct,New_Visitor,2,6,0.9854999999999999,0,VIP/Ready to Buy
+8648,98.55%,True,47.99199256,Nov,New_Visitor,2,4,0.9854999999999999,0,VIP/Ready to Buy
+196,98.55%,True,109.176,Mar,New_Visitor,2,9,0.9854999999999999,0,VIP/Ready to Buy
+7384,98.55%,True,54.20146753,Nov,New_Visitor,2,1,0.9854999999999999,0,VIP/Ready to Buy
+2254,98.54%,True,31.1904,May,New_Visitor,4,1,0.9854,0,VIP/Ready to Buy
+3491,98.53%,True,53.988,May,New_Visitor,4,1,0.9853000000000001,0,VIP/Ready to Buy
+10400,98.52%,True,57.82473775,Nov,New_Visitor,2,1,0.9852,0,VIP/Ready to Buy
+10748,98.51%,True,287.9537928,Dec,New_Visitor,2,1,0.9851000000000001,0,VIP/Ready to Buy
+10185,98.50%,True,78.12165404,Dec,Other,20,9,0.985,0,VIP/Ready to Buy
+3459,98.43%,True,53.988,May,New_Visitor,2,3,0.9843000000000001,0,VIP/Ready to Buy
+3262,98.43%,True,124.032,May,New_Visitor,5,6,0.9843000000000001,0,VIP/Ready to Buy
+4454,98.40%,True,24.73875,May,New_Visitor,2,5,0.9840000000000001,1,Returning Buyers
+11967,98.39%,False,69.7132141,Nov,Other,20,9,0.9839,0,VIP/Ready to Buy
+4276,98.38%,True,68.376,May,New_Visitor,2,5,0.9838,0,VIP/Ready to Buy
+3990,98.37%,True,53.47457143,May,New_Visitor,2,1,0.9837,0,VIP/Ready to Buy
+9811,98.35%,True,57.3158913,Nov,New_Visitor,8,1,0.9834999999999999,0,VIP/Ready to Buy
+889,98.34%,True,63.588,Mar,New_Visitor,2,1,0.9834,0,VIP/Ready to Buy
+9336,98.31%,True,44.20382094,Nov,New_Visitor,8,3,0.9831,0,VIP/Ready to Buy
+4720,98.31%,True,36.256,May,New_Visitor,2,5,0.9831,0,VIP/Ready to Buy
+8796,98.27%,True,68.1974018,Dec,New_Visitor,2,2,0.9826999999999999,0,VIP/Ready to Buy
+8880,98.27%,True,41.67536194,Nov,New_Visitor,3,1,0.9826999999999999,0,VIP/Ready to Buy
+11805,98.26%,True,34.14841957,Dec,New_Visitor,2,7,0.9826,0,VIP/Ready to Buy
+11075,98.25%,True,93.77761706,Dec,New_Visitor,2,1,0.9825,0,VIP/Ready to Buy
+7000,98.23%,True,42.29306752,Nov,New_Visitor,2,1,0.9823000000000001,0,VIP/Ready to Buy
+4589,98.22%,True,23.988,May,New_Visitor,2,6,0.9822,1,Returning Buyers
+3891,98.22%,True,40.43377778,May,New_Visitor,4,1,0.9822,0,VIP/Ready to Buy
+4961,98.20%,True,51.60705882,May,New_Visitor,2,4,0.982,0,VIP/Ready to Buy
+2875,98.20%,True,43.252,May,New_Visitor,2,1,0.982,0,VIP/Ready to Buy
+8528,98.15%,True,125.961749,Dec,New_Visitor,2,1,0.9815,0,VIP/Ready to Buy
+10931,98.14%,True,89.2954867,Dec,New_Visitor,8,4,0.9814,0,VIP/Ready to Buy
+8246,98.14%,True,54.38258659,Dec,New_Visitor,2,7,0.9814,0,VIP/Ready to Buy
+10079,98.13%,True,61.58171224,Nov,New_Visitor,7,1,0.9813,0,VIP/Ready to Buy
+4923,98.12%,True,30.87724138,May,New_Visitor,2,2,0.9812000000000001,0,VIP/Ready to Buy
+2717,98.11%,True,31.40784,May,New_Visitor,5,3,0.9811,0,VIP/Ready to Buy
+9592,98.11%,True,59.75418351,Dec,New_Visitor,8,2,0.9811,0,VIP/Ready to Buy
+11983,98.10%,True,42.83887416,Nov,New_Visitor,2,2,0.981,0,VIP/Ready to Buy
+4009,98.09%,True,173.4697917,May,New_Visitor,2,9,0.9809,0,VIP/Ready to Buy
+7128,98.09%,True,46.84856664,Aug,New_Visitor,2,2,0.9809,0,VIP/Ready to Buy
+747,98.08%,True,31.3094364,Mar,New_Visitor,2,1,0.9808,0,VIP/Ready to Buy
+8127,98.08%,True,40.4014481,Dec,New_Visitor,6,1,0.9808,0,VIP/Ready to Buy
+3756,98.07%,False,64.33043478,May,New_Visitor,3,9,0.9806999999999999,0,VIP/Ready to Buy
+10708,98.05%,True,60.26309658,Dec,New_Visitor,20,1,0.9804999999999999,0,VIP/Ready to Buy
+5407,98.03%,True,51.03362522,Oct,New_Visitor,2,5,0.9803000000000001,0,VIP/Ready to Buy
+7104,98.03%,True,36.33496365,June,New_Visitor,2,1,0.9803000000000001,0,VIP/Ready to Buy
+11751,98.03%,True,57.5907585,Nov,New_Visitor,2,1,0.9803000000000001,0,VIP/Ready to Buy
+600,98.01%,True,53.13428571,Mar,New_Visitor,8,2,0.9801000000000001,0,VIP/Ready to Buy
+11496,98.00%,True,38.3399435,Dec,New_Visitor,20,9,0.98,0,VIP/Ready to Buy
+1530,97.98%,True,49.82333333,Mar,New_Visitor,1,4,0.9798,0,VIP/Ready to Buy
+4214,97.96%,True,25.109,May,New_Visitor,2,1,0.9795999999999999,1,Returning Buyers
+9956,97.95%,True,115.7819471,Nov,New_Visitor,2,3,0.9795,0,VIP/Ready to Buy
+8164,97.93%,True,109.1211555,Dec,New_Visitor,2,3,0.9793000000000001,0,VIP/Ready to Buy
+4956,97.92%,True,22.738,May,New_Visitor,2,6,0.9792000000000001,1,Returning Buyers
+10249,97.88%,True,34.97250838,Nov,New_Visitor,2,1,0.9788,0,VIP/Ready to Buy
+2749,97.88%,True,29.848,May,New_Visitor,4,1,0.9788,0,VIP/Ready to Buy
+10548,97.86%,True,23.30000662,Dec,New_Visitor,2,8,0.9786,1,Returning Buyers
+3898,97.84%,True,21.588,May,New_Visitor,4,9,0.9784,1,Returning Buyers
+6228,97.83%,True,60.04472938,Sep,New_Visitor,2,4,0.9783,0,VIP/Ready to Buy
+11594,97.81%,True,63.93506419,Dec,New_Visitor,2,4,0.9781,0,VIP/Ready to Buy
+4186,97.80%,True,53.988,May,New_Visitor,2,9,0.978,0,VIP/Ready to Buy
+5465,97.79%,True,14.00979215,Oct,New_Visitor,2,9,0.9779000000000001,1,Returning Buyers
+6533,97.78%,True,104.2012273,Sep,Returning_Visitor,2,1,0.9778,0,VIP/Ready to Buy
+8206,97.78%,True,52.49862029,Nov,New_Visitor,2,2,0.9778,0,VIP/Ready to Buy
+9927,97.76%,True,81.334441,Dec,Other,20,9,0.9776,0,VIP/Ready to Buy
+10269,97.72%,True,14.14084367,Nov,New_Visitor,6,2,0.9772,1,Returning Buyers
+5767,97.65%,True,47.57898514,Oct,Returning_Visitor,2,4,0.9765,0,VIP/Ready to Buy
+11333,97.64%,True,90.9285217,Nov,Returning_Visitor,2,1,0.9764,0,VIP/Ready to Buy
+8156,97.63%,True,46.4748023,Nov,New_Visitor,1,3,0.9763,0,VIP/Ready to Buy
+10639,97.61%,True,26.09995422,Dec,New_Visitor,2,1,0.9761,0,VIP/Ready to Buy
+7192,97.61%,True,52.17313647,Oct,Returning_Visitor,3,1,0.9761,0,VIP/Ready to Buy
+6975,97.60%,True,17.29676376,Oct,New_Visitor,2,5,0.976,1,Returning Buyers
+3058,97.59%,True,239.98,May,Returning_Visitor,2,5,0.9759,0,VIP/Ready to Buy
+4036,97.58%,True,20.60836364,May,New_Visitor,4,1,0.9758,1,Returning Buyers
+6855,97.55%,True,47.32661324,Oct,New_Visitor,2,1,0.9754999999999999,0,VIP/Ready to Buy
+1599,97.54%,True,81.2475,Mar,Returning_Visitor,9,2,0.9754,0,VIP/Ready to Buy
+1896,97.52%,True,88.78460596,Mar,Returning_Visitor,2,1,0.9752,0,VIP/Ready to Buy
+9428,97.51%,True,88.95486906,Nov,Returning_Visitor,7,1,0.9751000000000001,0,VIP/Ready to Buy
+10662,97.51%,True,45.9675105,Dec,New_Visitor,2,4,0.9751000000000001,0,VIP/Ready to Buy
+4706,97.51%,True,23.235,May,New_Visitor,5,1,0.9751000000000001,1,Returning Buyers
+10730,97.49%,True,97.19657367,Nov,Returning_Visitor,10,1,0.9749,0,VIP/Ready to Buy
+279,97.49%,True,53.9892,Mar,Returning_Visitor,11,1,0.9749,0,VIP/Ready to Buy
+8843,97.48%,True,17.50632106,Nov,New_Visitor,2,6,0.9748,1,Returning Buyers
+7340,97.47%,True,23.00459544,Jul,New_Visitor,4,1,0.9747,1,Returning Buyers
+846,97.46%,True,25.188,Mar,New_Visitor,8,1,0.9745999999999999,1,Returning Buyers
+8575,97.42%,True,34.15414773,Nov,Returning_Visitor,7,2,0.9742000000000001,0,VIP/Ready to Buy
+7430,97.38%,True,19.47465798,Nov,New_Visitor,2,1,0.9738,1,Returning Buyers
+4087,97.38%,True,70.01826316,May,Returning_Visitor,2,1,0.9738,0,VIP/Ready to Buy
+628,97.36%,True,57.7293604,Mar,Returning_Visitor,2,3,0.9736,0,VIP/Ready to Buy
+4121,97.36%,True,62.07882353,May,Returning_Visitor,6,1,0.9736,0,VIP/Ready to Buy
+2042,97.30%,True,54.98,May,Returning_Visitor,4,4,0.973,0,VIP/Ready to Buy
+3738,97.30%,True,72.788,May,New_Visitor,3,1,0.973,0,VIP/Ready to Buy
+9697,97.27%,True,62.93549178,Nov,Returning_Visitor,10,1,0.9727,0,VIP/Ready to Buy
+6314,97.24%,True,83.80837784,Oct,New_Visitor,2,6,0.9723999999999999,0,VIP/Ready to Buy
+11048,97.21%,True,60.622383,Nov,New_Visitor,8,1,0.9721,0,VIP/Ready to Buy
+5989,97.19%,True,40.27815244,Oct,Returning_Visitor,20,2,0.9719,0,VIP/Ready to Buy
+7625,97.18%,True,36.13790493,June,New_Visitor,5,1,0.9718000000000001,0,VIP/Ready to Buy
+4067,97.18%,True,44.388,May,Returning_Visitor,2,3,0.9718000000000001,0,VIP/Ready to Buy
+204,97.14%,True,33.79956701,Mar,New_Visitor,3,2,0.9714,0,VIP/Ready to Buy
+7793,97.13%,True,24.61778468,Nov,New_Visitor,5,7,0.9712999999999999,1,Returning Buyers
+938,97.13%,True,35.8370931,Mar,Returning_Visitor,10,4,0.9712999999999999,0,VIP/Ready to Buy
+8057,97.11%,True,50.51764193,Nov,New_Visitor,2,2,0.9711,0,VIP/Ready to Buy
+7281,97.11%,True,58.37208988,Nov,Returning_Visitor,20,4,0.9711,0,VIP/Ready to Buy
+8674,97.10%,True,59.21256014,Nov,Returning_Visitor,6,3,0.971,0,VIP/Ready to Buy
+1022,97.08%,True,64.7325,Mar,New_Visitor,2,1,0.9708,0,VIP/Ready to Buy
+7224,97.08%,True,38.06520001,Aug,New_Visitor,5,1,0.9708,0,VIP/Ready to Buy
+8042,97.04%,True,56.5802171,Nov,Returning_Visitor,11,2,0.9704,0,VIP/Ready to Buy
+5423,97.02%,True,60.43737784,Nov,New_Visitor,3,1,0.9702,0,VIP/Ready to Buy
+3952,97.02%,True,107.94,May,New_Visitor,4,6,0.9702,0,VIP/Ready to Buy
+10552,97.00%,True,119.8943327,Nov,Returning_Visitor,2,6,0.97,0,VIP/Ready to Buy
+11198,97.00%,True,42.422531,Dec,Returning_Visitor,10,6,0.97,0,VIP/Ready to Buy
+1194,96.99%,True,77.96,Mar,Returning_Visitor,2,9,0.9699,0,VIP/Ready to Buy
+7492,96.99%,True,37.96905976,Aug,New_Visitor,5,1,0.9699,0,VIP/Ready to Buy
+4240,96.98%,True,55.8486,May,New_Visitor,5,1,0.9698,0,VIP/Ready to Buy
+1306,96.96%,True,92.4822063,Mar,Returning_Visitor,2,7,0.9695999999999999,0,VIP/Ready to Buy
+3644,96.95%,True,14.98333333,May,New_Visitor,2,2,0.9695,1,Returning Buyers
+5302,96.94%,True,24.50485714,May,New_Visitor,6,2,0.9693999999999999,1,Returning Buyers
+7997,96.94%,True,94.19490268,Nov,Returning_Visitor,11,3,0.9693999999999999,0,VIP/Ready to Buy
+5882,96.93%,True,79.44353446,Jul,New_Visitor,2,5,0.9693,0,VIP/Ready to Buy
+11858,96.92%,True,92.9394993,Nov,Returning_Visitor,11,3,0.9692000000000001,0,VIP/Ready to Buy
+3682,96.91%,True,92.83857143,May,Returning_Visitor,5,1,0.9691,0,VIP/Ready to Buy
+6870,96.87%,True,179.307293,Nov,New_Visitor,2,4,0.9687,0,VIP/Ready to Buy
+11270,96.84%,True,41.422095,Nov,New_Visitor,2,4,0.9684,0,VIP/Ready to Buy
+10093,96.84%,True,67.02771302,Dec,New_Visitor,2,4,0.9684,0,VIP/Ready to Buy
+3138,96.84%,True,115.48625,May,Returning_Visitor,2,3,0.9684,0,VIP/Ready to Buy
+6811,96.82%,True,50.4111604,Aug,Returning_Visitor,4,8,0.9682,0,VIP/Ready to Buy
+5306,96.81%,True,33.788,May,New_Visitor,3,1,0.9681000000000001,0,VIP/Ready to Buy
+865,96.80%,True,17.538,Mar,New_Visitor,8,1,0.968,1,Returning Buyers
+5395,96.78%,True,72.52283848,Nov,Returning_Visitor,2,2,0.9678,0,VIP/Ready to Buy
+8547,96.77%,True,360.9533839,Dec,Other,20,9,0.9677,0,VIP/Ready to Buy
+7865,96.77%,True,125.8939091,Nov,Returning_Visitor,2,4,0.9677,0,VIP/Ready to Buy
+7478,96.77%,True,58.9241766,Aug,Returning_Visitor,2,1,0.9677,0,VIP/Ready to Buy
+9353,96.76%,True,68.258708,Nov,Returning_Visitor,2,2,0.9676,0,VIP/Ready to Buy
+1289,96.75%,True,33.41,Mar,Returning_Visitor,6,1,0.9675,0,VIP/Ready to Buy
+7588,96.75%,True,53.6853974,Aug,New_Visitor,2,1,0.9675,0,VIP/Ready to Buy
+8539,96.74%,True,68.88769355,Nov,New_Visitor,2,1,0.9673999999999999,0,VIP/Ready to Buy
+9605,96.73%,True,36.54680355,Dec,New_Visitor,2,1,0.9673,0,VIP/Ready to Buy
+6892,96.72%,True,21.27271783,Jul,New_Visitor,2,7,0.9672,1,Returning Buyers
+10459,96.71%,True,89.13481061,Nov,Returning_Visitor,6,3,0.9671,0,VIP/Ready to Buy
+11441,96.70%,True,55.5696756,Nov,Returning_Visitor,8,9,0.9670000000000001,0,VIP/Ready to Buy
+11606,96.70%,True,14.13268846,Dec,New_Visitor,2,1,0.9670000000000001,1,Returning Buyers
+9867,96.68%,True,51.75775772,Dec,New_Visitor,2,1,0.9668000000000001,0,VIP/Ready to Buy
+4992,96.67%,True,11.988,May,New_Visitor,11,1,0.9667,1,Returning Buyers
+6223,96.65%,True,88.39170518,Oct,Returning_Visitor,20,1,0.9665,0,VIP/Ready to Buy
+10299,96.64%,True,83.96813664,Nov,New_Visitor,2,1,0.9664,0,VIP/Ready to Buy
+11201,96.64%,True,49.36350729,Nov,Returning_Visitor,7,2,0.9664,0,VIP/Ready to Buy
+8750,96.63%,True,42.62274459,Nov,Returning_Visitor,7,3,0.9662999999999999,0,VIP/Ready to Buy
+4062,96.61%,True,45.4895,May,Returning_Visitor,4,6,0.9661,0,VIP/Ready to Buy
+8902,96.59%,True,43.03066045,Dec,New_Visitor,2,3,0.9659,0,VIP/Ready to Buy
+11091,96.58%,True,54.0486956,Nov,New_Visitor,2,7,0.9658,0,VIP/Ready to Buy
+5660,96.56%,True,61.30486592,Aug,New_Visitor,5,6,0.9656,0,VIP/Ready to Buy
+7231,96.55%,True,67.98927956,Oct,Returning_Visitor,2,1,0.9655,0,VIP/Ready to Buy
+8710,96.55%,True,44.98081787,Nov,New_Visitor,8,2,0.9655,0,VIP/Ready to Buy
+3945,96.55%,True,53.988,May,Returning_Visitor,4,2,0.9655,0,VIP/Ready to Buy
+2231,96.52%,True,25.90331034,May,New_Visitor,4,1,0.9652,0,VIP/Ready to Buy
+1149,96.52%,True,33.47777322,Mar,Returning_Visitor,2,7,0.9652,0,VIP/Ready to Buy
+7800,96.51%,True,33.50211155,Oct,Returning_Visitor,2,3,0.9651000000000001,0,VIP/Ready to Buy
+8205,96.50%,True,13.18554515,Dec,New_Visitor,2,1,0.965,1,Returning Buyers
+9593,96.49%,True,38.00063931,Nov,New_Visitor,2,1,0.9649,0,VIP/Ready to Buy
+7156,96.46%,False,29.4628439,Nov,New_Visitor,2,3,0.9645999999999999,0,VIP/Ready to Buy
+6684,96.46%,True,55.89978907,Jul,Returning_Visitor,4,1,0.9645999999999999,0,VIP/Ready to Buy
+5737,96.44%,True,100.7256048,Oct,Returning_Visitor,2,5,0.9643999999999999,0,VIP/Ready to Buy
+4730,96.39%,True,28.03452632,May,Returning_Visitor,2,2,0.9639,0,VIP/Ready to Buy
+2861,96.38%,True,53.10142857,May,Returning_Visitor,4,6,0.9638,0,VIP/Ready to Buy
+3474,96.35%,True,254.6071579,May,New_Visitor,2,1,0.9634999999999999,0,VIP/Ready to Buy
+1658,96.34%,True,76.78667659,Mar,Returning_Visitor,10,6,0.9634,0,VIP/Ready to Buy
+6325,96.33%,True,28.80119616,Aug,New_Visitor,5,1,0.9632999999999999,0,VIP/Ready to Buy
+1153,96.33%,True,21.04864167,Mar,New_Visitor,2,2,0.9632999999999999,1,Returning Buyers
+9209,96.33%,True,45.58268367,Nov,New_Visitor,8,2,0.9632999999999999,0,VIP/Ready to Buy
+8212,96.32%,True,87.9029606,Dec,Other,20,9,0.9632,0,VIP/Ready to Buy
+4123,96.26%,True,57.474,May,New_Visitor,4,5,0.9626,0,VIP/Ready to Buy
+1741,96.25%,True,13.62630613,Mar,Returning_Visitor,2,1,0.9625,1,Returning Buyers
+2742,96.23%,True,64.788,May,Returning_Visitor,2,1,0.9623,0,VIP/Ready to Buy
+7749,96.23%,True,38.27331194,Jul,New_Visitor,4,1,0.9623,0,VIP/Ready to Buy
+2018,96.18%,True,54.67634844,Mar,Returning_Visitor,2,7,0.9618000000000001,0,VIP/Ready to Buy
+6728,96.17%,True,177.7714536,Nov,Returning_Visitor,20,7,0.9617,0,VIP/Ready to Buy
+2737,96.17%,True,55.23646154,May,Returning_Visitor,4,3,0.9617,0,VIP/Ready to Buy
+11320,96.13%,True,23.18305163,Dec,New_Visitor,8,1,0.9612999999999999,1,Returning Buyers
+8485,96.10%,True,59.6118415,Nov,Returning_Visitor,2,2,0.961,0,VIP/Ready to Buy
+10339,96.08%,True,128.4686939,Dec,Returning_Visitor,10,4,0.9608,0,VIP/Ready to Buy
+6623,96.06%,True,61.91792063,Aug,New_Visitor,2,3,0.9606,0,VIP/Ready to Buy
+3433,96.06%,True,49.3886,May,New_Visitor,3,2,0.9606,0,VIP/Ready to Buy
+3578,96.04%,True,44.99,May,Returning_Visitor,5,2,0.9604,0,VIP/Ready to Buy
+3252,96.02%,True,58.488,May,Returning_Visitor,6,3,0.9601999999999999,0,VIP/Ready to Buy
+6815,96.02%,True,61.80843596,Nov,Returning_Visitor,2,4,0.9601999999999999,0,VIP/Ready to Buy
+5677,96.02%,True,78.56959864,Sep,Returning_Visitor,2,3,0.9601999999999999,0,VIP/Ready to Buy
+1392,95.99%,False,20.26155684,Mar,New_Visitor,2,2,0.9599,1,Returning Buyers
+5353,95.99%,True,23.03329412,May,New_Visitor,2,9,0.9599,1,Returning Buyers
+4981,95.96%,True,16.32244444,May,Returning_Visitor,11,6,0.9595999999999999,1,Returning Buyers
+9151,95.96%,True,361.7637419,Nov,New_Visitor,2,3,0.9595999999999999,0,VIP/Ready to Buy
+2777,95.96%,True,53.22881633,May,New_Visitor,2,3,0.9595999999999999,0,VIP/Ready to Buy
+6007,95.93%,True,24.9184548,Oct,Returning_Visitor,2,3,0.9593,1,Returning Buyers
+6377,95.92%,True,34.03997536,Sep,Returning_Visitor,1,4,0.9592,0,VIP/Ready to Buy
+4397,95.92%,True,38.20940741,May,Returning_Visitor,4,3,0.9592,0,VIP/Ready to Buy
+3988,95.92%,True,22.27457143,May,Returning_Visitor,11,1,0.9592,1,Returning Buyers
+7957,95.90%,True,52.11335786,Nov,New_Visitor,2,1,0.9590000000000001,0,VIP/Ready to Buy
+3918,95.89%,True,47.65566667,May,Returning_Visitor,4,1,0.9589,0,VIP/Ready to Buy
+8064,95.88%,True,15.14864831,Nov,New_Visitor,8,9,0.9588,1,Returning Buyers
+5993,95.87%,True,62.853261,Sep,New_Visitor,2,4,0.9587,0,VIP/Ready to Buy
+7122,95.84%,True,30.54596337,Nov,New_Visitor,4,1,0.9584,0,VIP/Ready to Buy
+10033,95.84%,True,58.20233822,Dec,New_Visitor,1,1,0.9584,0,VIP/Ready to Buy
+7046,95.83%,True,82.021436,Oct,Returning_Visitor,20,1,0.9582999999999999,0,VIP/Ready to Buy
+5199,95.82%,True,49.388,May,Returning_Visitor,4,1,0.9581999999999999,0,VIP/Ready to Buy
+5432,95.78%,True,7.68745056,Oct,New_Visitor,3,1,0.9578,1,Returning Buyers
+5390,95.78%,True,36.66178288,Oct,New_Visitor,5,2,0.9578,0,VIP/Ready to Buy
+2533,95.77%,True,29.31555556,May,Returning_Visitor,2,1,0.9577,0,VIP/Ready to Buy
+9198,95.75%,True,100.1655678,Nov,Returning_Visitor,3,1,0.9575,0,VIP/Ready to Buy
+8493,95.75%,True,69.46175766,Dec,Returning_Visitor,3,4,0.9575,0,VIP/Ready to Buy
+3012,95.75%,True,22.088,May,New_Visitor,5,1,0.9575,1,Returning Buyers
+5959,95.75%,True,18.51505467,June,New_Visitor,2,1,0.9575,1,Returning Buyers
+9860,95.74%,True,9.836358025,Nov,New_Visitor,2,5,0.9573999999999999,1,Returning Buyers
+7080,95.73%,True,71.07435633,Oct,Returning_Visitor,2,1,0.9573,0,VIP/Ready to Buy
+3532,95.71%,True,9.641076923,May,New_Visitor,2,8,0.9571,1,Returning Buyers
+198,95.70%,True,153.4432478,Mar,Returning_Visitor,8,7,0.9570000000000001,0,VIP/Ready to Buy
+8039,95.70%,True,25.7526389,Dec,New_Visitor,2,2,0.9570000000000001,0,VIP/Ready to Buy
+2120,95.67%,True,28.39833333,May,New_Visitor,2,8,0.9567,0,VIP/Ready to Buy
+10169,95.67%,True,18.85086521,Dec,New_Visitor,8,1,0.9567,1,Returning Buyers
+11514,95.64%,True,18.85445822,Nov,Returning_Visitor,2,1,0.9564,1,Returning Buyers
+10693,95.64%,True,16.1585582,Nov,Returning_Visitor,8,3,0.9564,1,Returning Buyers
+6756,95.64%,True,60.71287168,Sep,Returning_Visitor,2,7,0.9564,0,VIP/Ready to Buy
+6147,95.62%,True,54.91911804,Sep,New_Visitor,2,7,0.9562,0,VIP/Ready to Buy
+4245,95.60%,True,17.808,May,Returning_Visitor,6,8,0.956,1,Returning Buyers
+7251,95.59%,True,13.59007196,Oct,Returning_Visitor,2,3,0.9559000000000001,1,Returning Buyers
+2416,95.57%,True,71.488,May,New_Visitor,2,2,0.9556999999999999,0,VIP/Ready to Buy
+9855,95.56%,True,111.2629939,Nov,Returning_Visitor,2,1,0.9556,0,VIP/Ready to Buy
+7587,95.54%,True,33.83646892,June,New_Visitor,1,6,0.9554,0,VIP/Ready to Buy
+8989,95.54%,True,50.07598981,Nov,Returning_Visitor,10,7,0.9554,0,VIP/Ready to Buy
+6667,95.53%,True,67.18378365,Nov,Returning_Visitor,6,1,0.9553,0,VIP/Ready to Buy
+4950,95.50%,True,44.56114286,May,Returning_Visitor,5,9,0.955,0,VIP/Ready to Buy
+6531,95.48%,True,50.36347405,Jul,Returning_Visitor,1,3,0.9548000000000001,0,VIP/Ready to Buy
+12077,95.48%,True,30.30681247,Dec,Returning_Visitor,2,1,0.9548000000000001,0,VIP/Ready to Buy
+7762,95.47%,True,28.69843548,Oct,New_Visitor,2,6,0.9547,0,VIP/Ready to Buy
+2657,95.46%,True,32.14213333,May,Returning_Visitor,6,2,0.9545999999999999,0,VIP/Ready to Buy
+9146,95.43%,True,29.62188989,Dec,Returning_Visitor,10,9,0.9543,0,VIP/Ready to Buy
+1951,95.42%,True,57.96417654,Mar,New_Visitor,3,2,0.9542,0,VIP/Ready to Buy
+2548,95.42%,True,39.97777778,May,Returning_Visitor,2,1,0.9542,0,VIP/Ready to Buy
+8641,95.41%,True,14.1273698,Nov,New_Visitor,8,4,0.9541,1,Returning Buyers
+10163,95.41%,True,18.1695357,Nov,New_Visitor,8,1,0.9541,1,Returning Buyers
+10238,95.40%,True,17.22281788,Nov,New_Visitor,2,1,0.9540000000000001,1,Returning Buyers
+10415,95.37%,True,42.70505393,Dec,Other,20,9,0.9537,0,VIP/Ready to Buy
+10598,95.37%,True,42.422531,Dec,Returning_Visitor,2,9,0.9537,0,VIP/Ready to Buy
+1630,95.37%,True,18.02533,Mar,Returning_Visitor,2,1,0.9537,1,Returning Buyers
+1301,95.37%,True,28.05094335,Mar,New_Visitor,8,1,0.9537,0,VIP/Ready to Buy
+7885,95.36%,True,11.80891356,June,Returning_Visitor,2,1,0.9536,1,Returning Buyers
+6864,95.36%,True,53.88782441,Nov,New_Visitor,5,1,0.9536,0,VIP/Ready to Buy
+11164,95.34%,True,40.42327574,Nov,Returning_Visitor,2,7,0.9534,0,VIP/Ready to Buy
+8130,95.31%,True,25.25564195,Dec,New_Visitor,2,7,0.9531000000000001,1,Returning Buyers
+3887,95.28%,True,107.2170213,May,Returning_Visitor,4,2,0.9528,0,VIP/Ready to Buy
+6307,95.26%,True,35.34967016,Sep,Returning_Visitor,2,3,0.9526,0,VIP/Ready to Buy
+9442,95.25%,True,97.9922066,Nov,Returning_Visitor,2,2,0.9525,0,VIP/Ready to Buy
+7183,95.21%,True,14.37785831,Sep,New_Visitor,6,1,0.9521,1,Returning Buyers
+4479,95.20%,True,35.98,May,Returning_Visitor,4,3,0.9520000000000001,0,VIP/Ready to Buy
+8993,95.19%,True,17.5336164,Nov,New_Visitor,10,6,0.9519,1,Returning Buyers
+6499,95.19%,True,70.31635146,Nov,New_Visitor,2,3,0.9519,0,VIP/Ready to Buy
+9026,95.16%,True,61.20406619,Nov,Returning_Visitor,10,2,0.9516,0,VIP/Ready to Buy
+3526,95.16%,True,54.21806897,May,Returning_Visitor,2,1,0.9516,0,VIP/Ready to Buy
+2221,95.16%,True,33.9612,May,Returning_Visitor,6,1,0.9516,0,VIP/Ready to Buy
+6356,95.13%,True,21.47899475,Oct,Returning_Visitor,20,6,0.9512999999999999,1,Returning Buyers
+5114,95.08%,True,23.388,May,Returning_Visitor,1,3,0.9508,1,Returning Buyers
+9001,95.06%,True,19.18108767,Dec,New_Visitor,2,3,0.9506,1,Returning Buyers
+6057,95.04%,True,33.22292729,Jul,Returning_Visitor,2,1,0.9504,0,VIP/Ready to Buy
+2636,95.03%,True,44.29661538,May,New_Visitor,2,1,0.9503,0,VIP/Ready to Buy
+6417,95.02%,True,22.15399132,Nov,Returning_Visitor,3,7,0.9501999999999999,1,Returning Buyers
+11268,95.00%,True,44.06491359,Nov,Returning_Visitor,2,6,0.95,0,VIP/Ready to Buy
+2539,94.97%,True,146.23875,May,New_Visitor,2,5,0.9497,0,VIP/Ready to Buy
+6179,94.97%,False,34.5222117,Oct,Returning_Visitor,2,1,0.9497,0,VIP/Ready to Buy
+10433,94.96%,True,60.73155753,Nov,Returning_Visitor,10,1,0.9495999999999999,0,VIP/Ready to Buy
+7278,94.96%,True,34.03997536,June,New_Visitor,5,1,0.9495999999999999,0,VIP/Ready to Buy
+7852,94.92%,True,20.82613173,Nov,Returning_Visitor,5,2,0.9492,1,Returning Buyers
+3142,94.90%,True,51.176,May,Returning_Visitor,1,1,0.9490000000000001,0,VIP/Ready to Buy
+293,94.90%,True,59.79014286,Mar,Returning_Visitor,3,1,0.9490000000000001,0,VIP/Ready to Buy
+7565,94.89%,True,22.65617015,Oct,New_Visitor,2,6,0.9489,1,Returning Buyers
+6530,94.89%,True,45.71146255,Aug,Returning_Visitor,4,1,0.9489,0,VIP/Ready to Buy
+6819,94.80%,True,17.62211147,Nov,New_Visitor,2,4,0.948,1,Returning Buyers
+2023,94.80%,True,11.99264025,Mar,Returning_Visitor,2,1,0.948,1,Returning Buyers
+1885,94.77%,True,14.0292,Mar,New_Visitor,2,9,0.9477,1,Returning Buyers
+2059,94.77%,True,14.6895,May,Returning_Visitor,5,1,0.9477,1,Returning Buyers
+6732,94.74%,True,92.97624144,Oct,Returning_Visitor,2,7,0.9473999999999999,0,VIP/Ready to Buy
+1528,94.74%,True,20.91831644,Mar,New_Visitor,2,1,0.9473999999999999,1,Returning Buyers
+11625,94.73%,True,51.86660251,Nov,New_Visitor,2,3,0.9473,0,VIP/Ready to Buy
+3349,94.70%,True,11.13171429,May,New_Visitor,3,1,0.9470000000000001,1,Returning Buyers
+3470,94.69%,True,35.091,May,Returning_Visitor,2,1,0.9469,0,VIP/Ready to Buy
+4219,94.67%,True,50.388,May,New_Visitor,5,1,0.9467,0,VIP/Ready to Buy
+4636,94.67%,True,20.88818182,May,Returning_Visitor,2,1,0.9467,1,Returning Buyers
+4380,94.67%,True,26.98,May,Returning_Visitor,2,3,0.9467,0,VIP/Ready to Buy
+7718,94.66%,True,57.03508179,Aug,Returning_Visitor,1,4,0.9466,0,VIP/Ready to Buy
+6883,94.65%,True,68.32050059,Aug,New_Visitor,2,5,0.9465,0,VIP/Ready to Buy
+8349,94.65%,True,218.8649096,Dec,New_Visitor,3,5,0.9465,0,VIP/Ready to Buy
+9869,94.63%,True,43.89691103,Nov,New_Visitor,2,1,0.9462999999999999,0,VIP/Ready to Buy
+11568,94.61%,True,87.9029606,Dec,Other,20,9,0.9460999999999999,0,VIP/Ready to Buy
+5410,94.54%,True,106.2525169,Nov,Returning_Visitor,2,9,0.9454,0,VIP/Ready to Buy
+5567,94.53%,True,43.29821166,Aug,Returning_Visitor,5,6,0.9453,0,VIP/Ready to Buy
+3525,94.52%,True,56.35884615,May,Returning_Visitor,19,1,0.9451999999999999,0,VIP/Ready to Buy
+9061,94.51%,True,40.4014481,Dec,Returning_Visitor,2,9,0.9451,0,VIP/Ready to Buy
+8587,94.49%,True,49.72830378,Nov,Returning_Visitor,8,1,0.9449,0,VIP/Ready to Buy
+2228,94.48%,True,44.47733333,May,New_Visitor,4,1,0.9448000000000001,0,VIP/Ready to Buy
+1010,94.47%,True,10.83431037,Mar,New_Visitor,8,6,0.9447,1,Returning Buyers
+10059,94.46%,True,9.0847678,Nov,Returning_Visitor,11,4,0.9445999999999999,1,Returning Buyers
+9828,94.45%,True,16.1585582,Nov,Returning_Visitor,2,1,0.9445,1,Returning Buyers
+2026,94.42%,True,39.85866667,Mar,Returning_Visitor,2,1,0.9442,0,VIP/Ready to Buy
+6079,94.41%,True,60.58437066,Nov,New_Visitor,2,3,0.9440999999999999,0,VIP/Ready to Buy
+8531,94.39%,True,52.28491058,Dec,New_Visitor,2,3,0.9439,0,VIP/Ready to Buy
+12143,94.36%,True,42.03044096,Nov,Returning_Visitor,2,3,0.9436,0,VIP/Ready to Buy
+3740,94.35%,True,14.55428571,May,Returning_Visitor,2,3,0.9434999999999999,1,Returning Buyers
+9919,94.33%,True,19.37005896,Dec,Returning_Visitor,1,4,0.9433,1,Returning Buyers
+9261,94.32%,True,21.2112655,Nov,New_Visitor,10,1,0.9431999999999999,1,Returning Buyers
+851,94.31%,True,75.06781572,Mar,New_Visitor,10,6,0.9431,0,VIP/Ready to Buy
+3132,94.30%,True,60.34235294,May,Returning_Visitor,3,1,0.943,0,VIP/Ready to Buy
+4208,94.29%,True,18.27428571,May,Returning_Visitor,4,1,0.9429000000000001,1,Returning Buyers
+414,94.20%,True,11.9955404,Mar,Returning_Visitor,3,1,0.9420000000000001,1,Returning Buyers
+7474,94.18%,True,45.92878029,Nov,Returning_Visitor,20,2,0.9418000000000001,0,VIP/Ready to Buy
+1272,94.16%,True,53.25533333,Mar,Returning_Visitor,2,1,0.9416,0,VIP/Ready to Buy
+9474,94.15%,True,5.1680996,Nov,Returning_Visitor,2,1,0.9415,1,Returning Buyers
+6192,94.12%,True,94.01683315,Nov,New_Visitor,2,3,0.9412,0,VIP/Ready to Buy
+9606,94.05%,True,13.1168283,Dec,New_Visitor,2,1,0.9405,1,Returning Buyers
+8645,94.04%,True,47.44850792,Nov,Returning_Visitor,10,1,0.9404,0,VIP/Ready to Buy
+7991,94.03%,True,42.23025869,Dec,Returning_Visitor,1,3,0.9403,0,VIP/Ready to Buy
+5154,94.02%,True,40.87111111,May,Returning_Visitor,4,3,0.9401999999999999,0,VIP/Ready to Buy
+11830,94.01%,True,34.27708553,Nov,Returning_Visitor,10,1,0.9401,0,VIP/Ready to Buy
+9403,93.99%,True,8.754045182,Dec,New_Visitor,2,7,0.9399,1,Returning Buyers
+2727,93.98%,True,47.93128205,May,New_Visitor,2,3,0.9398000000000001,0,VIP/Ready to Buy
+11516,93.95%,True,87.74978701,Dec,Returning_Visitor,8,1,0.9395,0,VIP/Ready to Buy
+10990,93.94%,True,16.7293697,Dec,New_Visitor,2,3,0.9394,1,Returning Buyers
+7696,93.91%,True,30.20357704,Nov,Returning_Visitor,2,3,0.9390999999999999,0,VIP/Ready to Buy
+4391,93.85%,True,55.485,May,Returning_Visitor,2,4,0.9384999999999999,0,VIP/Ready to Buy
+9621,93.81%,True,77.10821943,Nov,New_Visitor,8,1,0.9381,0,VIP/Ready to Buy
+10432,93.78%,True,15.75636267,Nov,Returning_Visitor,3,4,0.9378,1,Returning Buyers
+3168,93.77%,True,36.65444444,May,New_Visitor,2,2,0.9377,0,VIP/Ready to Buy
+1680,93.72%,True,52.70052142,Mar,Returning_Visitor,11,1,0.9372,0,VIP/Ready to Buy
+8706,93.70%,True,255.5691579,Nov,Returning_Visitor,8,2,0.937,0,VIP/Ready to Buy
+2037,93.65%,True,24.75047619,Mar,New_Visitor,2,1,0.9365000000000001,1,Returning Buyers
+4064,93.64%,True,32.382,May,Returning_Visitor,1,2,0.9364,0,VIP/Ready to Buy
+3618,93.63%,True,10.51809524,May,Returning_Visitor,4,7,0.9362999999999999,1,Returning Buyers
+2785,93.60%,True,34.25336842,May,Returning_Visitor,11,3,0.9359999999999999,0,VIP/Ready to Buy
+3874,93.59%,True,31.75846154,May,Returning_Visitor,6,9,0.9359000000000001,0,VIP/Ready to Buy
+11893,93.59%,True,12.18867006,Dec,New_Visitor,2,1,0.9359000000000001,1,Returning Buyers
+3338,93.58%,True,22.12888889,May,Returning_Visitor,4,1,0.9358,1,Returning Buyers
+4494,93.56%,True,17.541,May,Returning_Visitor,4,2,0.9356,1,Returning Buyers
+5719,93.55%,True,32.73061637,Jul,Returning_Visitor,2,3,0.9355,0,VIP/Ready to Buy
+5970,93.55%,False,63.55337685,Jul,Returning_Visitor,4,4,0.9355,0,VIP/Ready to Buy
+9856,93.54%,True,14.1374752,Nov,New_Visitor,3,2,0.9354,1,Returning Buyers
+11739,93.52%,True,141.4590538,Nov,Returning_Visitor,2,1,0.9351999999999999,0,VIP/Ready to Buy
+11276,93.47%,True,136.937958,Dec,Other,20,9,0.9347,0,VIP/Ready to Buy
+7485,93.43%,False,26.18180656,Jul,New_Visitor,2,1,0.9343,0,VIP/Ready to Buy
+7533,93.43%,True,64.2879309,Aug,Returning_Visitor,2,1,0.9343,0,VIP/Ready to Buy
+9551,93.43%,True,12.45078371,Nov,New_Visitor,8,2,0.9343,1,Returning Buyers
+4691,93.43%,True,23.13,May,Returning_Visitor,2,1,0.9343,1,Returning Buyers
+1234,93.38%,True,35.49,Mar,Returning_Visitor,1,3,0.9338,0,VIP/Ready to Buy
+11692,93.35%,True,46.06937312,Dec,Other,20,9,0.9335,0,VIP/Ready to Buy
+10142,93.35%,True,23.00194502,Dec,New_Visitor,2,1,0.9335,1,Returning Buyers
+9170,93.34%,True,143.4766783,Dec,New_Visitor,2,9,0.9334,0,VIP/Ready to Buy
+6132,93.31%,True,54.9950922,Jul,Returning_Visitor,1,1,0.9331,0,VIP/Ready to Buy
+6941,93.29%,True,79.51302667,Oct,New_Visitor,3,1,0.9329000000000001,0,VIP/Ready to Buy
+3325,93.29%,True,56.32466667,May,Returning_Visitor,3,1,0.9329000000000001,0,VIP/Ready to Buy
+2962,93.24%,True,79.182,May,Returning_Visitor,1,1,0.9323999999999999,0,VIP/Ready to Buy
+12086,93.16%,True,50.81417971,Dec,New_Visitor,2,7,0.9316,0,VIP/Ready to Buy
+6868,93.13%,True,17.36252324,Sep,New_Visitor,4,2,0.9312999999999999,1,Returning Buyers
+9779,93.13%,True,32.90611766,Dec,Returning_Visitor,1,4,0.9312999999999999,0,VIP/Ready to Buy
+2873,93.07%,True,49.54827273,May,Returning_Visitor,2,4,0.9307,0,VIP/Ready to Buy
+292,93.00%,True,44.67925,Mar,Returning_Visitor,7,1,0.93,0,VIP/Ready to Buy
+5065,92.96%,True,22.738,May,New_Visitor,2,4,0.9296,1,Returning Buyers
+11057,92.94%,True,53.73655336,Nov,Returning_Visitor,8,1,0.9294,0,VIP/Ready to Buy
+3835,92.94%,True,45.6125,May,New_Visitor,2,7,0.9294,0,VIP/Ready to Buy
+9966,92.90%,True,88.80448992,Dec,Returning_Visitor,2,1,0.929,0,VIP/Ready to Buy
+10414,92.87%,True,59.51850423,Dec,New_Visitor,2,1,0.9287000000000001,0,VIP/Ready to Buy
+10148,92.87%,True,60.62885042,Nov,New_Visitor,2,1,0.9287000000000001,0,VIP/Ready to Buy
+11324,92.86%,True,10.21771151,Nov,Returning_Visitor,11,1,0.9286,1,Returning Buyers
+6437,92.84%,True,45.63345378,Oct,New_Visitor,2,1,0.9284,0,VIP/Ready to Buy
+7730,92.81%,True,47.7917708,Sep,New_Visitor,3,6,0.9281,0,VIP/Ready to Buy
+11261,92.79%,True,32.3171163,Nov,Returning_Visitor,3,5,0.9279000000000001,0,VIP/Ready to Buy
+6997,92.75%,True,83.10114264,Nov,Returning_Visitor,2,3,0.9275,0,VIP/Ready to Buy
+9518,92.72%,True,19.10349568,Dec,Returning_Visitor,1,3,0.9272,1,Returning Buyers
+3766,92.70%,True,100.0963636,May,Returning_Visitor,2,1,0.927,0,VIP/Ready to Buy
+3380,92.64%,True,113.98,May,Returning_Visitor,2,1,0.9264,0,VIP/Ready to Buy
+7804,92.63%,True,27.31510469,Oct,Returning_Visitor,1,1,0.9262999999999999,0,VIP/Ready to Buy
+7072,92.61%,True,86.12351528,Nov,New_Visitor,2,9,0.9261,0,VIP/Ready to Buy
+6457,92.60%,True,12.01221257,Oct,Returning_Visitor,1,1,0.9259999999999999,1,Returning Buyers
+10324,92.57%,True,21.47448516,Nov,Returning_Visitor,10,3,0.9257,1,Returning Buyers
+11204,92.57%,True,5.002669777,Nov,New_Visitor,8,4,0.9257,1,Returning Buyers
+6155,92.53%,True,42.30391708,Aug,Returning_Visitor,20,1,0.9253,0,VIP/Ready to Buy
+263,92.48%,True,51.46331148,Mar,Returning_Visitor,1,3,0.9248000000000001,0,VIP/Ready to Buy
+5502,92.45%,True,32.95851549,Jul,Returning_Visitor,4,1,0.9245,0,VIP/Ready to Buy
+3300,92.45%,True,100.7776,May,Returning_Visitor,2,3,0.9245,0,VIP/Ready to Buy
+6984,92.41%,True,22.89972198,Nov,New_Visitor,5,3,0.9240999999999999,1,Returning Buyers
+7300,92.39%,True,48.99526482,Aug,Returning_Visitor,2,7,0.9239,0,VIP/Ready to Buy
+1381,92.36%,True,60.29018448,Mar,Returning_Visitor,1,3,0.9236,0,VIP/Ready to Buy
+8332,92.35%,False,19.6055151,Nov,Returning_Visitor,10,1,0.9235,1,Returning Buyers
+579,92.33%,True,9.294775641,Mar,Returning_Visitor,10,1,0.9233,1,Returning Buyers
+11063,92.33%,True,33.86849093,Nov,Returning_Visitor,8,1,0.9233,0,VIP/Ready to Buy
+10492,92.32%,True,17.54619116,Nov,Returning_Visitor,10,1,0.9231999999999999,1,Returning Buyers
+7928,92.30%,True,7.848538778,Dec,New_Visitor,8,3,0.9229999999999999,1,Returning Buyers
+11901,92.25%,True,16.16057924,Dec,Returning_Visitor,2,7,0.9225,1,Returning Buyers
+6699,92.21%,True,19.50605707,Aug,New_Visitor,2,4,0.9220999999999999,1,Returning Buyers
+1295,92.21%,True,27.75904925,Mar,Returning_Visitor,2,2,0.9220999999999999,0,VIP/Ready to Buy
+11767,92.17%,False,41.13433129,Nov,Returning_Visitor,2,4,0.9217,0,VIP/Ready to Buy
+1047,92.16%,True,60.04549665,Mar,Returning_Visitor,2,3,0.9216,0,VIP/Ready to Buy
+1818,92.16%,True,44.71103438,Mar,New_Visitor,8,3,0.9216,0,VIP/Ready to Buy
+6186,92.15%,True,19.63031016,Nov,New_Visitor,2,5,0.9215000000000001,1,Returning Buyers
+1030,92.14%,True,144.3934888,Mar,Returning_Visitor,2,7,0.9214,0,VIP/Ready to Buy
+1978,92.13%,True,109.9124051,Mar,Returning_Visitor,2,4,0.9213,0,VIP/Ready to Buy
+363,92.06%,True,34.43601877,Mar,New_Visitor,3,9,0.9206,0,VIP/Ready to Buy
+11014,92.01%,True,61.61833364,Dec,New_Visitor,2,5,0.9201,0,VIP/Ready to Buy
+10919,91.98%,True,56.31760103,Nov,Returning_Visitor,11,1,0.9198000000000001,0,VIP/Ready to Buy
+9590,91.96%,True,12.30811748,Nov,Returning_Visitor,10,1,0.9196,1,Returning Buyers
+8394,91.95%,True,8.524548919,Nov,New_Visitor,8,9,0.9195,1,Returning Buyers
+3805,91.92%,True,31.31885714,May,Returning_Visitor,2,6,0.9192,0,VIP/Ready to Buy
+2703,91.90%,True,71.944,May,Returning_Visitor,3,2,0.919,0,VIP/Ready to Buy
+882,91.88%,True,31.188,Mar,Returning_Visitor,3,7,0.9188,0,VIP/Ready to Buy
+7812,91.87%,True,20.2755559,Sep,New_Visitor,2,2,0.9187000000000001,1,Returning Buyers
+9419,91.84%,True,1.03529974,Nov,Returning_Visitor,10,1,0.9184,1,Returning Buyers
+7744,91.84%,True,26.67428219,Aug,Returning_Visitor,1,1,0.9184,0,VIP/Ready to Buy
+9759,91.82%,True,23.6645871,Dec,Returning_Visitor,2,1,0.9181999999999999,1,Returning Buyers
+4676,91.82%,False,12.61543434,May,Returning_Visitor,2,5,0.9181999999999999,1,Returning Buyers
+7785,91.79%,True,26.13036122,Nov,New_Visitor,2,6,0.9179,0,VIP/Ready to Buy
+11513,91.78%,True,44.443614,Dec,Returning_Visitor,1,2,0.9178000000000001,0,VIP/Ready to Buy
+2035,91.77%,True,26.12015415,Mar,Returning_Visitor,2,3,0.9177,0,VIP/Ready to Buy
+4872,91.73%,True,30.57647059,May,New_Visitor,4,1,0.9173,0,VIP/Ready to Buy
+7451,91.73%,True,20.10126693,Oct,New_Visitor,2,4,0.9173,1,Returning Buyers
+1517,91.70%,True,27.3063666,Mar,Returning_Visitor,2,1,0.917,0,VIP/Ready to Buy
+3656,91.69%,True,50.9925,May,Returning_Visitor,1,1,0.9168999999999999,0,VIP/Ready to Buy
+4488,91.68%,True,49.39271642,May,Returning_Visitor,2,3,0.9168000000000001,0,VIP/Ready to Buy
+4244,91.68%,True,39.186,May,Returning_Visitor,3,3,0.9168000000000001,0,VIP/Ready to Buy
+643,91.65%,True,10.7929507,Mar,New_Visitor,2,2,0.9165000000000001,1,Returning Buyers
+7094,91.65%,True,27.8892456,Aug,Returning_Visitor,13,7,0.9165000000000001,0,VIP/Ready to Buy
+11550,91.65%,True,16.96317099,Nov,Returning_Visitor,11,1,0.9165000000000001,1,Returning Buyers
+8712,91.63%,True,38.92648303,Dec,Returning_Visitor,2,3,0.9163,0,VIP/Ready to Buy
+11572,91.62%,True,9.905143745,Dec,New_Visitor,2,1,0.9162,1,Returning Buyers
+5476,91.60%,True,8.424787355,Oct,Returning_Visitor,2,3,0.9159999999999999,1,Returning Buyers
+4959,91.59%,True,13.99,May,Returning_Visitor,2,7,0.9159,1,Returning Buyers
+6794,91.59%,True,4.78307258,Oct,Returning_Visitor,20,7,0.9159,1,Returning Buyers
+594,91.56%,True,35.99261538,Mar,Returning_Visitor,7,3,0.9156,0,VIP/Ready to Buy
+10577,91.55%,True,22.82159308,Nov,New_Visitor,8,1,0.9155,1,Returning Buyers
+11485,91.54%,True,47.99566725,Nov,Returning_Visitor,8,1,0.9154000000000001,0,VIP/Ready to Buy
+10320,91.53%,True,59.42458922,Nov,Returning_Visitor,8,1,0.9153,0,VIP/Ready to Buy
+11865,91.53%,True,1.178989949,Nov,Returning_Visitor,11,1,0.9153,1,Returning Buyers
+5396,91.51%,True,48.04726202,Oct,Returning_Visitor,4,1,0.9151,0,VIP/Ready to Buy
+6026,91.48%,True,153.5776975,Aug,Returning_Visitor,1,1,0.9148000000000001,0,VIP/Ready to Buy
+5006,91.46%,True,72.52076923,May,Returning_Visitor,4,1,0.9146,0,VIP/Ready to Buy
+3119,91.43%,True,32.80852174,May,New_Visitor,2,2,0.9143000000000001,0,VIP/Ready to Buy
+6119,91.42%,True,44.89345937,Oct,Returning_Visitor,20,1,0.9142,0,VIP/Ready to Buy
+7280,91.41%,False,70.2595851,Nov,Returning_Visitor,2,1,0.9140999999999999,0,VIP/Ready to Buy
+5374,91.40%,True,28.06804986,June,New_Visitor,11,6,0.914,0,VIP/Ready to Buy
+4868,91.40%,True,54.53454545,May,New_Visitor,4,8,0.914,0,VIP/Ready to Buy
+4794,91.36%,True,58.16727273,May,New_Visitor,5,1,0.9136,0,VIP/Ready to Buy
+2209,91.34%,True,143.2115385,May,Returning_Visitor,3,3,0.9134,0,VIP/Ready to Buy
+2758,91.29%,True,28.53153488,May,Returning_Visitor,13,4,0.9129,0,VIP/Ready to Buy
+1403,91.27%,True,22.88908649,Mar,New_Visitor,2,1,0.9127,1,Returning Buyers
+1921,91.27%,True,17.12545455,Mar,Returning_Visitor,1,1,0.9127,1,Returning Buyers
+8723,91.26%,True,9.0847678,Nov,Returning_Visitor,11,4,0.9126000000000001,1,Returning Buyers
+12148,91.25%,True,97.86083623,Nov,Returning_Visitor,3,1,0.9125,0,VIP/Ready to Buy
+10610,91.25%,True,8.024865728,Nov,Returning_Visitor,10,1,0.9125,1,Returning Buyers
+5542,91.24%,True,32.89701477,Oct,New_Visitor,2,2,0.9124,0,VIP/Ready to Buy
+6644,91.23%,True,154.0955389,Sep,New_Visitor,2,1,0.9123,0,VIP/Ready to Buy
+226,91.21%,True,17.76266667,Mar,Returning_Visitor,1,1,0.9120999999999999,1,Returning Buyers
+8177,91.20%,True,36.2003121,Nov,Returning_Visitor,11,1,0.912,0,VIP/Ready to Buy
+9377,91.19%,True,108.0893873,Nov,Returning_Visitor,13,3,0.9118999999999999,0,VIP/Ready to Buy
+8465,91.18%,False,12.58590538,Nov,Returning_Visitor,8,3,0.9118,1,Returning Buyers
+5872,91.17%,True,32.9346011,Nov,New_Visitor,3,1,0.9117000000000001,0,VIP/Ready to Buy
+924,91.17%,True,33.53327578,Mar,Returning_Visitor,10,4,0.9117000000000001,0,VIP/Ready to Buy
+10542,91.16%,True,56.1773806,Nov,Returning_Visitor,10,1,0.9116,0,VIP/Ready to Buy
+6266,91.16%,False,15.13596148,Aug,Returning_Visitor,2,3,0.9116,1,Returning Buyers
+10886,91.13%,True,12.99938379,Nov,Returning_Visitor,8,6,0.9113,1,Returning Buyers
+7951,91.12%,True,60.51988521,Nov,Returning_Visitor,3,2,0.9112,0,VIP/Ready to Buy
+4738,91.10%,True,24.2865,May,New_Visitor,4,5,0.9109999999999999,1,Returning Buyers
+11030,91.08%,True,8.671344071,Dec,Other,20,9,0.9107999999999999,1,Returning Buyers
+7685,91.07%,False,21.26632526,Sep,Returning_Visitor,1,3,0.9107,1,Returning Buyers
+2208,91.07%,True,32.946,May,Returning_Visitor,4,4,0.9107,0,VIP/Ready to Buy
+5196,91.03%,True,17.37391304,May,Returning_Visitor,1,7,0.9103,1,Returning Buyers
+6173,91.02%,True,58.9241766,Aug,New_Visitor,4,3,0.9102,0,VIP/Ready to Buy
+5541,91.00%,True,4.856377111,Nov,Returning_Visitor,20,1,0.91,1,Returning Buyers
+9294,91.00%,True,17.60939304,Nov,Returning_Visitor,8,1,0.91,1,Returning Buyers
+6276,90.93%,True,88.84365062,Oct,Returning_Visitor,2,7,0.9093000000000001,0,VIP/Ready to Buy
+1535,90.84%,True,60.19477937,Mar,Returning_Visitor,2,9,0.9084,0,VIP/Ready to Buy
+6127,90.82%,True,38.12368584,June,Returning_Visitor,2,2,0.9081999999999999,0,VIP/Ready to Buy
+4450,90.82%,True,31.22,May,Returning_Visitor,4,8,0.9081999999999999,0,VIP/Ready to Buy
+9783,90.80%,True,32.81205711,Nov,Returning_Visitor,2,8,0.9079999999999999,0,VIP/Ready to Buy
+10522,90.79%,True,17.78922266,Nov,Returning_Visitor,10,1,0.9079,1,Returning Buyers
+8239,90.79%,True,42.74590431,Nov,Returning_Visitor,3,1,0.9079,0,VIP/Ready to Buy
+8931,90.75%,True,55.01131298,Nov,Returning_Visitor,2,1,0.9075,0,VIP/Ready to Buy
+10958,90.75%,True,29.34770837,Nov,Returning_Visitor,2,1,0.9075,0,VIP/Ready to Buy
+6233,90.74%,True,30.04921703,Sep,Returning_Visitor,2,3,0.9074,0,VIP/Ready to Buy
+1226,90.70%,True,45.7504,Mar,New_Visitor,10,1,0.907,0,VIP/Ready to Buy
+2732,90.64%,True,34.4925,May,Returning_Visitor,4,8,0.9064,0,VIP/Ready to Buy
+4624,90.57%,False,32.43738462,May,Returning_Visitor,4,3,0.9057,0,VIP/Ready to Buy
+7783,90.57%,True,34.86423061,Nov,Returning_Visitor,2,3,0.9057,0,VIP/Ready to Buy
+8427,90.56%,True,17.50624004,Nov,Returning_Visitor,10,2,0.9056000000000001,1,Returning Buyers
+11507,90.55%,True,28.11367347,Nov,Returning_Visitor,1,3,0.9055,0,VIP/Ready to Buy
+1457,90.54%,True,261.4912857,Mar,New_Visitor,8,1,0.9054000000000001,0,VIP/Ready to Buy
+7562,90.49%,True,7.48051616,Jul,New_Visitor,2,2,0.9048999999999999,1,Returning Buyers
+10868,90.47%,True,9.964255807,Nov,Returning_Visitor,2,1,0.9047,1,Returning Buyers
+6513,90.41%,True,30.21969637,Sep,Returning_Visitor,4,6,0.9041,0,VIP/Ready to Buy
+2832,90.37%,True,39.81885714,May,New_Visitor,4,4,0.9037000000000001,0,VIP/Ready to Buy
+4807,90.36%,True,31.98,May,Returning_Visitor,3,8,0.9036,0,VIP/Ready to Buy
+9517,90.35%,True,46.308063,Nov,Returning_Visitor,2,1,0.9035,0,VIP/Ready to Buy
+7607,90.35%,True,3.70979448,Jul,Returning_Visitor,4,3,0.9035,1,Returning Buyers
+3265,90.31%,True,18.65333333,May,Returning_Visitor,2,8,0.9031,1,Returning Buyers
+638,90.30%,True,45.4316713,Mar,Returning_Visitor,2,1,0.903,0,VIP/Ready to Buy
+6803,90.23%,True,15.89480154,Jul,Returning_Visitor,2,3,0.9023,1,Returning Buyers
+2447,90.21%,True,28.794,May,Returning_Visitor,11,1,0.9020999999999999,0,VIP/Ready to Buy
+5560,90.21%,True,41.64590199,Nov,Returning_Visitor,2,2,0.9020999999999999,0,VIP/Ready to Buy
+4441,90.19%,True,32.1908,May,Returning_Visitor,2,1,0.9018999999999999,0,VIP/Ready to Buy
+6158,90.18%,True,34.75023292,Jul,Returning_Visitor,2,1,0.9018,0,VIP/Ready to Buy
+7752,90.17%,True,36.14032284,Oct,Returning_Visitor,4,1,0.9017000000000001,0,VIP/Ready to Buy
+7493,90.16%,True,53.11442085,Nov,New_Visitor,2,4,0.9016,0,VIP/Ready to Buy
+3482,90.16%,True,30.52636364,May,Returning_Visitor,3,6,0.9016,0,VIP/Ready to Buy
+5551,90.14%,True,69.46239458,Oct,Returning_Visitor,4,1,0.9014,0,VIP/Ready to Buy
+8203,90.14%,True,24.872085,Dec,Returning_Visitor,2,7,0.9014,1,Returning Buyers
+6218,90.13%,True,17.79528223,Oct,Returning_Visitor,20,1,0.9013,1,Returning Buyers
+10778,90.13%,True,64.95645099,Dec,Returning_Visitor,20,9,0.9013,0,VIP/Ready to Buy
+10281,90.10%,True,43.77424082,Nov,Returning_Visitor,2,1,0.9009999999999999,0,VIP/Ready to Buy
+10351,90.08%,True,56.72227169,Nov,Returning_Visitor,2,1,0.9007999999999999,0,VIP/Ready to Buy
+8428,90.03%,True,48.0136549,Nov,Returning_Visitor,1,4,0.9003,0,VIP/Ready to Buy
+9698,90.02%,True,77.25951671,Nov,Returning_Visitor,3,9,0.9002,0,VIP/Ready to Buy
+7666,89.99%,True,20.74935126,Nov,Returning_Visitor,2,4,0.8998999999999999,1,Returning Buyers
+6073,89.93%,True,39.27673964,Aug,Returning_Visitor,2,1,0.8993000000000001,0,VIP/Ready to Buy
+10997,89.92%,True,13.26221446,Nov,Returning_Visitor,10,4,0.8992,1,Returning Buyers
+11654,89.89%,True,36.95500632,Nov,Returning_Visitor,3,1,0.8989,0,VIP/Ready to Buy
+3909,89.85%,True,48.868,May,Returning_Visitor,2,8,0.8985,0,VIP/Ready to Buy
+8158,89.83%,True,34.67841487,Nov,Returning_Visitor,10,1,0.8983,0,VIP/Ready to Buy
+8290,89.82%,True,28.79847144,Nov,Returning_Visitor,2,1,0.8981999999999999,0,VIP/Ready to Buy
+353,89.82%,True,9.227000967,Mar,Returning_Visitor,3,1,0.8981999999999999,1,Returning Buyers
+1937,89.82%,True,33.32834503,Mar,New_Visitor,8,1,0.8981999999999999,0,VIP/Ready to Buy
+9298,89.71%,True,65.29516039,Dec,Returning_Visitor,1,7,0.8970999999999999,0,VIP/Ready to Buy
+5180,89.68%,True,37.51854545,May,New_Visitor,4,3,0.8968,0,VIP/Ready to Buy
+1326,89.68%,True,23.83323089,Mar,Returning_Visitor,2,1,0.8968,1,Returning Buyers
+3318,89.67%,True,2.705833333,May,Returning_Visitor,4,6,0.8967,1,Returning Buyers
+5662,89.66%,True,13.91046998,Nov,Returning_Visitor,20,6,0.8966,1,Returning Buyers
+11273,89.65%,True,14.18391563,Nov,Returning_Visitor,2,1,0.8965000000000001,1,Returning Buyers
+5609,89.64%,True,27.19298393,Sep,New_Visitor,2,1,0.8964,0,VIP/Ready to Buy
+9451,89.61%,True,78.19779587,Nov,Returning_Visitor,13,1,0.8961,0,VIP/Ready to Buy
+6588,89.61%,True,44.35972562,June,Returning_Visitor,4,1,0.8961,0,VIP/Ready to Buy
+5458,89.57%,False,77.4579855,Nov,New_Visitor,2,7,0.8956999999999999,0,VIP/Ready to Buy
+5207,89.56%,True,113.1512195,May,New_Visitor,4,1,0.8956000000000001,0,VIP/Ready to Buy
+4375,89.53%,True,9.74025,May,New_Visitor,4,3,0.8953,1,Returning Buyers
+8269,89.53%,True,21.41943708,Nov,Returning_Visitor,11,8,0.8953,1,Returning Buyers
+11803,89.51%,True,39.29216261,Nov,Returning_Visitor,2,1,0.8951,0,VIP/Ready to Buy
+4945,89.48%,True,25.484,May,Returning_Visitor,6,1,0.8948,0,VIP/Ready to Buy
+10729,89.47%,True,12.09622118,Nov,Returning_Visitor,13,1,0.8946999999999999,1,Returning Buyers
+9742,89.44%,True,8.665280918,Nov,Returning_Visitor,2,1,0.8944,1,Returning Buyers
+3167,89.41%,True,23.62159091,May,Returning_Visitor,2,1,0.8941,1,Returning Buyers
+8360,89.34%,True,12.50325678,Nov,Returning_Visitor,3,3,0.8934000000000001,1,Returning Buyers
+8813,89.33%,False,17.78585727,Nov,Returning_Visitor,10,5,0.8933,1,Returning Buyers
+9165,89.28%,True,10.69237969,Nov,New_Visitor,2,1,0.8928,1,Returning Buyers
+4369,89.28%,True,63.891,May,Returning_Visitor,1,4,0.8928,0,VIP/Ready to Buy
+8183,89.22%,True,12.64606692,Nov,Returning_Visitor,2,1,0.8922,1,Returning Buyers
+5472,89.22%,True,44.85638692,Nov,New_Visitor,2,4,0.8922,0,VIP/Ready to Buy
+10312,89.18%,True,25.76598645,Nov,Returning_Visitor,10,1,0.8918,0,VIP/Ready to Buy
+12113,89.17%,False,5.468093499,Nov,Returning_Visitor,3,1,0.8917,1,Returning Buyers
+6121,89.16%,True,37.92414395,Aug,New_Visitor,2,6,0.8916,0,VIP/Ready to Buy
+6117,89.15%,False,40.43578994,Nov,New_Visitor,2,4,0.8915000000000001,0,VIP/Ready to Buy
+9246,89.14%,True,24.54706296,Nov,New_Visitor,2,3,0.8914,1,Returning Buyers
+11312,89.13%,True,11.77908986,Dec,New_Visitor,2,3,0.8913,1,Returning Buyers
+3538,89.13%,True,20.0031,May,Returning_Visitor,2,1,0.8913,1,Returning Buyers
+8314,89.08%,True,41.13336886,Dec,Returning_Visitor,2,4,0.8908,0,VIP/Ready to Buy
+7211,89.08%,True,12.83702398,Nov,Returning_Visitor,2,6,0.8908,1,Returning Buyers
+6463,89.07%,True,258.5498732,Sep,New_Visitor,2,3,0.8906999999999999,0,VIP/Ready to Buy
+5575,89.05%,True,16.36245374,Aug,New_Visitor,4,1,0.8905,1,Returning Buyers
+7807,89.03%,True,28.52395644,Jul,Returning_Visitor,2,5,0.8903,0,VIP/Ready to Buy
+7986,89.02%,True,25.27760515,Dec,Returning_Visitor,2,2,0.8902,1,Returning Buyers
+6998,89.00%,True,26.85210163,Oct,Returning_Visitor,4,7,0.89,0,VIP/Ready to Buy
+9027,88.97%,True,81.19520286,Nov,Returning_Visitor,8,7,0.8896999999999999,0,VIP/Ready to Buy
+218,88.96%,True,35.0928,Mar,Returning_Visitor,1,5,0.8896,0,VIP/Ready to Buy
+5900,88.95%,True,32.52380772,Nov,Returning_Visitor,4,7,0.8895000000000001,0,VIP/Ready to Buy
+6109,88.94%,True,5.860439769,Sep,Returning_Visitor,2,7,0.8894,1,Returning Buyers
+8524,88.93%,True,21.88856759,Nov,Returning_Visitor,13,3,0.8893000000000001,1,Returning Buyers
+5702,88.92%,True,7.232201859,Nov,Returning_Visitor,20,1,0.8892,1,Returning Buyers
+8464,88.89%,True,3.178183427,Nov,Returning_Visitor,2,1,0.8889,1,Returning Buyers
+692,88.88%,True,19.71468924,Mar,Returning_Visitor,10,2,0.8887999999999999,1,Returning Buyers
+8392,88.88%,True,1.963592426,Nov,Returning_Visitor,10,3,0.8887999999999999,1,Returning Buyers
+9279,88.86%,True,8.896836973,Nov,Returning_Visitor,2,1,0.8886,1,Returning Buyers
+11401,88.85%,True,62.83957669,Nov,Returning_Visitor,6,1,0.8885,0,VIP/Ready to Buy
+9285,88.83%,True,131.5040438,Nov,Returning_Visitor,10,7,0.8883,0,VIP/Ready to Buy
+8191,88.78%,True,2.164809711,Nov,Returning_Visitor,2,1,0.8878,1,Returning Buyers
+605,88.75%,True,27.45138186,Mar,Returning_Visitor,2,1,0.8875,0,VIP/Ready to Buy
+2049,88.75%,True,11.51923077,May,New_Visitor,2,1,0.8875,1,Returning Buyers
+1172,88.70%,True,41.35007203,Mar,New_Visitor,2,1,0.887,0,VIP/Ready to Buy
+11322,88.69%,True,76.79037287,Dec,Returning_Visitor,2,1,0.8869,0,VIP/Ready to Buy
+11808,88.68%,True,10.53591515,Nov,Returning_Visitor,10,1,0.8868,1,Returning Buyers
+741,88.67%,True,52.10818182,Mar,Returning_Visitor,2,1,0.8867,0,VIP/Ready to Buy
+9093,88.66%,True,70.33953705,Nov,Returning_Visitor,3,1,0.8865999999999999,0,VIP/Ready to Buy
+8888,88.64%,True,32.09724943,Nov,Returning_Visitor,2,1,0.8864,0,VIP/Ready to Buy
+2122,88.61%,True,16.82505,May,Returning_Visitor,4,1,0.8861,1,Returning Buyers
+11341,88.57%,True,2.51591586,Nov,Returning_Visitor,11,7,0.8856999999999999,1,Returning Buyers
+6673,88.54%,False,34.45943549,Nov,Returning_Visitor,2,1,0.8854000000000001,0,VIP/Ready to Buy
+3884,88.49%,True,42.89057143,May,Returning_Visitor,3,1,0.8848999999999999,0,VIP/Ready to Buy
+9574,88.41%,True,38.26667925,Nov,Returning_Visitor,3,8,0.8841,0,VIP/Ready to Buy
+8265,88.41%,True,35.79969486,Nov,Returning_Visitor,13,3,0.8841,0,VIP/Ready to Buy
+9561,88.40%,True,13.9750483,Nov,Returning_Visitor,13,1,0.884,1,Returning Buyers
+8773,88.38%,False,44.92362122,Nov,Returning_Visitor,2,3,0.8837999999999999,0,VIP/Ready to Buy
+8282,88.35%,True,23.57537117,Nov,Returning_Visitor,11,3,0.8835,1,Returning Buyers
+10872,88.32%,True,16.61144026,Dec,New_Visitor,2,7,0.8832,1,Returning Buyers
+1011,88.31%,False,18.8649,Mar,Returning_Visitor,10,2,0.8831,1,Returning Buyers
+3285,88.31%,True,165.6204667,May,Returning_Visitor,4,8,0.8831,0,VIP/Ready to Buy
+5311,88.28%,True,49.01914286,May,Returning_Visitor,2,4,0.8828,0,VIP/Ready to Buy
+7197,88.25%,True,65.4726506,Aug,Returning_Visitor,1,4,0.8825,0,VIP/Ready to Buy
+7811,88.23%,True,34.48748308,Oct,New_Visitor,2,2,0.8823000000000001,0,VIP/Ready to Buy
+10582,88.23%,True,13.9394091,Nov,Returning_Visitor,1,1,0.8823000000000001,1,Returning Buyers
+7765,88.22%,True,59.33984611,Jul,Returning_Visitor,2,8,0.8822,0,VIP/Ready to Buy
+6933,88.22%,True,44.73610411,Oct,New_Visitor,2,7,0.8822,0,VIP/Ready to Buy
+7877,88.21%,True,16.95907848,Aug,Returning_Visitor,4,1,0.8820999999999999,1,Returning Buyers
+11511,88.21%,True,4.803305732,Nov,Returning_Visitor,10,1,0.8820999999999999,1,Returning Buyers
+1391,88.20%,True,64.6,Mar,Returning_Visitor,8,7,0.882,0,VIP/Ready to Buy
+7876,88.17%,True,46.33991252,Sep,Returning_Visitor,2,7,0.8817,0,VIP/Ready to Buy
+833,88.17%,True,3.691344828,Mar,New_Visitor,8,1,0.8817,1,Returning Buyers
+9808,88.12%,True,9.055465887,Nov,Returning_Visitor,2,1,0.8812000000000001,1,Returning Buyers
+1771,88.12%,False,40.76128,Mar,New_Visitor,2,3,0.8812000000000001,0,VIP/Ready to Buy
+8908,88.11%,True,10.73461716,Nov,New_Visitor,8,3,0.8811,1,Returning Buyers
+9203,88.10%,True,4.213364204,Nov,Returning_Visitor,1,1,0.8809999999999999,1,Returning Buyers
+10772,88.09%,True,214.3066627,Nov,Returning_Visitor,2,1,0.8809,0,VIP/Ready to Buy
+10100,88.09%,True,44.69642794,Nov,Returning_Visitor,2,1,0.8809,0,VIP/Ready to Buy
+8775,88.06%,True,8.898618695,Nov,Returning_Visitor,10,1,0.8806,1,Returning Buyers
+3231,88.06%,False,26.8752,May,Returning_Visitor,4,1,0.8806,0,VIP/Ready to Buy
+11006,88.06%,True,25.57242933,Nov,Returning_Visitor,2,1,0.8806,0,VIP/Ready to Buy
+1939,88.04%,True,6.284044913,Mar,Returning_Visitor,2,1,0.8804000000000001,1,Returning Buyers
+1029,88.04%,True,35.10378279,Mar,Returning_Visitor,2,2,0.8804000000000001,0,VIP/Ready to Buy
+11213,88.02%,True,60.01343064,Dec,Returning_Visitor,1,1,0.8802,0,VIP/Ready to Buy
+4547,88.02%,False,26.985,May,Returning_Visitor,5,1,0.8802,0,VIP/Ready to Buy
+2069,87.99%,False,17.991,May,Returning_Visitor,4,1,0.8798999999999999,1,Returning Buyers
+9166,87.97%,True,23.51599702,Nov,Returning_Visitor,10,6,0.8797,1,Returning Buyers
+3141,87.96%,True,25.41321429,May,Returning_Visitor,2,1,0.8795999999999999,1,Returning Buyers
+6715,87.96%,True,112.4141272,Oct,Returning_Visitor,5,1,0.8795999999999999,0,VIP/Ready to Buy
+1861,87.95%,True,45.8293144,Mar,New_Visitor,2,1,0.8795000000000001,0,VIP/Ready to Buy
+4587,87.93%,True,33.84778378,May,New_Visitor,2,7,0.8793000000000001,0,VIP/Ready to Buy
+7979,87.91%,True,3.364060957,Nov,Returning_Visitor,2,1,0.8791,1,Returning Buyers
+8009,87.90%,False,76.7809411,Nov,Returning_Visitor,2,9,0.879,0,VIP/Ready to Buy
+9247,87.87%,True,1.483210939,Nov,Returning_Visitor,2,1,0.8787,1,Returning Buyers
+10672,87.86%,True,52.74177636,Dec,Returning_Visitor,10,5,0.8786,0,VIP/Ready to Buy
+2835,87.86%,False,29.77472727,May,New_Visitor,2,1,0.8786,0,VIP/Ready to Buy
+8530,87.86%,True,21.83420125,Nov,Returning_Visitor,2,1,0.8786,1,Returning Buyers
+10976,87.85%,True,14.1273698,Nov,Returning_Visitor,2,2,0.8785,1,Returning Buyers
+8884,87.84%,True,9.131386805,Nov,Returning_Visitor,2,1,0.8784000000000001,1,Returning Buyers
+10536,87.84%,True,33.85339122,Nov,Returning_Visitor,2,1,0.8784000000000001,0,VIP/Ready to Buy
+5425,87.83%,True,19.71529542,Nov,Returning_Visitor,13,1,0.8783,1,Returning Buyers
+7292,87.82%,True,15.06586317,Nov,Returning_Visitor,2,5,0.8782,1,Returning Buyers
+7325,87.82%,True,62.77367187,Sep,New_Visitor,3,1,0.8782,0,VIP/Ready to Buy
+8303,87.81%,True,8.191922892,Nov,Returning_Visitor,2,1,0.8781,1,Returning Buyers
+1013,87.78%,True,30.65045455,Mar,Returning_Visitor,1,2,0.8778,0,VIP/Ready to Buy
+5205,87.77%,True,68.85704348,May,Returning_Visitor,3,1,0.8776999999999999,0,VIP/Ready to Buy
+9750,87.76%,True,3.651726351,Nov,Returning_Visitor,10,3,0.8776,1,Returning Buyers
+10659,87.74%,True,15.84839963,Nov,Other,3,9,0.8774,1,Returning Buyers
+5111,87.73%,True,22.45821429,May,New_Visitor,2,3,0.8773000000000001,1,Returning Buyers
+8197,87.66%,True,14.77221948,Nov,Returning_Visitor,10,4,0.8765999999999999,1,Returning Buyers
+5593,87.66%,True,1.401949127,Jul,Returning_Visitor,1,7,0.8765999999999999,1,Returning Buyers
+612,87.66%,True,17.84230699,Mar,Returning_Visitor,2,1,0.8765999999999999,1,Returning Buyers
+11025,87.54%,True,11.65996434,Nov,Returning_Visitor,2,1,0.8754000000000001,1,Returning Buyers
+6322,87.51%,True,117.6165932,Sep,Returning_Visitor,2,3,0.8751000000000001,0,VIP/Ready to Buy
+7687,87.49%,True,21.47142017,Aug,Returning_Visitor,6,7,0.8748999999999999,1,Returning Buyers
+8469,87.49%,True,2.626909076,Nov,Returning_Visitor,10,1,0.8748999999999999,1,Returning Buyers
+406,87.49%,True,15.88906362,Mar,Returning_Visitor,9,1,0.8748999999999999,1,Returning Buyers
+11202,87.48%,True,3.801288988,Nov,Returning_Visitor,6,1,0.8748,1,Returning Buyers
+10505,87.47%,True,1.37270775,Nov,Returning_Visitor,2,1,0.8747,1,Returning Buyers
+10825,87.46%,True,2.907879344,Nov,Returning_Visitor,10,1,0.8745999999999999,1,Returning Buyers
+7677,87.46%,True,5.091914289,Nov,Returning_Visitor,1,3,0.8745999999999999,1,Returning Buyers
+8609,87.45%,True,29.04476648,Nov,Returning_Visitor,6,1,0.8745,0,VIP/Ready to Buy
+8175,87.40%,True,12.96520279,Nov,Returning_Visitor,2,1,0.8740000000000001,1,Returning Buyers
+10262,87.40%,True,3.464444066,Nov,Returning_Visitor,2,1,0.8740000000000001,1,Returning Buyers
+9154,87.38%,True,48.6094789,Nov,Returning_Visitor,2,1,0.8737999999999999,0,VIP/Ready to Buy
+5013,87.35%,False,17.94797101,May,Returning_Visitor,2,5,0.8734999999999999,1,Returning Buyers
+8557,87.30%,True,68.91364255,Nov,Returning_Visitor,11,7,0.873,0,VIP/Ready to Buy
+6669,87.30%,True,20.08902391,Nov,Returning_Visitor,1,5,0.873,1,Returning Buyers
+11665,87.26%,False,45.05554866,Nov,Returning_Visitor,1,1,0.8726,0,VIP/Ready to Buy
+7692,87.23%,True,36.31643173,Sep,Returning_Visitor,2,2,0.8723000000000001,0,VIP/Ready to Buy
+9368,87.22%,True,19.34978396,Nov,Returning_Visitor,10,3,0.8722,1,Returning Buyers
+5561,87.22%,False,22.53693712,Jul,New_Visitor,2,6,0.8722,1,Returning Buyers
+7497,87.20%,True,47.12454606,Nov,Returning_Visitor,2,1,0.872,0,VIP/Ready to Buy
+274,87.18%,True,38.99,Mar,Returning_Visitor,3,1,0.8718,0,VIP/Ready to Buy
+9282,87.17%,True,8.533928457,Nov,Returning_Visitor,1,4,0.8717,1,Returning Buyers
+10632,87.14%,True,40.51760545,Nov,Returning_Visitor,3,1,0.8714,0,VIP/Ready to Buy
+3155,87.14%,False,45.69873563,May,Returning_Visitor,5,4,0.8714,0,VIP/Ready to Buy
+7545,87.09%,True,32.22252197,Sep,New_Visitor,5,3,0.8709,0,VIP/Ready to Buy
+5380,87.09%,True,204.0079491,Nov,Returning_Visitor,4,1,0.8709,0,VIP/Ready to Buy
+12099,87.08%,True,64.72238907,Nov,Returning_Visitor,1,1,0.8708,0,VIP/Ready to Buy
+8440,87.08%,True,6.664239119,Nov,Returning_Visitor,2,1,0.8708,1,Returning Buyers
+8887,87.04%,True,10.36159616,Nov,Returning_Visitor,2,1,0.8704000000000001,1,Returning Buyers
+10717,87.03%,True,14.15437174,Nov,Returning_Visitor,10,1,0.8703,1,Returning Buyers
+7810,87.03%,False,17.68865669,Jul,Returning_Visitor,2,2,0.8703,1,Returning Buyers
+8728,87.03%,True,2.982410939,Nov,Returning_Visitor,2,1,0.8703,1,Returning Buyers
+9670,87.02%,True,42.7752197,Nov,Returning_Visitor,2,2,0.8702,0,VIP/Ready to Buy
+3081,87.01%,True,39.27145714,May,Returning_Visitor,6,6,0.8701000000000001,0,VIP/Ready to Buy
+11035,86.97%,True,1.125146064,Nov,Returning_Visitor,11,2,0.8697,1,Returning Buyers
+8802,86.96%,True,3.940422761,Dec,Returning_Visitor,10,1,0.8695999999999999,1,Returning Buyers
+11384,86.95%,True,54.76629511,Dec,Returning_Visitor,2,1,0.8695,0,VIP/Ready to Buy
+8240,86.94%,True,10.58098677,Nov,Returning_Visitor,8,3,0.8694,1,Returning Buyers
+9743,86.94%,True,9.331744184,Dec,New_Visitor,2,4,0.8694,1,Returning Buyers
+2554,86.93%,True,101.3721739,May,Returning_Visitor,4,1,0.8693000000000001,0,VIP/Ready to Buy
+9397,86.92%,False,15.95538838,Nov,Returning_Visitor,2,1,0.8692,1,Returning Buyers
+9975,86.92%,True,5.667450916,Nov,Returning_Visitor,2,1,0.8692,1,Returning Buyers
+1481,86.91%,True,8.631719512,Mar,Returning_Visitor,7,2,0.8691,1,Returning Buyers
+7421,86.90%,True,31.49043616,June,Returning_Visitor,2,5,0.8690000000000001,0,VIP/Ready to Buy
+2564,86.90%,False,33.196,May,Returning_Visitor,2,1,0.8690000000000001,0,VIP/Ready to Buy
+8789,86.87%,True,1.589329821,Nov,Returning_Visitor,2,2,0.8687,1,Returning Buyers
+7518,86.85%,True,23.76322043,Nov,Returning_Visitor,3,6,0.8684999999999999,1,Returning Buyers
+8680,86.84%,True,14.54270238,Nov,New_Visitor,2,9,0.8684000000000001,1,Returning Buyers
+1746,86.83%,True,11.48461765,Mar,Returning_Visitor,9,1,0.8683,1,Returning Buyers
+7874,86.80%,True,45.82834797,Sep,Returning_Visitor,3,1,0.868,0,VIP/Ready to Buy
+1955,86.79%,True,10.782,Mar,Returning_Visitor,2,1,0.8679000000000001,1,Returning Buyers
+5282,86.79%,True,32.02714286,May,Returning_Visitor,2,1,0.8679000000000001,0,VIP/Ready to Buy
+9446,86.78%,True,93.52994426,Nov,Returning_Visitor,2,1,0.8678,0,VIP/Ready to Buy
+2529,86.74%,True,34.34857143,May,New_Visitor,1,7,0.8674,0,VIP/Ready to Buy
+8819,86.71%,True,7.513426372,Nov,Returning_Visitor,2,1,0.8671,1,Returning Buyers
+3347,86.71%,False,15.3956,May,Returning_Visitor,2,3,0.8671,1,Returning Buyers
+2173,86.71%,False,43.19228571,May,Returning_Visitor,4,3,0.8671,0,VIP/Ready to Buy
+7668,86.70%,True,36.07906944,Oct,Returning_Visitor,3,9,0.867,0,VIP/Ready to Buy
+7411,86.69%,True,23.79060609,Aug,New_Visitor,3,8,0.8669,1,Returning Buyers
+10731,86.69%,False,9.419346491,Nov,Returning_Visitor,2,1,0.8669,1,Returning Buyers
+2730,86.68%,True,30.269375,May,New_Visitor,2,4,0.8668,0,VIP/Ready to Buy
+10690,86.68%,True,38.19240444,Nov,Returning_Visitor,1,8,0.8668,0,VIP/Ready to Buy
+3387,86.68%,False,23.5144,May,Returning_Visitor,2,7,0.8668,1,Returning Buyers
+6365,86.67%,True,36.26141924,Oct,Returning_Visitor,1,3,0.8667,0,VIP/Ready to Buy
+7774,86.66%,True,44.35848718,Oct,Returning_Visitor,2,1,0.8665999999999999,0,VIP/Ready to Buy
+10960,86.63%,True,34.29431289,Dec,New_Visitor,2,1,0.8663,0,VIP/Ready to Buy
+9577,86.59%,True,14.10739957,Nov,Returning_Visitor,11,3,0.8659,1,Returning Buyers
+724,86.59%,True,4.667079268,Mar,Returning_Visitor,10,2,0.8659,1,Returning Buyers
+10425,86.58%,True,25.03946022,Nov,New_Visitor,3,1,0.8658,1,Returning Buyers
+4169,86.58%,True,17.05922581,May,Returning_Visitor,4,3,0.8658,1,Returning Buyers
+5127,86.55%,True,3.663617021,May,Returning_Visitor,2,3,0.8654999999999999,2,Window Shoppers
+771,86.54%,True,15.66445171,Mar,Returning_Visitor,10,4,0.8654000000000001,2,Window Shoppers
+5647,86.53%,True,16.72561819,Aug,Returning_Visitor,3,1,0.8653,2,Window Shoppers
+10566,86.52%,True,8.920900783,Nov,Returning_Visitor,2,1,0.8652,2,Window Shoppers
+8365,86.51%,True,5.911452178,Nov,Returning_Visitor,2,1,0.8651000000000001,2,Window Shoppers
+1456,86.48%,True,14.89210837,Mar,Returning_Visitor,2,7,0.8648,2,Window Shoppers
+2125,86.47%,True,20.39448649,May,Returning_Visitor,4,3,0.8647,2,Window Shoppers
+9042,86.47%,True,44.1286184,Nov,Returning_Visitor,2,2,0.8647,2,Window Shoppers
+12109,86.44%,False,17.49721917,Nov,New_Visitor,2,1,0.8644,2,Window Shoppers
+4477,86.42%,True,47.26060606,May,Returning_Visitor,6,4,0.8642,2,Window Shoppers
+6479,86.40%,True,16.1722885,Nov,Returning_Visitor,3,3,0.8640000000000001,2,Window Shoppers
+9125,86.40%,True,5.312300227,Nov,Returning_Visitor,2,1,0.8640000000000001,2,Window Shoppers
+1988,86.40%,True,44.73466667,Mar,Returning_Visitor,2,6,0.8640000000000001,2,Window Shoppers
+2503,86.38%,True,23.554375,May,Returning_Visitor,2,1,0.8637999999999999,2,Window Shoppers
+3468,86.38%,False,22.2993913,May,Returning_Visitor,2,6,0.8637999999999999,2,Window Shoppers
+687,86.36%,True,20.97144,Mar,Returning_Visitor,8,3,0.8636,2,Window Shoppers
+1876,86.34%,True,20.85956757,Mar,New_Visitor,10,9,0.8634000000000001,2,Window Shoppers
+11834,86.32%,True,38.83384563,Dec,Returning_Visitor,1,4,0.8632,2,Window Shoppers
+6595,86.32%,True,113.3238614,Oct,Returning_Visitor,2,9,0.8632,2,Window Shoppers
+9969,86.31%,True,4.970219813,Nov,Returning_Visitor,10,4,0.8631,2,Window Shoppers
+5521,86.28%,False,10.99901844,Sep,Returning_Visitor,1,4,0.8628,2,Window Shoppers
+2916,86.25%,True,18.08584615,May,New_Visitor,5,5,0.8625,2,Window Shoppers
+11861,86.24%,True,6.708900602,Dec,Returning_Visitor,2,3,0.8623999999999999,2,Window Shoppers
+3810,86.20%,True,19.78533333,May,Returning_Visitor,1,4,0.862,2,Window Shoppers
+1086,86.18%,True,33.14784917,Mar,Returning_Visitor,10,9,0.8618000000000001,2,Window Shoppers
+8498,86.17%,True,41.2169154,Nov,Returning_Visitor,10,3,0.8617,2,Window Shoppers
+8173,86.15%,True,45.41882207,Nov,Returning_Visitor,2,3,0.8615,2,Window Shoppers
+10409,86.11%,True,37.02263046,Nov,Returning_Visitor,3,3,0.8611,2,Window Shoppers
+10285,86.11%,True,77.801588,Dec,New_Visitor,2,1,0.8611,2,Window Shoppers
+9765,86.10%,False,3.359435653,Nov,Returning_Visitor,2,1,0.861,2,Window Shoppers
+3413,86.08%,True,30.4615873,May,Returning_Visitor,2,9,0.8608,2,Window Shoppers
+9682,86.08%,True,4.84736534,Dec,Returning_Visitor,2,1,0.8608,2,Window Shoppers
+7346,86.04%,True,37.72031898,Oct,Returning_Visitor,2,4,0.8604,2,Window Shoppers
+1628,86.00%,True,15.43344,Mar,Returning_Visitor,2,1,0.86,2,Window Shoppers
+10388,85.99%,True,12.360043,Nov,Returning_Visitor,1,3,0.8599,2,Window Shoppers
+11011,85.98%,True,9.69917706,Nov,Returning_Visitor,10,1,0.8598,2,Window Shoppers
+10309,85.97%,True,25.05062136,Nov,Returning_Visitor,2,1,0.8597,2,Window Shoppers
+7789,85.96%,True,42.93595137,Oct,Returning_Visitor,7,1,0.8595999999999999,2,Window Shoppers
+10698,85.96%,True,52.03463312,Dec,Returning_Visitor,8,3,0.8595999999999999,2,Window Shoppers
+790,85.95%,True,44.61199852,Mar,Returning_Visitor,9,4,0.8595,2,Window Shoppers
+3457,85.94%,True,30.01288235,May,Returning_Visitor,2,4,0.8593999999999999,2,Window Shoppers
+1737,85.94%,True,7.141428571,Mar,Returning_Visitor,2,7,0.8593999999999999,2,Window Shoppers
+8952,85.93%,True,20.06500939,Nov,Returning_Visitor,2,1,0.8593000000000001,2,Window Shoppers
+7459,85.93%,True,16.77416803,Oct,Returning_Visitor,2,6,0.8593000000000001,2,Window Shoppers
+10036,85.92%,True,13.49031898,Nov,Returning_Visitor,13,1,0.8592,2,Window Shoppers
+10723,85.91%,True,112.6661365,Nov,Returning_Visitor,2,1,0.8591,2,Window Shoppers
+9009,85.86%,True,5.364419268,Nov,Returning_Visitor,1,1,0.8586,2,Window Shoppers
+4925,85.85%,True,80.118,May,New_Visitor,3,3,0.8584999999999999,2,Window Shoppers
+12067,85.85%,True,5.648688126,Nov,Returning_Visitor,8,3,0.8584999999999999,2,Window Shoppers
+2217,85.83%,True,13.07329412,May,Returning_Visitor,4,6,0.8583,2,Window Shoppers
+4435,85.79%,True,15.9468,May,Returning_Visitor,1,3,0.8579000000000001,2,Window Shoppers
+6561,85.76%,True,113.9293434,Sep,Returning_Visitor,2,1,0.8576,2,Window Shoppers
+4331,85.76%,True,26.65777778,May,Returning_Visitor,1,3,0.8576,2,Window Shoppers
+10391,85.75%,True,10.59423174,Nov,Returning_Visitor,3,1,0.8575,2,Window Shoppers
+12024,85.74%,True,9.078681618,Nov,Returning_Visitor,2,1,0.8573999999999999,2,Window Shoppers
+12066,85.72%,False,2.122731861,Nov,Returning_Visitor,2,1,0.8572,2,Window Shoppers
+9806,85.72%,True,84.87572674,Nov,New_Visitor,2,3,0.8572,2,Window Shoppers
+7012,85.69%,True,36.70369311,Oct,Returning_Visitor,20,1,0.8569,2,Window Shoppers
+102,85.68%,True,17.53595893,Feb,Returning_Visitor,4,7,0.8568000000000001,2,Window Shoppers
+8421,85.62%,False,9.429362483,Nov,Returning_Visitor,2,4,0.8562000000000001,2,Window Shoppers
+1740,85.59%,True,27.23866195,Mar,Returning_Visitor,2,2,0.8559,2,Window Shoppers
+10338,85.59%,True,16.81772593,Nov,Returning_Visitor,2,3,0.8559,2,Window Shoppers
+10447,85.59%,True,54.16451768,Nov,Returning_Visitor,2,7,0.8559,2,Window Shoppers
+5805,85.59%,True,14.63523974,Nov,Returning_Visitor,3,1,0.8559,2,Window Shoppers
+5024,85.49%,True,20.13555556,May,Returning_Visitor,2,3,0.8549,2,Window Shoppers
+10999,85.48%,False,6.135982448,Nov,Returning_Visitor,2,5,0.8548,2,Window Shoppers
+1165,85.48%,True,0.120699914,Mar,Returning_Visitor,8,1,0.8548,2,Window Shoppers
+2739,85.45%,False,20.394,May,Returning_Visitor,13,7,0.8545,2,Window Shoppers
+5902,85.40%,True,24.12558571,June,Returning_Visitor,3,6,0.8540000000000001,2,Window Shoppers
+1123,85.39%,True,12.3578472,Mar,Returning_Visitor,6,3,0.8539,2,Window Shoppers
+10630,85.37%,True,25.74700712,Nov,Returning_Visitor,2,1,0.8537,2,Window Shoppers
+11438,85.35%,True,1.26665917,Nov,Returning_Visitor,2,1,0.8534999999999999,2,Window Shoppers
+8491,85.33%,True,21.05431578,Dec,Returning_Visitor,2,1,0.8533,2,Window Shoppers
+11634,85.33%,True,11.32556227,Nov,Returning_Visitor,2,1,0.8533,2,Window Shoppers
+4902,85.32%,True,30.3236,May,Returning_Visitor,4,1,0.8532,2,Window Shoppers
+4893,85.31%,False,67.73686486,May,Returning_Visitor,3,1,0.8531,2,Window Shoppers
+11155,85.31%,True,22.13419743,Dec,Returning_Visitor,2,3,0.8531,2,Window Shoppers
+7745,85.30%,True,18.84993357,Oct,New_Visitor,2,1,0.853,2,Window Shoppers
+1862,85.28%,True,12.53314286,Mar,Returning_Visitor,3,6,0.8528,2,Window Shoppers
+5308,85.28%,True,15.3956,May,Returning_Visitor,1,3,0.8528,2,Window Shoppers
+10107,85.27%,True,8.969447973,Nov,Returning_Visitor,1,3,0.8527,2,Window Shoppers
+7663,85.26%,True,17.81649911,Oct,Returning_Visitor,2,1,0.8526,2,Window Shoppers
+7007,85.26%,True,10.19295165,Nov,Returning_Visitor,2,6,0.8526,2,Window Shoppers
+9642,85.24%,True,15.56462164,Nov,Returning_Visitor,2,1,0.8523999999999999,2,Window Shoppers
+11540,85.16%,True,77.97458009,Dec,Returning_Visitor,2,4,0.8515999999999999,2,Window Shoppers
+4255,85.15%,True,7.609371429,May,Returning_Visitor,3,6,0.8515,2,Window Shoppers
+8296,85.10%,True,37.05600958,Nov,Returning_Visitor,2,3,0.851,2,Window Shoppers
+11421,85.09%,True,14.94379331,Nov,Returning_Visitor,2,1,0.8509,2,Window Shoppers
+1922,85.06%,True,9.053081561,Mar,Returning_Visitor,1,1,0.8506,2,Window Shoppers
+3078,85.06%,True,80.04344186,May,Returning_Visitor,4,1,0.8506,2,Window Shoppers
+7634,85.06%,False,4.718931118,Oct,Returning_Visitor,2,2,0.8506,2,Window Shoppers
+4609,85.05%,True,27.664,May,Returning_Visitor,6,2,0.8504999999999999,2,Window Shoppers
+11938,85.02%,True,16.43637285,Nov,Returning_Visitor,2,1,0.8502,2,Window Shoppers
+10980,85.00%,False,5.376740585,Nov,Returning_Visitor,2,1,0.85,2,Window Shoppers
+9879,84.99%,False,8.174728678,Nov,Returning_Visitor,8,1,0.8499,2,Window Shoppers
+2898,84.98%,True,25.194,May,Returning_Visitor,4,3,0.8498,2,Window Shoppers
+6652,84.98%,True,22.9772856,Nov,Returning_Visitor,13,2,0.8498,2,Window Shoppers
+11982,84.96%,True,5.45243266,Nov,Returning_Visitor,2,1,0.8495999999999999,2,Window Shoppers
+7967,84.96%,True,37.21183634,Nov,Returning_Visitor,3,1,0.8495999999999999,2,Window Shoppers
+6793,84.90%,True,37.86167396,Nov,Returning_Visitor,3,3,0.8490000000000001,2,Window Shoppers
+9748,84.87%,True,20.15710234,Nov,Returning_Visitor,2,1,0.8487,2,Window Shoppers
+12188,84.86%,True,1.582473154,Nov,Returning_Visitor,2,1,0.8486,2,Window Shoppers
+7766,84.85%,True,36.65735004,Jul,New_Visitor,2,6,0.8484999999999999,2,Window Shoppers
+11240,84.80%,True,23.27552205,Nov,Returning_Visitor,2,1,0.848,2,Window Shoppers
+2269,84.79%,True,12.63441176,May,New_Visitor,3,1,0.8479000000000001,2,Window Shoppers
+7404,84.79%,True,3.92827844,Sep,Returning_Visitor,4,1,0.8479000000000001,2,Window Shoppers
+8812,84.78%,True,19.27621155,Nov,Returning_Visitor,2,1,0.8478,2,Window Shoppers
+8582,84.75%,True,102.4922188,Nov,Returning_Visitor,1,2,0.8475,2,Window Shoppers
+6222,84.75%,True,23.15073799,Oct,New_Visitor,5,3,0.8475,2,Window Shoppers
+4849,84.72%,True,109.5876,May,Returning_Visitor,6,7,0.8472,2,Window Shoppers
+8257,84.71%,True,6.229994739,Nov,Returning_Visitor,2,1,0.8471,2,Window Shoppers
+6439,84.71%,True,10.7869918,Aug,Returning_Visitor,1,2,0.8471,2,Window Shoppers
+3557,84.70%,True,36.51581481,May,Returning_Visitor,2,1,0.847,2,Window Shoppers
+5909,84.69%,False,11.27445733,Nov,Returning_Visitor,2,1,0.8469,2,Window Shoppers
+2021,84.66%,True,91.98,Mar,Returning_Visitor,1,3,0.8466,2,Window Shoppers
+11993,84.64%,True,40.72562976,Dec,New_Visitor,2,1,0.8464,2,Window Shoppers
+7013,84.64%,True,32.41773364,Oct,Returning_Visitor,2,4,0.8464,2,Window Shoppers
+10287,84.57%,True,60.42298474,Nov,Returning_Visitor,2,1,0.8456999999999999,2,Window Shoppers
+11620,84.57%,True,16.64099403,Nov,Returning_Visitor,2,1,0.8456999999999999,2,Window Shoppers
+1800,84.56%,True,39.7173,Mar,Returning_Visitor,2,1,0.8456,2,Window Shoppers
+1831,84.56%,False,10.32166068,Mar,Returning_Visitor,2,1,0.8456,2,Window Shoppers
+4528,84.56%,True,16.10052632,May,Returning_Visitor,5,2,0.8456,2,Window Shoppers
+9480,84.54%,False,67.39709637,Nov,Returning_Visitor,2,3,0.8454,2,Window Shoppers
+2524,84.53%,False,57.584,May,Returning_Visitor,4,1,0.8453,2,Window Shoppers
+10180,84.53%,True,3.187495058,Nov,Returning_Visitor,8,5,0.8453,2,Window Shoppers
+9192,84.51%,True,18.61684302,Nov,Returning_Visitor,2,6,0.8451000000000001,2,Window Shoppers
+5881,84.51%,True,31.99181419,Oct,Returning_Visitor,2,1,0.8451000000000001,2,Window Shoppers
+11484,84.46%,False,0.651781814,Nov,Returning_Visitor,2,1,0.8445999999999999,2,Window Shoppers
+961,84.45%,True,13.46406308,Mar,Returning_Visitor,8,3,0.8445,2,Window Shoppers
+8714,84.43%,True,33.11000268,Nov,Returning_Visitor,2,1,0.8443,2,Window Shoppers
+6542,84.42%,True,18.30205576,Sep,Returning_Visitor,1,2,0.8442000000000001,2,Window Shoppers
+318,84.42%,True,7.103020833,Mar,Returning_Visitor,1,6,0.8442000000000001,2,Window Shoppers
+3068,84.42%,True,12.55885714,May,Returning_Visitor,2,7,0.8442000000000001,2,Window Shoppers
+7642,84.40%,True,20.65287956,Oct,Returning_Visitor,2,3,0.8440000000000001,2,Window Shoppers
+11292,84.35%,False,14.57483754,Nov,Returning_Visitor,3,1,0.8434999999999999,2,Window Shoppers
+6995,84.35%,True,87.30695843,Aug,Returning_Visitor,2,2,0.8434999999999999,2,Window Shoppers
+6334,84.34%,True,94.10360412,Oct,Returning_Visitor,4,2,0.8434,2,Window Shoppers
+10042,84.34%,True,30.60955642,Nov,Returning_Visitor,2,1,0.8434,2,Window Shoppers
+2197,84.33%,True,34.99166667,May,Returning_Visitor,4,5,0.8432999999999999,2,Window Shoppers
+6599,84.32%,True,10.79250883,Jul,Returning_Visitor,1,1,0.8432,2,Window Shoppers
+12152,84.30%,True,36.39286104,Dec,New_Visitor,2,1,0.843,2,Window Shoppers
+7532,84.30%,True,1.453922921,Oct,Returning_Visitor,2,1,0.843,2,Window Shoppers
+6723,84.29%,True,24.83718656,June,Returning_Visitor,13,4,0.8429000000000001,2,Window Shoppers
+5599,84.28%,True,8.150811238,June,Returning_Visitor,2,4,0.8428,2,Window Shoppers
+5790,84.23%,True,9.253161679,Sep,New_Visitor,5,6,0.8423,2,Window Shoppers
+8494,84.23%,True,6.664927724,Nov,Returning_Visitor,2,1,0.8423,2,Window Shoppers
+8943,84.20%,True,16.74209908,Nov,Returning_Visitor,2,3,0.8420000000000001,2,Window Shoppers
+5046,84.16%,True,36.89921429,May,Returning_Visitor,4,1,0.8416,2,Window Shoppers
+7057,84.16%,True,31.72080812,Nov,New_Visitor,5,5,0.8416,2,Window Shoppers
+11888,84.11%,False,27.61403036,Nov,Returning_Visitor,2,1,0.8411,2,Window Shoppers
+5759,84.10%,True,11.78466261,Jul,Returning_Visitor,5,1,0.841,2,Window Shoppers
+12043,84.07%,True,11.30850046,Nov,Returning_Visitor,3,1,0.8406999999999999,2,Window Shoppers
+1095,84.00%,True,40.7932,Mar,Returning_Visitor,2,7,0.84,2,Window Shoppers
+12195,83.95%,False,3.685400817,Dec,Returning_Visitor,2,1,0.8395,2,Window Shoppers
+6796,83.94%,True,15.45198077,Sep,Returning_Visitor,1,1,0.8393999999999999,2,Window Shoppers
+7893,83.93%,True,26.18852293,Jul,Returning_Visitor,1,1,0.8393,2,Window Shoppers
+3860,83.91%,True,42.95612903,May,Returning_Visitor,1,1,0.8391,2,Window Shoppers
+8930,83.91%,True,51.36077038,Nov,Returning_Visitor,2,3,0.8391,2,Window Shoppers
+11431,83.91%,False,16.43784656,Nov,New_Visitor,8,1,0.8391,2,Window Shoppers
+6636,83.91%,True,18.87145759,Aug,Returning_Visitor,1,3,0.8391,2,Window Shoppers
+6096,83.88%,True,6.189215434,Aug,Returning_Visitor,1,4,0.8388,2,Window Shoppers
+11580,83.87%,True,21.39566828,Nov,Returning_Visitor,2,1,0.8387,2,Window Shoppers
+9842,83.87%,True,9.641067457,Nov,Returning_Visitor,2,3,0.8387,2,Window Shoppers
+6345,83.78%,False,166.3735531,June,New_Visitor,5,1,0.8378,2,Window Shoppers
+421,83.76%,True,18.36804916,Mar,Returning_Visitor,2,1,0.8376,2,Window Shoppers
+3322,83.74%,True,11.19189333,May,Returning_Visitor,3,6,0.8373999999999999,2,Window Shoppers
+6603,83.72%,False,37.5474164,Nov,Returning_Visitor,2,1,0.8371999999999999,2,Window Shoppers
+8031,83.72%,False,42.28127491,Nov,Returning_Visitor,13,1,0.8371999999999999,2,Window Shoppers
+10037,83.70%,False,0.548811351,Nov,Returning_Visitor,11,1,0.8370000000000001,2,Window Shoppers
+12056,83.70%,True,19.56746389,Nov,Returning_Visitor,13,2,0.8370000000000001,2,Window Shoppers
+2552,83.69%,True,54.33103704,May,Returning_Visitor,4,2,0.8369,2,Window Shoppers
+9633,83.67%,True,167.2308336,Nov,Returning_Visitor,10,4,0.8367,2,Window Shoppers
+5975,83.65%,False,12.5740183,Nov,Returning_Visitor,2,1,0.8365,2,Window Shoppers
+6953,83.64%,True,11.21330466,Oct,New_Visitor,2,7,0.8364,2,Window Shoppers
+7732,83.62%,True,9.284545518,Nov,Returning_Visitor,2,1,0.8362,2,Window Shoppers
+1477,83.61%,True,18.95323404,Mar,New_Visitor,8,3,0.8361,2,Window Shoppers
+10218,83.61%,True,2.54795624,Nov,Returning_Visitor,2,3,0.8361,2,Window Shoppers
+10292,83.54%,True,8.21617792,Nov,Returning_Visitor,2,3,0.8354,2,Window Shoppers
+8782,83.54%,True,19.73335395,Nov,Returning_Visitor,2,2,0.8354,2,Window Shoppers
+10758,83.53%,True,7.963976424,Nov,Returning_Visitor,2,2,0.8353,2,Window Shoppers
+8730,83.51%,True,8.505586651,Nov,Returning_Visitor,2,7,0.8351000000000001,2,Window Shoppers
+6860,83.50%,True,48.7880688,Jul,Returning_Visitor,3,3,0.835,2,Window Shoppers
+5129,83.49%,True,21.318,May,Returning_Visitor,2,4,0.8349,2,Window Shoppers
+11999,83.49%,True,4.48567854,Nov,Returning_Visitor,2,1,0.8349,2,Window Shoppers
+4859,83.43%,True,32.98533333,May,Returning_Visitor,4,1,0.8343,2,Window Shoppers
+11902,83.41%,True,22.02071582,Nov,Returning_Visitor,2,2,0.8341,2,Window Shoppers
+10419,83.41%,True,68.84905671,Dec,Returning_Visitor,1,9,0.8341,2,Window Shoppers
+9324,83.41%,True,13.63692586,Nov,Returning_Visitor,3,1,0.8341,2,Window Shoppers
+8190,83.38%,True,3.512852934,Nov,Returning_Visitor,2,1,0.8338,2,Window Shoppers
+7554,83.37%,True,9.063088034,Aug,Returning_Visitor,1,2,0.8337,2,Window Shoppers
+9065,83.35%,True,16.35594008,Nov,Returning_Visitor,3,3,0.8334999999999999,2,Window Shoppers
+12112,83.30%,True,6.479206264,Nov,Returning_Visitor,2,1,0.833,2,Window Shoppers
+3187,83.29%,True,34.26077778,May,Returning_Visitor,2,8,0.8329000000000001,2,Window Shoppers
+11235,83.26%,True,26.41113767,Nov,Returning_Visitor,2,2,0.8326,2,Window Shoppers
+10152,83.25%,True,1.560184165,Nov,Returning_Visitor,10,3,0.8325,2,Window Shoppers
+9656,83.25%,True,24.7526533,Nov,Returning_Visitor,2,4,0.8325,2,Window Shoppers
+7141,83.21%,False,9.098216282,Nov,Returning_Visitor,2,3,0.8321,2,Window Shoppers
+3101,83.21%,True,41.86896,May,Returning_Visitor,4,1,0.8321,2,Window Shoppers
+6808,83.17%,True,35.89140755,Aug,New_Visitor,2,3,0.8317,2,Window Shoppers
+5518,83.16%,True,10.89761784,Oct,Returning_Visitor,2,3,0.8316,2,Window Shoppers
+9266,83.14%,True,1.53931845,Nov,Returning_Visitor,2,1,0.8314,2,Window Shoppers
+6151,83.14%,False,28.32886648,Jul,Returning_Visitor,2,7,0.8314,2,Window Shoppers
+9468,83.14%,True,32.56725746,Nov,Returning_Visitor,2,2,0.8314,2,Window Shoppers
+11140,83.13%,True,3.960306296,Nov,Returning_Visitor,3,1,0.8312999999999999,2,Window Shoppers
+9114,83.10%,True,37.59646822,Nov,Returning_Visitor,2,6,0.831,2,Window Shoppers
+484,83.09%,False,10.10222222,Mar,Returning_Visitor,10,1,0.8309000000000001,2,Window Shoppers
+7275,83.06%,True,45.12532172,Nov,Returning_Visitor,2,3,0.8306,2,Window Shoppers
+7939,83.06%,True,75.27712913,Nov,Returning_Visitor,2,1,0.8306,2,Window Shoppers
+10889,83.05%,True,12.07905093,Nov,Returning_Visitor,3,2,0.8305,2,Window Shoppers
+9715,83.03%,False,29.76290794,Nov,Returning_Visitor,2,1,0.8303,2,Window Shoppers
+8604,83.02%,True,1.818480813,Nov,Returning_Visitor,10,1,0.8301999999999999,2,Window Shoppers
+1858,82.99%,True,39.65538156,Mar,Returning_Visitor,1,1,0.8299,2,Window Shoppers
+11844,82.96%,True,1.451867861,Nov,Returning_Visitor,2,1,0.8295999999999999,2,Window Shoppers
+767,82.96%,True,9.15008,Mar,Returning_Visitor,2,1,0.8295999999999999,2,Window Shoppers
+1605,82.95%,True,33.14514286,Mar,Returning_Visitor,2,1,0.8295,2,Window Shoppers
+8560,82.92%,True,108.9089884,Nov,Returning_Visitor,2,1,0.8292,2,Window Shoppers
+12104,82.91%,True,8.482951523,Dec,Returning_Visitor,6,3,0.8291,2,Window Shoppers
+2618,82.88%,True,4.7095,May,Returning_Visitor,2,9,0.8288,2,Window Shoppers
+8103,82.86%,False,6.099899016,Nov,Returning_Visitor,2,1,0.8286,2,Window Shoppers
+11704,82.86%,True,3.012181822,Nov,Returning_Visitor,13,4,0.8286,2,Window Shoppers
+10198,82.83%,True,105.260972,Dec,Returning_Visitor,10,3,0.8283,2,Window Shoppers
+11336,82.81%,True,7.907379545,Nov,New_Visitor,2,3,0.8281000000000001,2,Window Shoppers
+965,82.80%,True,28.39335492,Mar,Returning_Visitor,1,3,0.828,2,Window Shoppers
+4932,82.76%,True,28.16275,May,New_Visitor,3,1,0.8276,2,Window Shoppers
+9937,82.76%,True,11.73221807,Nov,Returning_Visitor,2,3,0.8276,2,Window Shoppers
+11681,82.75%,True,21.03233592,Nov,Returning_Visitor,3,3,0.8275,2,Window Shoppers
+3983,82.71%,True,22.74458333,May,Returning_Visitor,13,6,0.8271,2,Window Shoppers
+11387,82.69%,False,46.62801597,Dec,Returning_Visitor,6,6,0.8269,2,Window Shoppers
+7698,82.68%,True,19.24405095,Sep,Returning_Visitor,1,1,0.8268000000000001,2,Window Shoppers
+10607,82.67%,True,40.01028435,Nov,Returning_Visitor,1,4,0.8267,2,Window Shoppers
+9990,82.62%,False,2.442153455,Nov,Returning_Visitor,2,1,0.8262,2,Window Shoppers
+5255,82.56%,False,22.319125,May,Returning_Visitor,4,4,0.8256,2,Window Shoppers
+10267,82.56%,False,1.257438906,Nov,Returning_Visitor,2,1,0.8256,2,Window Shoppers
+9536,82.55%,True,28.11635484,Nov,Returning_Visitor,13,1,0.8255,2,Window Shoppers
+10188,82.55%,True,43.71856886,Nov,Returning_Visitor,2,1,0.8255,2,Window Shoppers
+12064,82.54%,False,5.145928873,Nov,Returning_Visitor,13,1,0.8254,2,Window Shoppers
+8187,82.53%,True,14.67198629,Nov,Returning_Visitor,2,1,0.8253,2,Window Shoppers
+7222,82.50%,False,13.52088614,Nov,Returning_Visitor,2,5,0.825,2,Window Shoppers
+8744,82.47%,True,20.5924708,Nov,Returning_Visitor,2,1,0.8247,2,Window Shoppers
+7600,82.38%,False,4.90908873,Jul,Returning_Visitor,2,3,0.8238,2,Window Shoppers
+11840,82.37%,True,5.932009013,Nov,Returning_Visitor,2,2,0.8237000000000001,2,Window Shoppers
+2193,82.36%,True,18.46989474,May,Returning_Visitor,4,1,0.8236,2,Window Shoppers
+9098,82.32%,True,23.82324931,Nov,Returning_Visitor,1,1,0.8231999999999999,2,Window Shoppers
+10159,82.29%,False,31.38886179,Dec,Other,2,1,0.8229000000000001,2,Window Shoppers
+8209,82.29%,True,21.6018009,Nov,Returning_Visitor,1,1,0.8229000000000001,2,Window Shoppers
+10677,82.29%,True,10.0986778,Nov,Returning_Visitor,2,3,0.8229000000000001,2,Window Shoppers
+5357,82.26%,True,19.448,May,Returning_Visitor,1,5,0.8226,2,Window Shoppers
+12022,82.24%,True,0.818306551,Nov,Returning_Visitor,2,3,0.8223999999999999,2,Window Shoppers
+7735,82.23%,False,24.16451021,Aug,Returning_Visitor,2,1,0.8223,2,Window Shoppers
+5314,82.21%,True,19.11506897,May,Returning_Visitor,4,7,0.8220999999999999,2,Window Shoppers
+5064,82.21%,True,3.111047059,May,Returning_Visitor,4,1,0.8220999999999999,2,Window Shoppers
+11787,82.19%,True,20.04842101,Nov,Returning_Visitor,2,3,0.8219,2,Window Shoppers
+5873,82.18%,True,13.73292849,Jul,Returning_Visitor,1,3,0.8218000000000001,2,Window Shoppers
+7342,82.18%,True,12.58722248,Sep,Returning_Visitor,4,7,0.8218000000000001,2,Window Shoppers
+8772,82.16%,False,57.48364657,Nov,Returning_Visitor,1,1,0.8216,2,Window Shoppers
+6529,82.15%,True,87.25396293,Nov,New_Visitor,2,3,0.8215,2,Window Shoppers
+6739,82.13%,True,7.36509031,Aug,Returning_Visitor,2,4,0.8212999999999999,2,Window Shoppers
+7701,82.13%,True,28.40448178,Sep,Returning_Visitor,2,2,0.8212999999999999,2,Window Shoppers
+7112,82.13%,True,48.73081038,Oct,Returning_Visitor,6,3,0.8212999999999999,2,Window Shoppers
+1140,82.12%,True,13.28355556,Mar,Returning_Visitor,2,4,0.8212,2,Window Shoppers
+9950,82.10%,True,27.77725875,Dec,Returning_Visitor,1,4,0.821,2,Window Shoppers
+10330,82.10%,False,16.98117776,Nov,Returning_Visitor,10,2,0.821,2,Window Shoppers
+6972,82.09%,False,69.91439226,Nov,Returning_Visitor,2,5,0.8209000000000001,2,Window Shoppers
+8743,82.03%,True,1.79107248,Nov,Returning_Visitor,2,3,0.8203,2,Window Shoppers
+8472,82.02%,True,73.35866939,Nov,Returning_Visitor,2,1,0.8201999999999999,2,Window Shoppers
+9072,82.02%,True,6.017563943,Nov,Returning_Visitor,3,1,0.8201999999999999,2,Window Shoppers
+5671,82.02%,True,3.998184141,Nov,Returning_Visitor,3,7,0.8201999999999999,2,Window Shoppers
+10194,81.93%,True,1.114150182,Nov,Returning_Visitor,2,3,0.8193,2,Window Shoppers
+1693,81.93%,True,14.10053333,Mar,Returning_Visitor,2,8,0.8193,2,Window Shoppers
+9128,81.92%,True,14.67222588,Dec,Returning_Visitor,2,8,0.8192,2,Window Shoppers
+1396,81.91%,True,10.23187302,Mar,Returning_Visitor,6,3,0.8190999999999999,2,Window Shoppers
+9455,81.88%,True,2.209003373,Nov,Returning_Visitor,2,1,0.8188,2,Window Shoppers
+7021,81.84%,True,13.49047237,Nov,Returning_Visitor,2,8,0.8184,2,Window Shoppers
+6676,81.83%,True,31.44363136,Oct,Returning_Visitor,2,6,0.8183,2,Window Shoppers
+8829,81.80%,True,60.07483189,Nov,Returning_Visitor,2,1,0.818,2,Window Shoppers
+2073,81.79%,True,10.94723077,May,Returning_Visitor,3,1,0.8179000000000001,2,Window Shoppers
+8202,81.78%,True,73.98253901,Dec,Returning_Visitor,1,1,0.8178,2,Window Shoppers
+9934,81.78%,True,5.28608849,Nov,Returning_Visitor,2,3,0.8178,2,Window Shoppers
+9243,81.71%,False,6.733744751,Nov,Returning_Visitor,2,1,0.8170999999999999,2,Window Shoppers
+8161,81.71%,False,3.322866215,Nov,Returning_Visitor,7,5,0.8170999999999999,2,Window Shoppers
+5797,81.71%,True,31.90320066,Aug,Returning_Visitor,3,2,0.8170999999999999,2,Window Shoppers
+11367,81.71%,False,8.833510027,Nov,Returning_Visitor,2,3,0.8170999999999999,2,Window Shoppers
+11332,81.71%,True,34.79013586,Dec,New_Visitor,2,3,0.8170999999999999,2,Window Shoppers
+7963,81.66%,True,17.77043431,Nov,Returning_Visitor,2,1,0.8166,2,Window Shoppers
+1794,81.66%,False,2.3976,Mar,Returning_Visitor,1,7,0.8166,2,Window Shoppers
+11743,81.65%,True,30.83748589,Dec,Returning_Visitor,1,3,0.8165,2,Window Shoppers
+3370,81.64%,True,14.9925,May,Returning_Visitor,3,3,0.8164,2,Window Shoppers
+665,81.60%,False,18.5847619,Mar,Returning_Visitor,3,1,0.816,2,Window Shoppers
+5136,81.59%,True,29.90282143,May,New_Visitor,2,9,0.8159000000000001,2,Window Shoppers
+10562,81.54%,True,17.85338057,Dec,Returning_Visitor,1,1,0.8154,2,Window Shoppers
+11402,81.53%,False,6.420746096,Nov,Returning_Visitor,2,2,0.8153,2,Window Shoppers
+10016,81.53%,False,14.62413644,Nov,Returning_Visitor,2,2,0.8153,2,Window Shoppers
+11321,81.51%,True,29.38287135,Dec,Returning_Visitor,2,1,0.8151,2,Window Shoppers
+7446,81.50%,True,17.27062073,Nov,Returning_Visitor,2,5,0.815,2,Window Shoppers
+6999,81.48%,True,8.285119366,Oct,Returning_Visitor,1,8,0.8148000000000001,2,Window Shoppers
+3989,81.47%,True,25.38925926,May,Returning_Visitor,2,1,0.8147,2,Window Shoppers
+10025,81.47%,True,13.24667166,Nov,Returning_Visitor,10,4,0.8147,2,Window Shoppers
+11565,81.44%,True,75.50833257,Dec,Returning_Visitor,2,7,0.8144,2,Window Shoppers
+5399,81.43%,True,32.70034468,Jul,Returning_Visitor,1,6,0.8143,2,Window Shoppers
+841,81.41%,True,11.1076505,Mar,Returning_Visitor,2,1,0.8140999999999999,2,Window Shoppers
+11437,81.38%,False,0.789591795,Nov,Returning_Visitor,2,2,0.8138,2,Window Shoppers
+1072,81.38%,False,21.92521348,Mar,Returning_Visitor,1,6,0.8138,2,Window Shoppers
+9075,81.37%,False,3.0265717,Nov,Returning_Visitor,6,3,0.8137000000000001,2,Window Shoppers
+11450,81.37%,False,3.014025584,Nov,Returning_Visitor,2,1,0.8137000000000001,2,Window Shoppers
+2139,81.36%,True,59.988,May,Returning_Visitor,2,1,0.8136,2,Window Shoppers
+11862,81.32%,False,4.452664494,Nov,Returning_Visitor,2,3,0.8131999999999999,2,Window Shoppers
+5165,81.27%,False,62.866,May,Returning_Visitor,13,4,0.8127,2,Window Shoppers
+4553,81.25%,True,54.98,May,Returning_Visitor,3,3,0.8125,2,Window Shoppers
+1875,81.24%,True,10.3572,Mar,Returning_Visitor,2,1,0.8123999999999999,2,Window Shoppers
+8005,81.23%,True,46.6785275,Nov,Returning_Visitor,2,3,0.8123,2,Window Shoppers
+4154,81.23%,False,19.34826667,May,Returning_Visitor,1,6,0.8123,2,Window Shoppers
+7088,81.21%,True,4.428052445,Nov,Returning_Visitor,3,6,0.8120999999999999,2,Window Shoppers
+10366,81.20%,True,34.60160214,Nov,Returning_Visitor,2,6,0.812,2,Window Shoppers
+9369,81.18%,False,44.33548922,Nov,Returning_Visitor,2,7,0.8118000000000001,2,Window Shoppers
+5535,81.17%,True,27.287869,Oct,Returning_Visitor,1,4,0.8117,2,Window Shoppers
+7408,81.15%,True,33.05509961,Nov,Returning_Visitor,2,7,0.8115000000000001,2,Window Shoppers
+6503,81.13%,True,4.760328465,Jul,Returning_Visitor,1,4,0.8112999999999999,2,Window Shoppers
+5488,81.13%,False,39.96971545,Aug,Returning_Visitor,4,1,0.8112999999999999,2,Window Shoppers
+10918,81.13%,False,7.059929851,Nov,Returning_Visitor,2,6,0.8112999999999999,2,Window Shoppers
+11793,81.12%,True,3.05990612,Nov,Returning_Visitor,2,9,0.8112,2,Window Shoppers
+10040,81.12%,True,22.42576795,Nov,Returning_Visitor,2,1,0.8112,2,Window Shoppers
+8901,81.12%,True,4.113391331,Nov,Returning_Visitor,13,1,0.8112,2,Window Shoppers
+12128,81.10%,True,31.81967723,Dec,Returning_Visitor,2,8,0.8109999999999999,2,Window Shoppers
+7115,81.09%,True,17.72722287,June,Returning_Visitor,2,5,0.8109000000000001,2,Window Shoppers
+11691,81.07%,False,23.33239205,Nov,Returning_Visitor,10,1,0.8107,2,Window Shoppers
+5376,81.05%,True,19.82770888,Jul,Returning_Visitor,13,7,0.8105,2,Window Shoppers
+9901,81.03%,True,2.638074656,Nov,Returning_Visitor,10,1,0.8103,2,Window Shoppers
+2530,80.91%,False,18.370625,May,Returning_Visitor,4,1,0.8090999999999999,2,Window Shoppers
+11892,80.85%,True,13.64300463,Dec,Returning_Visitor,3,3,0.8085,2,Window Shoppers
+3305,80.82%,True,14.75710476,May,Returning_Visitor,3,1,0.8081999999999999,2,Window Shoppers
+11044,80.82%,True,4.289678861,Nov,Returning_Visitor,2,3,0.8081999999999999,2,Window Shoppers
+3606,80.81%,True,43.99,May,Returning_Visitor,2,3,0.8081,2,Window Shoppers
+8262,80.81%,True,2.038399449,Nov,Returning_Visitor,10,1,0.8081,2,Window Shoppers
+7171,80.81%,False,47.65907425,June,Returning_Visitor,4,2,0.8081,2,Window Shoppers
+9916,80.80%,True,10.3889438,Nov,Returning_Visitor,3,4,0.8079999999999999,2,Window Shoppers
+9736,80.79%,True,5.770973155,Nov,Returning_Visitor,13,1,0.8079000000000001,2,Window Shoppers
+12154,80.76%,False,18.67564853,Nov,Returning_Visitor,1,1,0.8076000000000001,2,Window Shoppers
+10196,80.75%,True,11.37726052,Nov,Returning_Visitor,2,2,0.8075,2,Window Shoppers
+4266,80.71%,False,13.11145455,May,Returning_Visitor,13,5,0.8070999999999999,2,Window Shoppers
+10203,80.70%,True,27.75787044,Nov,Returning_Visitor,1,3,0.807,2,Window Shoppers
+798,80.70%,True,13.00183962,Mar,Returning_Visitor,2,2,0.807,2,Window Shoppers
+3961,80.66%,False,10.07328,May,Returning_Visitor,3,8,0.8066,2,Window Shoppers
+8818,80.63%,True,6.49391045,Nov,Returning_Visitor,10,3,0.8062999999999999,2,Window Shoppers
+7198,80.62%,True,0.714623214,June,Returning_Visitor,2,1,0.8062,2,Window Shoppers
+11234,80.58%,False,18.08071442,Nov,New_Visitor,2,1,0.8058,2,Window Shoppers
+8032,80.57%,False,2.514977953,Nov,Returning_Visitor,3,1,0.8057,2,Window Shoppers
+3705,80.56%,False,37.60935484,May,Returning_Visitor,2,1,0.8056,2,Window Shoppers
+9822,80.54%,True,9.581162201,Nov,Returning_Visitor,3,1,0.8054000000000001,2,Window Shoppers
+685,80.51%,True,69.43043195,Mar,Returning_Visitor,3,3,0.8051,2,Window Shoppers
+4680,80.49%,True,27.81913043,May,Returning_Visitor,4,3,0.8049,2,Window Shoppers
+4335,80.48%,False,18.844,May,Returning_Visitor,4,3,0.8048000000000001,2,Window Shoppers
+260,80.47%,True,8.772473118,Mar,Returning_Visitor,2,3,0.8047,2,Window Shoppers
+194,80.46%,True,19.34265017,Mar,New_Visitor,2,4,0.8046,2,Window Shoppers
+2715,80.45%,True,14.96432,May,Returning_Visitor,20,4,0.8045,2,Window Shoppers
+4058,80.40%,False,26.34343478,May,Returning_Visitor,11,6,0.804,2,Window Shoppers
+5976,80.39%,True,12.39204312,Sep,Returning_Visitor,2,6,0.8039000000000001,2,Window Shoppers
+11769,80.38%,True,0.951933747,Nov,Returning_Visitor,2,3,0.8038,2,Window Shoppers
+8520,80.31%,True,10.11599409,Nov,Returning_Visitor,3,1,0.8031,2,Window Shoppers
+5113,80.31%,True,39.15,May,Returning_Visitor,6,3,0.8031,2,Window Shoppers
+10675,80.30%,False,5.698711043,Nov,Returning_Visitor,2,3,0.8029999999999999,2,Window Shoppers
+3290,80.29%,True,9.380377049,May,Returning_Visitor,2,6,0.8029000000000001,2,Window Shoppers
+9126,80.28%,True,18.60589711,Nov,New_Visitor,20,9,0.8028,2,Window Shoppers
+11415,80.23%,True,48.60623685,Nov,Returning_Visitor,3,1,0.8023,2,Window Shoppers
+2376,80.23%,False,33.6501,May,Returning_Visitor,2,3,0.8023,2,Window Shoppers
+9902,80.22%,True,5.04016763,Nov,Returning_Visitor,11,3,0.8022,2,Window Shoppers
+7432,80.22%,True,27.93478267,Jul,Returning_Visitor,4,4,0.8022,2,Window Shoppers
+377,80.22%,True,16.14384,Mar,Returning_Visitor,2,4,0.8022,2,Window Shoppers
+6579,80.21%,True,18.08644865,Jul,Returning_Visitor,4,2,0.8020999999999999,2,Window Shoppers
+6791,80.17%,False,17.92983378,Oct,New_Visitor,3,7,0.8017,2,Window Shoppers
+3229,80.16%,True,15.51193548,May,Returning_Visitor,13,1,0.8016,2,Window Shoppers
+5918,80.14%,True,48.04390582,Oct,Returning_Visitor,2,3,0.8014,2,Window Shoppers
+11870,80.12%,False,3.303059969,Nov,Returning_Visitor,2,1,0.8012,2,Window Shoppers
+8236,80.07%,True,8.258088766,Nov,Returning_Visitor,3,2,0.8007,2,Window Shoppers
+9505,80.06%,True,38.7483363,Nov,Returning_Visitor,1,1,0.8006,2,Window Shoppers
+4093,80.05%,False,16.12416,May,Returning_Visitor,4,1,0.8005,2,Window Shoppers
+8544,80.04%,True,2.325663803,Nov,Returning_Visitor,3,3,0.8004000000000001,2,Window Shoppers
+2985,80.04%,True,12.18,May,Returning_Visitor,3,4,0.8004000000000001,2,Window Shoppers
+10486,80.01%,True,20.50963783,Nov,Returning_Visitor,1,7,0.8001,2,Window Shoppers
+8711,79.98%,True,3.920321611,Nov,Returning_Visitor,2,1,0.7998000000000001,2,Window Shoppers
+9861,79.95%,True,7.296889074,Nov,Returning_Visitor,2,2,0.7995,2,Window Shoppers
+11613,79.94%,False,4.280302196,Nov,Returning_Visitor,1,4,0.7994,2,Window Shoppers
+10332,79.92%,True,35.60912359,Nov,Returning_Visitor,11,3,0.7992,2,Window Shoppers
+9014,79.88%,True,7.935285933,Nov,Returning_Visitor,13,2,0.7988,2,Window Shoppers
+6737,79.86%,False,21.14016404,Sep,Returning_Visitor,1,7,0.7986,2,Window Shoppers
+1424,79.82%,False,9.543060317,Mar,Returning_Visitor,8,3,0.7981999999999999,2,Window Shoppers
+197,79.82%,True,96.25511582,Mar,New_Visitor,2,1,0.7981999999999999,2,Window Shoppers
+801,79.81%,True,23.86359286,Mar,Returning_Visitor,1,1,0.7981,2,Window Shoppers
+11337,79.79%,True,14.96948769,Nov,Returning_Visitor,3,3,0.7979,2,Window Shoppers
+1160,79.78%,True,10.8692605,Mar,Returning_Visitor,1,7,0.7978000000000001,2,Window Shoppers
+7526,79.76%,False,35.25541691,Nov,Returning_Visitor,5,3,0.7976000000000001,2,Window Shoppers
+9458,79.75%,True,64.81173101,Nov,Returning_Visitor,1,1,0.7975,2,Window Shoppers
+4122,79.75%,True,48.864,May,Returning_Visitor,4,3,0.7975,2,Window Shoppers
+9491,79.75%,True,1.943058508,Nov,Returning_Visitor,3,1,0.7975,2,Window Shoppers
+1917,79.74%,True,27.38224222,Mar,Returning_Visitor,2,5,0.7974,2,Window Shoppers
+11175,79.72%,True,19.66912605,Dec,Returning_Visitor,7,2,0.7972,2,Window Shoppers
+8289,79.69%,True,38.88816225,Nov,Returning_Visitor,2,3,0.7968999999999999,2,Window Shoppers
+9836,79.62%,False,8.27583441,Nov,Returning_Visitor,10,8,0.7962,2,Window Shoppers
+11906,79.62%,False,2.270358059,Nov,Returning_Visitor,2,5,0.7962,2,Window Shoppers
+1494,79.62%,True,3.810575284,Mar,Returning_Visitor,10,7,0.7962,2,Window Shoppers
+10099,79.61%,True,10.82357287,Nov,Returning_Visitor,2,7,0.7961,2,Window Shoppers
+8584,79.58%,False,54.121714,Nov,Returning_Visitor,2,3,0.7958,2,Window Shoppers
+2853,79.45%,True,22.58886486,May,Returning_Visitor,4,3,0.7945,2,Window Shoppers
+4341,79.45%,True,6.624947368,May,Returning_Visitor,13,2,0.7945,2,Window Shoppers
+7593,79.44%,True,45.19820194,June,Returning_Visitor,1,1,0.7944,2,Window Shoppers
+10034,79.43%,True,46.21605051,Nov,Returning_Visitor,3,3,0.7943000000000001,2,Window Shoppers
+7054,79.43%,True,4.818947334,Oct,Returning_Visitor,20,3,0.7943000000000001,2,Window Shoppers
+6163,79.43%,True,7.56292207,Nov,Returning_Visitor,2,2,0.7943000000000001,2,Window Shoppers
+9504,79.40%,True,8.045767732,Nov,Returning_Visitor,2,4,0.794,2,Window Shoppers
+4160,79.39%,True,23.32166667,May,New_Visitor,2,4,0.7939,2,Window Shoppers
+9781,79.36%,True,12.32661404,Nov,Returning_Visitor,1,1,0.7936,2,Window Shoppers
+3473,79.32%,False,24.34016667,May,Returning_Visitor,6,1,0.7931999999999999,2,Window Shoppers
+3758,79.28%,True,102.3538378,May,Returning_Visitor,4,7,0.7928000000000001,2,Window Shoppers
+11589,79.27%,True,7.868980948,Nov,Returning_Visitor,2,6,0.7927,2,Window Shoppers
+10342,79.20%,True,55.46963196,Nov,Returning_Visitor,8,3,0.792,2,Window Shoppers
+9817,79.14%,True,13.90010917,Nov,Returning_Visitor,3,3,0.7914,2,Window Shoppers
+6159,79.12%,True,27.69500776,Nov,New_Visitor,20,9,0.7912,2,Window Shoppers
+8742,79.10%,True,9.242286032,Nov,Returning_Visitor,2,4,0.7909999999999999,2,Window Shoppers
+3283,79.09%,True,63.39474419,May,New_Visitor,2,3,0.7909,2,Window Shoppers
+5339,79.08%,True,17.5455,May,Returning_Visitor,2,1,0.7908,2,Window Shoppers
+3971,79.05%,True,8.887111111,May,Returning_Visitor,3,1,0.7905,2,Window Shoppers
+11153,79.04%,True,14.02863873,Nov,Returning_Visitor,3,1,0.7904000000000001,2,Window Shoppers
+1383,79.00%,False,26.66133333,Mar,Returning_Visitor,8,1,0.79,2,Window Shoppers
+4269,79.00%,False,16.53909091,May,New_Visitor,2,4,0.79,2,Window Shoppers
+8288,78.96%,False,1.935491302,Nov,Returning_Visitor,8,3,0.7896,2,Window Shoppers
+1747,78.89%,True,10.91300022,Mar,Returning_Visitor,1,1,0.7889,2,Window Shoppers
+7470,78.87%,True,37.35725827,Nov,Returning_Visitor,2,5,0.7887000000000001,2,Window Shoppers
+8400,78.86%,True,30.21878011,Nov,Returning_Visitor,2,1,0.7886,2,Window Shoppers
+1334,78.86%,True,78.34560177,Mar,Returning_Visitor,8,1,0.7886,2,Window Shoppers
+9069,78.83%,True,22.95499447,Nov,Returning_Visitor,6,2,0.7883,2,Window Shoppers
+6826,78.81%,False,33.61787649,Sep,Returning_Visitor,1,2,0.7881,2,Window Shoppers
+4571,78.81%,False,58.105625,May,Returning_Visitor,4,3,0.7881,2,Window Shoppers
+9189,78.78%,False,32.4141704,Nov,Returning_Visitor,2,6,0.7878000000000001,2,Window Shoppers
+6327,78.77%,True,12.1958841,Oct,Returning_Visitor,2,3,0.7877,2,Window Shoppers
+9756,78.75%,False,34.98992634,Nov,Returning_Visitor,11,1,0.7875,2,Window Shoppers
+5894,78.74%,False,67.30929078,Nov,Returning_Visitor,2,5,0.7874,2,Window Shoppers
+11233,78.73%,True,32.22246226,Nov,Returning_Visitor,1,1,0.7873,2,Window Shoppers
+9784,78.70%,False,28.03795985,Nov,Returning_Visitor,6,1,0.787,2,Window Shoppers
+9595,78.70%,False,18.08361086,Nov,Returning_Visitor,2,3,0.787,2,Window Shoppers
+10581,78.66%,False,4.741626063,Nov,Returning_Visitor,2,4,0.7866,2,Window Shoppers
+5464,78.66%,False,26.13034871,Nov,Returning_Visitor,20,9,0.7866,2,Window Shoppers
+1634,78.66%,True,80.68062856,Mar,New_Visitor,2,4,0.7866,2,Window Shoppers
+10836,78.64%,True,31.63684138,Nov,Returning_Visitor,8,1,0.7864,2,Window Shoppers
+4694,78.64%,True,11.8290411,May,Returning_Visitor,4,1,0.7864,2,Window Shoppers
+2489,78.61%,True,15.08488235,May,Returning_Visitor,2,3,0.7861,2,Window Shoppers
+6494,78.60%,True,10.95661974,Sep,Returning_Visitor,1,3,0.7859999999999999,2,Window Shoppers
+2666,78.59%,True,19.4281,May,Returning_Visitor,2,1,0.7859,2,Window Shoppers
+2310,78.56%,True,23.60518919,May,Returning_Visitor,4,8,0.7856000000000001,2,Window Shoppers
+12189,78.56%,True,78.81172527,Dec,Returning_Visitor,2,1,0.7856000000000001,2,Window Shoppers
+5992,78.53%,False,25.85442016,Nov,Returning_Visitor,4,2,0.7853,2,Window Shoppers
+2923,78.47%,True,17.16745965,May,Returning_Visitor,6,1,0.7847,2,Window Shoppers
+6234,78.43%,True,40.659727,Sep,Returning_Visitor,13,4,0.7843000000000001,2,Window Shoppers
+7453,78.36%,True,10.57326688,Nov,Returning_Visitor,3,6,0.7836,2,Window Shoppers
+6410,78.32%,True,11.7031641,Sep,Returning_Visitor,13,9,0.7831999999999999,2,Window Shoppers
+6758,78.32%,False,25.11150884,Nov,Returning_Visitor,4,4,0.7831999999999999,2,Window Shoppers
+1960,78.31%,True,49.47040982,Mar,Returning_Visitor,2,3,0.7831,2,Window Shoppers
+1278,78.31%,True,29.24325,Mar,Returning_Visitor,1,3,0.7831,2,Window Shoppers
+2670,78.25%,True,19.59533333,May,Returning_Visitor,4,2,0.7825,2,Window Shoppers
+11427,78.22%,False,62.40576241,Nov,Returning_Visitor,2,2,0.7822,2,Window Shoppers
+10776,78.21%,True,25.12339065,Nov,Returning_Visitor,11,9,0.7820999999999999,2,Window Shoppers
+1687,78.20%,True,10.63449802,Mar,Returning_Visitor,1,1,0.782,2,Window Shoppers
+3409,78.19%,True,12.455,May,Returning_Visitor,2,3,0.7818999999999999,2,Window Shoppers
+4551,78.16%,False,38.20357895,May,Returning_Visitor,2,1,0.7816,2,Window Shoppers
+5163,78.14%,True,31.75764706,May,Returning_Visitor,2,8,0.7814,2,Window Shoppers
+3709,78.11%,False,19.1127451,May,Returning_Visitor,4,6,0.7811,2,Window Shoppers
+9160,78.10%,False,4.770910365,Nov,Returning_Visitor,13,1,0.7809999999999999,2,Window Shoppers
+2115,78.10%,True,26.983125,May,New_Visitor,4,3,0.7809999999999999,2,Window Shoppers
+5351,78.04%,True,9.7455,May,Returning_Visitor,4,1,0.7804000000000001,2,Window Shoppers
+6138,78.03%,True,52.28594057,Oct,Returning_Visitor,2,1,0.7803,2,Window Shoppers
+4100,78.03%,True,56.62363636,May,Returning_Visitor,4,1,0.7803,2,Window Shoppers
+2345,78.02%,True,5.4945,May,Returning_Visitor,11,2,0.7802,2,Window Shoppers
+9210,78.00%,True,1.606825723,Nov,Returning_Visitor,2,1,0.78,2,Window Shoppers
+7539,77.98%,True,5.887666731,Nov,Returning_Visitor,2,4,0.7798,2,Window Shoppers
+12161,77.97%,False,7.147603773,Nov,Returning_Visitor,2,2,0.7797,2,Window Shoppers
+397,77.97%,True,11.92009615,Mar,Returning_Visitor,2,7,0.7797,2,Window Shoppers
+5994,77.96%,True,9.869649371,Oct,Returning_Visitor,20,1,0.7796,2,Window Shoppers
+10264,77.92%,True,33.69233226,Nov,Returning_Visitor,2,1,0.7792,2,Window Shoppers
+6648,77.91%,False,14.92784091,Nov,Returning_Visitor,2,1,0.7791,2,Window Shoppers
+1474,77.89%,False,33.32796813,Mar,Returning_Visitor,1,3,0.7789,2,Window Shoppers
+4010,77.80%,True,50.82975,May,Returning_Visitor,2,1,0.778,2,Window Shoppers
+6654,77.80%,True,24.57349606,Jul,Returning_Visitor,1,9,0.778,2,Window Shoppers
+3590,77.76%,False,15.40042308,May,Returning_Visitor,4,7,0.7776000000000001,2,Window Shoppers
+9514,77.75%,True,0.780277403,Nov,Returning_Visitor,3,7,0.7775,2,Window Shoppers
+739,77.74%,True,3.609398514,Mar,Returning_Visitor,3,7,0.7774,2,Window Shoppers
+1584,77.70%,False,24.13073118,Mar,Returning_Visitor,2,4,0.777,2,Window Shoppers
+7904,77.68%,False,18.04114817,Nov,Returning_Visitor,13,6,0.7768,2,Window Shoppers
+10851,77.64%,True,18.1270044,Nov,Returning_Visitor,1,1,0.7764,2,Window Shoppers
+10902,77.59%,True,15.1510483,Dec,Returning_Visitor,2,3,0.7759,2,Window Shoppers
+2890,77.54%,True,82.12367816,May,New_Visitor,4,7,0.7754000000000001,2,Window Shoppers
+6844,77.52%,False,16.61211742,Aug,Returning_Visitor,1,3,0.7752,2,Window Shoppers
+1358,77.50%,True,62.34813701,Mar,Returning_Visitor,2,1,0.775,2,Window Shoppers
+537,77.49%,False,22.80152439,Mar,Returning_Visitor,2,1,0.7748999999999999,2,Window Shoppers
+5668,77.46%,True,19.9656361,Sep,Returning_Visitor,4,3,0.7746,2,Window Shoppers
+6695,77.38%,False,11.43180835,Sep,Returning_Visitor,2,1,0.7737999999999999,2,Window Shoppers
+6154,77.33%,True,39.42556512,Jul,Returning_Visitor,1,1,0.7733,2,Window Shoppers
+6393,77.28%,True,52.97841866,Jul,Returning_Visitor,4,9,0.7728,2,Window Shoppers
+7394,77.27%,False,19.64189593,Nov,Returning_Visitor,5,6,0.7726999999999999,2,Window Shoppers
+8736,77.24%,True,51.00308169,Dec,Returning_Visitor,10,4,0.7724,2,Window Shoppers
+5359,77.24%,True,32.70730435,May,Returning_Visitor,1,4,0.7724,2,Window Shoppers
+6385,77.23%,True,10.99901844,Sep,Returning_Visitor,1,1,0.7723,2,Window Shoppers
+9665,77.23%,True,19.03391341,Nov,Returning_Visitor,2,7,0.7723,2,Window Shoppers
+8245,77.21%,True,0.680988542,Nov,Returning_Visitor,2,4,0.7720999999999999,2,Window Shoppers
+10097,77.21%,True,11.65798375,Nov,Returning_Visitor,1,1,0.7720999999999999,2,Window Shoppers
+9012,77.19%,True,127.3080148,Dec,Returning_Visitor,2,1,0.7719,2,Window Shoppers
+4184,77.19%,True,23.61948148,May,Returning_Visitor,4,3,0.7719,2,Window Shoppers
+2689,77.18%,True,12.55885714,May,Returning_Visitor,4,1,0.7718,2,Window Shoppers
+9305,77.16%,True,4.511078764,Nov,Returning_Visitor,2,3,0.7716,2,Window Shoppers
+10129,77.13%,False,1.842913617,Nov,Returning_Visitor,2,4,0.7713,2,Window Shoppers
+6245,77.09%,True,20.71678117,Aug,Returning_Visitor,3,3,0.7709,2,Window Shoppers
+3077,77.01%,True,26.22981818,May,Returning_Visitor,4,1,0.7701,2,Window Shoppers
+8399,76.99%,True,6.709440135,Nov,Returning_Visitor,2,3,0.7698999999999999,2,Window Shoppers
+1699,76.99%,True,5.417644444,Mar,Returning_Visitor,2,1,0.7698999999999999,2,Window Shoppers
+4420,76.94%,True,43.81043478,May,Returning_Visitor,1,2,0.7694,2,Window Shoppers
+9992,76.89%,False,8.788976395,Nov,Returning_Visitor,2,4,0.7689,2,Window Shoppers
+11733,76.89%,True,4.470297685,Nov,Returning_Visitor,1,7,0.7689,2,Window Shoppers
+1312,76.87%,True,16.88069613,Mar,Returning_Visitor,2,1,0.7687,2,Window Shoppers
+7223,76.85%,True,40.77935433,Nov,Returning_Visitor,2,4,0.7685,2,Window Shoppers
+10145,76.84%,False,0.245152903,Nov,Returning_Visitor,2,4,0.7684000000000001,2,Window Shoppers
+12061,76.83%,False,33.31220592,Nov,Returning_Visitor,2,1,0.7683,2,Window Shoppers
+11426,76.79%,True,3.726530231,Nov,Returning_Visitor,2,1,0.7679,2,Window Shoppers
+5186,76.76%,False,19.3154,May,Returning_Visitor,2,1,0.7676000000000001,2,Window Shoppers
+3150,76.73%,True,12.8915,May,New_Visitor,3,1,0.7673000000000001,2,Window Shoppers
+5623,76.72%,True,19.13285864,Nov,Returning_Visitor,2,4,0.7672,2,Window Shoppers
+9787,76.71%,True,71.38981221,Dec,Returning_Visitor,3,4,0.7670999999999999,2,Window Shoppers
+11472,76.67%,True,39.59436227,Dec,Returning_Visitor,1,4,0.7667,2,Window Shoppers
+4327,76.67%,False,28.52788235,May,Returning_Visitor,4,3,0.7667,2,Window Shoppers
+7542,76.62%,False,42.9845308,Oct,Returning_Visitor,2,3,0.7662,2,Window Shoppers
+10301,76.59%,True,5.907475939,Nov,Returning_Visitor,2,4,0.7659,2,Window Shoppers
+6302,76.57%,False,55.82099528,Sep,New_Visitor,2,1,0.7656999999999999,2,Window Shoppers
+7672,76.56%,False,42.29306752,Jul,New_Visitor,3,3,0.7656000000000001,2,Window Shoppers
+5745,76.56%,False,12.50786523,Nov,Returning_Visitor,2,6,0.7656000000000001,2,Window Shoppers
+6278,76.55%,True,6.711290592,Nov,Returning_Visitor,2,7,0.7655,2,Window Shoppers
+3489,76.54%,True,23.87629104,May,Returning_Visitor,13,9,0.7654000000000001,2,Window Shoppers
+2210,76.51%,False,32.68969091,May,Returning_Visitor,4,3,0.7651,2,Window Shoppers
+845,76.50%,False,8.497935484,Mar,Returning_Visitor,2,4,0.765,2,Window Shoppers
+2938,76.45%,True,11.01942857,May,Returning_Visitor,2,3,0.7645000000000001,2,Window Shoppers
+2027,76.40%,True,19.996,Mar,Returning_Visitor,1,3,0.764,2,Window Shoppers
+5213,76.38%,True,53.66290909,May,Returning_Visitor,3,6,0.7637999999999999,2,Window Shoppers
+8460,76.33%,True,7.201209277,Nov,Returning_Visitor,2,4,0.7633,2,Window Shoppers
+7093,76.26%,True,88.06848401,Nov,New_Visitor,2,7,0.7626000000000001,2,Window Shoppers
+2941,76.26%,True,16.1892,May,Returning_Visitor,1,7,0.7626000000000001,2,Window Shoppers
+9960,76.26%,False,3.941736143,Nov,Returning_Visitor,2,4,0.7626000000000001,2,Window Shoppers
+8781,76.16%,False,3.277744575,Nov,Returning_Visitor,2,6,0.7615999999999999,2,Window Shoppers
+10363,76.14%,True,14.99601118,Nov,Returning_Visitor,1,4,0.7614,2,Window Shoppers
+7345,76.12%,False,13.38353821,Jul,Returning_Visitor,6,1,0.7612000000000001,2,Window Shoppers
+10830,76.11%,True,13.55041394,Nov,Returning_Visitor,2,4,0.7611,2,Window Shoppers
+9859,76.09%,False,14.69960115,Nov,Returning_Visitor,2,7,0.7609,2,Window Shoppers
+6185,76.07%,True,2.480024644,Nov,Returning_Visitor,1,1,0.7606999999999999,2,Window Shoppers
+11080,76.06%,True,21.2112655,Dec,Returning_Visitor,2,9,0.7606,2,Window Shoppers
+5675,76.03%,False,19.57059225,Oct,Returning_Visitor,2,1,0.7603,2,Window Shoppers
+7623,76.03%,False,14.53547145,Jul,Returning_Visitor,5,3,0.7603,2,Window Shoppers
+5728,76.02%,False,17.35448787,Nov,Returning_Visitor,3,1,0.7602,2,Window Shoppers
+6021,75.97%,False,19.23268976,Nov,Returning_Visitor,4,6,0.7597,2,Window Shoppers
+10066,75.97%,True,5.793026792,Nov,Returning_Visitor,2,3,0.7597,2,Window Shoppers
+1545,75.96%,True,4.745736842,Mar,Returning_Visitor,10,1,0.7595999999999999,2,Window Shoppers
+8292,75.93%,False,68.20038032,Dec,Returning_Visitor,10,1,0.7593000000000001,2,Window Shoppers
+2290,75.90%,True,22.62989583,May,Returning_Visitor,11,2,0.759,2,Window Shoppers
+8294,75.86%,False,5.237224754,Nov,Returning_Visitor,13,1,0.7585999999999999,2,Window Shoppers
+1814,75.85%,True,31.54642738,Mar,Returning_Visitor,2,1,0.7585,2,Window Shoppers
+11738,75.79%,False,20.32548134,Nov,Returning_Visitor,11,2,0.7579,2,Window Shoppers
+7095,75.69%,True,31.74373458,Nov,Returning_Visitor,2,1,0.7569,2,Window Shoppers
+4424,75.65%,True,69.2786087,May,Returning_Visitor,4,1,0.7565000000000001,2,Window Shoppers
+7282,75.64%,True,8.391281758,Oct,Returning_Visitor,2,3,0.7564,2,Window Shoppers
+9059,75.62%,False,38.60204838,Nov,Returning_Visitor,2,1,0.7562000000000001,2,Window Shoppers
+7520,75.61%,True,19.61979883,Sep,Returning_Visitor,3,4,0.7561,2,Window Shoppers
+11027,75.58%,True,9.650250036,Nov,Returning_Visitor,11,3,0.7558,2,Window Shoppers
+11473,75.57%,False,18.13388282,Nov,Returning_Visitor,11,1,0.7556999999999999,2,Window Shoppers
+9311,75.52%,False,10.66936985,Nov,Returning_Visitor,2,3,0.7552,2,Window Shoppers
+3546,75.45%,True,42.41914286,May,Returning_Visitor,14,2,0.7545000000000001,2,Window Shoppers
+6615,75.43%,True,44.89345937,Oct,Returning_Visitor,4,7,0.7543000000000001,2,Window Shoppers
+7619,75.41%,False,21.32413414,Sep,Returning_Visitor,7,8,0.7541,2,Window Shoppers
+10655,75.40%,False,23.59811637,Nov,Returning_Visitor,2,4,0.754,2,Window Shoppers
+11626,75.39%,True,62.86831138,Nov,Returning_Visitor,1,1,0.7539,2,Window Shoppers
+8167,75.34%,False,21.85958403,Nov,Returning_Visitor,2,1,0.7534000000000001,2,Window Shoppers
+66,75.34%,True,22.9160357,Feb,Returning_Visitor,1,3,0.7534000000000001,2,Window Shoppers
+12149,75.33%,False,11.61864445,Nov,Returning_Visitor,1,1,0.7533,2,Window Shoppers
+11771,75.31%,True,7.477388113,Nov,Returning_Visitor,1,1,0.7531,2,Window Shoppers
+5539,75.31%,True,1.023391581,Jul,Returning_Visitor,4,8,0.7531,2,Window Shoppers
+1731,75.29%,False,18.20995652,Mar,Returning_Visitor,2,7,0.7529,2,Window Shoppers
+11974,75.25%,True,6.898232461,Nov,Returning_Visitor,3,1,0.7525,2,Window Shoppers
+1297,75.24%,True,16.94643793,Mar,Returning_Visitor,8,3,0.7524,2,Window Shoppers
+10260,75.24%,False,5.552517289,Nov,Returning_Visitor,10,3,0.7524,2,Window Shoppers
+10074,75.16%,True,24.28901413,Nov,Returning_Visitor,3,1,0.7515999999999999,2,Window Shoppers
+749,75.16%,True,43.3616369,Mar,Returning_Visitor,2,1,0.7515999999999999,2,Window Shoppers
+7335,75.12%,True,7.826836353,Aug,Returning_Visitor,2,1,0.7512000000000001,2,Window Shoppers
+6562,75.08%,True,3.586636448,Sep,Returning_Visitor,2,1,0.7508,2,Window Shoppers
+3042,75.07%,True,49.66307692,May,Returning_Visitor,2,4,0.7506999999999999,2,Window Shoppers
+11149,75.07%,True,3.86863332,Nov,Returning_Visitor,1,2,0.7506999999999999,2,Window Shoppers
+1788,75.04%,False,50.66498303,Mar,Returning_Visitor,3,4,0.7504000000000001,2,Window Shoppers
+8250,75.02%,True,5.482895824,Nov,Returning_Visitor,2,1,0.7502,2,Window Shoppers
+6610,75.01%,True,40.27815244,Sep,New_Visitor,6,1,0.7501000000000001,2,Window Shoppers
+5606,74.98%,True,12.08836478,Oct,Returning_Visitor,13,1,0.7498,2,Window Shoppers
+12126,74.98%,False,3.451072113,Nov,Returning_Visitor,2,2,0.7498,2,Window Shoppers
+5954,74.93%,False,9.231934863,Nov,Returning_Visitor,6,1,0.7493000000000001,2,Window Shoppers
+8325,74.91%,True,13.76473644,Nov,Returning_Visitor,2,3,0.7491,2,Window Shoppers
+10123,74.89%,True,9.581561053,Nov,Returning_Visitor,1,3,0.7489,2,Window Shoppers
+10314,74.86%,False,17.60269465,Nov,Returning_Visitor,10,1,0.7486,2,Window Shoppers
+1478,74.85%,True,19.3654955,Mar,Returning_Visitor,2,1,0.7484999999999999,2,Window Shoppers
+2240,74.81%,True,16.04860714,May,Returning_Visitor,13,3,0.7481,2,Window Shoppers
+2342,74.80%,True,65.988,May,Returning_Visitor,11,1,0.748,2,Window Shoppers
+3365,74.79%,True,28.29538462,May,Returning_Visitor,2,1,0.7479,2,Window Shoppers
+10711,74.78%,True,3.546315545,Nov,Returning_Visitor,1,4,0.7478,2,Window Shoppers
+9816,74.77%,True,6.194287817,Nov,Returning_Visitor,1,1,0.7476999999999999,2,Window Shoppers
+8923,74.76%,False,66.57412378,Nov,Returning_Visitor,2,4,0.7476,2,Window Shoppers
+6810,74.76%,True,6.929826318,Nov,Returning_Visitor,4,2,0.7476,2,Window Shoppers
+2988,74.75%,True,15.249,May,Returning_Visitor,3,1,0.7475,2,Window Shoppers
+8572,74.72%,True,50.09121868,Nov,Returning_Visitor,2,5,0.7472,2,Window Shoppers
+10590,74.69%,True,14.45829487,Nov,Returning_Visitor,2,3,0.7469,2,Window Shoppers
+4880,74.68%,True,20.62474136,May,Returning_Visitor,3,6,0.7468,2,Window Shoppers
+2733,74.60%,True,10.4445,May,Returning_Visitor,1,5,0.746,2,Window Shoppers
+2166,74.57%,True,17.69657143,May,New_Visitor,4,1,0.7456999999999999,2,Window Shoppers
+4368,74.55%,True,5.137714286,May,Returning_Visitor,20,4,0.7454999999999999,2,Window Shoppers
+10213,74.51%,False,5.751219035,Nov,Returning_Visitor,2,1,0.7451000000000001,2,Window Shoppers
+11376,74.51%,True,4.59675105,Nov,Returning_Visitor,8,9,0.7451000000000001,2,Window Shoppers
+10395,74.43%,True,18.26940096,Nov,New_Visitor,2,9,0.7443000000000001,2,Window Shoppers
+2479,74.42%,True,7.734903101,May,Returning_Visitor,4,6,0.7442,2,Window Shoppers
+2959,74.37%,False,27.89977528,May,Returning_Visitor,3,6,0.7437,2,Window Shoppers
+5373,74.35%,True,42.29306752,Oct,New_Visitor,3,3,0.7434999999999999,2,Window Shoppers
+5789,74.31%,True,1.273317415,Aug,Returning_Visitor,2,3,0.7431,2,Window Shoppers
+1999,74.30%,True,17.34893623,Mar,Returning_Visitor,2,1,0.743,2,Window Shoppers
+11460,74.30%,True,15.38432962,Nov,Returning_Visitor,2,7,0.743,2,Window Shoppers
+4490,74.26%,True,11.47812903,May,Returning_Visitor,1,4,0.7426,2,Window Shoppers
+2880,74.26%,True,10.02085714,May,Returning_Visitor,4,1,0.7426,2,Window Shoppers
+7531,74.23%,True,15.70942935,Aug,Returning_Visitor,2,2,0.7423000000000001,2,Window Shoppers
+1860,74.21%,False,29.01038502,Mar,New_Visitor,8,1,0.7421,2,Window Shoppers
+5914,74.17%,True,18.09857173,Aug,Returning_Visitor,2,8,0.7417,2,Window Shoppers
+6165,74.14%,True,13.59420027,Sep,Returning_Visitor,2,1,0.7414000000000001,2,Window Shoppers
+3286,74.10%,True,16.07106667,May,Returning_Visitor,2,7,0.741,2,Window Shoppers
+1049,74.09%,True,5.698642857,Mar,Returning_Visitor,10,6,0.7409,2,Window Shoppers
+6001,74.08%,True,22.25592956,Sep,Returning_Visitor,4,8,0.7408,2,Window Shoppers
+9778,74.05%,True,8.960747931,Nov,Returning_Visitor,2,3,0.7404999999999999,2,Window Shoppers
+2259,74.04%,False,18.99269231,May,Returning_Visitor,2,1,0.7404000000000001,2,Window Shoppers
+1339,73.99%,True,6.506831398,Mar,Returning_Visitor,2,2,0.7399,2,Window Shoppers
+3394,73.98%,False,16.197,May,Returning_Visitor,6,6,0.7398,2,Window Shoppers
+2870,73.97%,False,18.12446087,May,Returning_Visitor,4,1,0.7397,2,Window Shoppers
+398,73.94%,True,78.93483561,Mar,Returning_Visitor,1,2,0.7394,2,Window Shoppers
+2201,73.89%,True,12.484125,May,Returning_Visitor,1,8,0.7389,2,Window Shoppers
+11090,73.88%,True,54.10230816,Dec,Returning_Visitor,10,2,0.7387999999999999,2,Window Shoppers
+9626,73.81%,True,7.180348301,Nov,Returning_Visitor,10,3,0.7381,2,Window Shoppers
+11975,73.76%,True,41.55801982,Nov,Returning_Visitor,1,6,0.7376,2,Window Shoppers
+2608,73.74%,True,215.0094118,May,Returning_Visitor,2,4,0.7373999999999999,2,Window Shoppers
+1783,73.73%,True,12.55220741,Mar,Returning_Visitor,1,3,0.7373000000000001,2,Window Shoppers
+9985,73.71%,True,1.777492546,Nov,Returning_Visitor,1,1,0.7371,2,Window Shoppers
+9754,73.68%,True,3.836079931,Dec,Returning_Visitor,7,2,0.7368000000000001,2,Window Shoppers
+10353,73.68%,False,55.31956658,Nov,Returning_Visitor,8,1,0.7368000000000001,2,Window Shoppers
+4871,73.65%,True,11.38642105,May,Returning_Visitor,4,6,0.7365,2,Window Shoppers
+7055,73.60%,True,33.41173784,Jul,Returning_Visitor,13,7,0.736,2,Window Shoppers
+6854,73.59%,True,12.1225775,Oct,Returning_Visitor,2,2,0.7359,2,Window Shoppers
+9467,73.57%,True,15.988034,Nov,Returning_Visitor,2,7,0.7356999999999999,2,Window Shoppers
+4008,73.57%,True,6.588,May,New_Visitor,2,7,0.7356999999999999,2,Window Shoppers
+6838,73.54%,False,20.13907622,Nov,Returning_Visitor,1,3,0.7354,2,Window Shoppers
+2633,73.52%,False,9.922972973,May,Returning_Visitor,3,2,0.7352,2,Window Shoppers
+4586,73.51%,True,12.59766667,May,Returning_Visitor,4,1,0.7351000000000001,2,Window Shoppers
+7626,73.46%,True,59.57182786,Aug,Returning_Visitor,4,1,0.7345999999999999,2,Window Shoppers
+1311,73.44%,True,4.599,Mar,Returning_Visitor,3,1,0.7343999999999999,2,Window Shoppers
+11915,73.42%,True,5.560270538,Nov,Returning_Visitor,2,1,0.7342,2,Window Shoppers
+9235,73.35%,True,20.6672459,Nov,Returning_Visitor,1,3,0.7334999999999999,2,Window Shoppers
+9392,73.34%,False,17.4767153,Nov,Returning_Visitor,2,4,0.7334,2,Window Shoppers
+11314,73.29%,False,17.46396119,Nov,Returning_Visitor,1,3,0.7329000000000001,2,Window Shoppers
+4721,73.19%,False,9.065333333,May,Returning_Visitor,3,1,0.7319,2,Window Shoppers
+6566,73.14%,True,18.74860165,Sep,Returning_Visitor,1,7,0.7314,2,Window Shoppers
+6709,73.11%,True,30.87227217,Sep,Returning_Visitor,2,1,0.7311,2,Window Shoppers
+7023,73.07%,False,13.6630847,Sep,Returning_Visitor,1,4,0.7306999999999999,2,Window Shoppers
+8007,73.04%,True,2.924161864,Nov,Returning_Visitor,3,1,0.7304,2,Window Shoppers
+6205,73.00%,False,32.73373471,Nov,New_Visitor,5,4,0.73,2,Window Shoppers
+672,72.98%,True,3.077836066,Mar,Returning_Visitor,1,3,0.7298,2,Window Shoppers
+9141,72.94%,False,5.772982827,Nov,Returning_Visitor,2,1,0.7293999999999999,2,Window Shoppers
+12141,72.94%,True,1.240071108,Nov,Returning_Visitor,1,8,0.7293999999999999,2,Window Shoppers
+5446,72.91%,False,16.56478478,Oct,Returning_Visitor,2,7,0.7291,2,Window Shoppers
+7380,72.83%,False,14.22049566,Aug,Returning_Visitor,1,2,0.7283,2,Window Shoppers
+5689,72.78%,False,246.7585902,Oct,New_Visitor,2,8,0.7278,2,Window Shoppers
+2017,72.74%,True,1.592774194,Mar,Returning_Visitor,1,4,0.7273999999999999,2,Window Shoppers
+3097,72.74%,True,17.39171429,May,Returning_Visitor,3,3,0.7273999999999999,2,Window Shoppers
+11167,72.69%,False,38.19067209,Nov,Returning_Visitor,2,9,0.7269,2,Window Shoppers
+2572,72.45%,True,9.511714286,May,Returning_Visitor,11,2,0.7245,2,Window Shoppers
+10803,72.43%,True,0.850509525,Nov,Returning_Visitor,1,1,0.7243,2,Window Shoppers
+7769,72.39%,True,27.60143046,Oct,New_Visitor,5,4,0.7239,2,Window Shoppers
+1365,72.30%,True,3.889459459,Mar,Returning_Visitor,2,7,0.723,2,Window Shoppers
+5401,72.29%,False,3.296827304,June,Returning_Visitor,3,2,0.7229000000000001,2,Window Shoppers
+11106,72.25%,False,5.133911853,Nov,Returning_Visitor,2,1,0.7225,2,Window Shoppers
+1484,72.25%,True,12.0921619,Mar,Returning_Visitor,2,6,0.7225,2,Window Shoppers
+11192,72.25%,False,12.20780052,Nov,Returning_Visitor,1,1,0.7225,2,Window Shoppers
+9833,72.22%,False,7.983438638,Nov,Returning_Visitor,2,7,0.7222,2,Window Shoppers
+5613,72.21%,False,17.92758699,Nov,Returning_Visitor,4,1,0.7221,2,Window Shoppers
+11529,72.17%,False,32.13922216,Nov,Returning_Visitor,1,1,0.7217,2,Window Shoppers
+2765,72.17%,True,13.11733918,May,Returning_Visitor,14,1,0.7217,2,Window Shoppers
+8949,72.08%,False,7.150073241,Nov,Returning_Visitor,13,6,0.7208,2,Window Shoppers
+5487,72.07%,True,20.55494533,Sep,Returning_Visitor,1,1,0.7206999999999999,2,Window Shoppers
+1597,72.02%,True,29.35629782,Mar,Returning_Visitor,3,1,0.7202,2,Window Shoppers
+1343,72.01%,True,2.179730769,Mar,Returning_Visitor,11,2,0.7201000000000001,2,Window Shoppers
+7787,71.99%,False,16.35155923,Nov,Returning_Visitor,4,3,0.7199,2,Window Shoppers
+11247,71.93%,False,26.25948159,Dec,Returning_Visitor,10,2,0.7193,2,Window Shoppers
+2309,71.93%,True,32.799375,May,Returning_Visitor,4,6,0.7193,2,Window Shoppers
+2507,71.93%,True,29.77418182,May,Returning_Visitor,2,4,0.7193,2,Window Shoppers
+2015,71.91%,True,16.1728,Mar,Returning_Visitor,2,3,0.7191,2,Window Shoppers
+1848,71.88%,True,1.660118182,Mar,Returning_Visitor,3,7,0.7188,2,Window Shoppers
+5925,71.85%,True,10.17711218,Sep,Returning_Visitor,4,1,0.7184999999999999,2,Window Shoppers
+2159,71.82%,False,23.069,May,Returning_Visitor,5,1,0.7182,2,Window Shoppers
+8535,71.80%,True,9.594846798,Nov,Returning_Visitor,2,1,0.718,2,Window Shoppers
+1969,71.80%,True,5.576720936,Mar,Returning_Visitor,2,4,0.718,2,Window Shoppers
+1549,71.77%,True,19.53495497,Mar,Returning_Visitor,2,3,0.7177,2,Window Shoppers
+9616,71.70%,False,1.984555788,Nov,Returning_Visitor,3,1,0.7170000000000001,2,Window Shoppers
+6840,71.69%,True,6.324477083,Aug,Returning_Visitor,2,8,0.7169,2,Window Shoppers
+1626,71.69%,True,30.897985,Mar,New_Visitor,8,1,0.7169,2,Window Shoppers
+1415,71.67%,False,14.322,Mar,Returning_Visitor,2,6,0.7167,2,Window Shoppers
+3496,71.66%,True,7.204613682,May,Returning_Visitor,4,6,0.7166,2,Window Shoppers
+9034,71.61%,True,45.15513521,Nov,Returning_Visitor,2,1,0.7161,2,Window Shoppers
+11928,71.54%,True,56.57877343,Nov,Returning_Visitor,3,1,0.7154,2,Window Shoppers
+7117,71.36%,True,5.818151241,Oct,Returning_Visitor,2,1,0.7136,2,Window Shoppers
+6124,71.35%,True,23.07581495,Oct,Returning_Visitor,2,1,0.7134999999999999,2,Window Shoppers
+11372,71.35%,True,21.81920724,Nov,Returning_Visitor,1,2,0.7134999999999999,2,Window Shoppers
+5910,71.18%,True,31.91414045,Sep,Returning_Visitor,2,3,0.7118000000000001,2,Window Shoppers
+8639,71.13%,True,15.15643787,Nov,Returning_Visitor,3,1,0.7112999999999999,2,Window Shoppers
+8881,71.10%,False,12.74039337,Nov,Returning_Visitor,1,4,0.711,2,Window Shoppers
+12059,71.00%,True,77.64914484,Dec,Returning_Visitor,2,1,0.71,2,Window Shoppers
+8274,70.99%,True,24.10206377,Dec,New_Visitor,2,1,0.7099,2,Window Shoppers
+5471,70.98%,True,0.847337986,June,Returning_Visitor,7,1,0.7098,2,Window Shoppers
+4875,70.97%,False,11.33463158,May,Returning_Visitor,4,2,0.7097,2,Window Shoppers
+7650,70.91%,True,6.328693274,Oct,Returning_Visitor,1,1,0.7091,2,Window Shoppers
+10327,70.84%,True,8.44235219,Nov,Returning_Visitor,1,1,0.7084,2,Window Shoppers
+3487,70.82%,False,52.08342857,May,Returning_Visitor,4,1,0.7081999999999999,2,Window Shoppers
+11607,70.77%,True,6.028854102,Nov,Returning_Visitor,2,2,0.7077,2,Window Shoppers
+11992,70.74%,False,38.41401623,Nov,Returning_Visitor,3,1,0.7073999999999999,2,Window Shoppers
+10088,70.61%,False,27.97341787,Nov,New_Visitor,2,3,0.7061,2,Window Shoppers
+2904,70.52%,False,75.30864691,May,Returning_Visitor,4,8,0.7051999999999999,2,Window Shoppers
+8767,70.52%,False,3.507532249,Nov,Returning_Visitor,3,1,0.7051999999999999,2,Window Shoppers
+6574,70.50%,True,27.83116147,Sep,Returning_Visitor,1,4,0.705,2,Window Shoppers
+4052,70.48%,True,71.46597872,May,Returning_Visitor,4,2,0.7048000000000001,2,Window Shoppers
+3630,70.46%,True,10.98707143,May,Returning_Visitor,4,3,0.7045999999999999,2,Window Shoppers
+2390,70.42%,False,18.56148,May,Returning_Visitor,4,3,0.7042,2,Window Shoppers
+891,70.41%,True,3.31108,Mar,Returning_Visitor,1,1,0.7041,2,Window Shoppers
+505,70.41%,True,33.6117917,Mar,Returning_Visitor,2,9,0.7041,2,Window Shoppers
+6211,70.41%,False,10.20777685,Oct,Returning_Visitor,2,3,0.7041,2,Window Shoppers
+4070,70.40%,True,14.8513125,May,Returning_Visitor,3,7,0.7040000000000001,2,Window Shoppers
+11318,70.40%,False,41.53706414,Nov,Returning_Visitor,2,9,0.7040000000000001,2,Window Shoppers
+7386,70.38%,True,27.14408757,Sep,Returning_Visitor,2,1,0.7038,2,Window Shoppers
+711,70.38%,True,4.494741228,Mar,Returning_Visitor,1,2,0.7038,2,Window Shoppers
+9599,70.30%,True,11.70614611,Nov,Returning_Visitor,1,2,0.703,2,Window Shoppers
+7581,70.29%,False,30.84751033,Sep,Returning_Visitor,3,9,0.7029000000000001,2,Window Shoppers
+8379,70.23%,False,5.698585477,Nov,Returning_Visitor,2,1,0.7023,2,Window Shoppers
+6483,70.20%,False,11.11383981,Nov,Returning_Visitor,2,2,0.7020000000000001,2,Window Shoppers
+11468,70.19%,False,40.65671234,Nov,Returning_Visitor,2,1,0.7019,2,Window Shoppers
+3485,70.17%,False,31.903875,May,Returning_Visitor,3,1,0.7017,2,Window Shoppers
+7828,70.14%,True,20.503488,Nov,Returning_Visitor,1,1,0.7014,2,Window Shoppers
+9668,70.14%,True,15.27655756,Dec,Returning_Visitor,2,3,0.7014,2,Window Shoppers
+11148,70.10%,True,42.22150549,Nov,Returning_Visitor,2,4,0.701,2,Window Shoppers
+836,70.09%,False,15.32910159,Mar,Returning_Visitor,2,3,0.7009000000000001,2,Window Shoppers
+1508,70.07%,False,9.401136585,Mar,Returning_Visitor,2,2,0.7006999999999999,2,Window Shoppers
+12081,70.05%,True,7.014753437,Nov,Returning_Visitor,3,3,0.7005,2,Window Shoppers
+10789,70.04%,False,3.83397413,Nov,Returning_Visitor,1,2,0.7004,2,Window Shoppers
+10981,70.02%,True,5.157803677,Dec,Returning_Visitor,2,1,0.7001999999999999,2,Window Shoppers

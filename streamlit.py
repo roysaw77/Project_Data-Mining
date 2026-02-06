@@ -75,13 +75,7 @@ def load_data():
 def prepare_encoded_data(df):
     """Prepare encoded data for modeling with highly correlated features dropped"""
     df_encoded = df.copy()
-    
-    # Drop highly correlated features (correlation > 0.85)
-    # BounceRates <-> ExitRates: 0.90 (drop BounceRates, keep ExitRates - higher Revenue corr)
-    # ProductRelated <-> ProductRelated_Duration: 0.86 (drop ProductRelated_Duration, keep ProductRelated)
-    features_to_drop = ['BounceRates', 'ProductRelated_Duration']
-    df_encoded = df_encoded.drop(columns=features_to_drop)
-    
+ 
     # Encode Month
     month_order = {'Feb': 1, 'Mar': 2, 'May': 3, 'June': 4, 'Jul': 5, 
                    'Aug': 6, 'Sep': 7, 'Oct': 8, 'Nov': 9, 'Dec': 10}
@@ -707,6 +701,13 @@ elif page == "🎯 Clustering":
             
             hp_df['Cluster'] = hp_df.apply(assign_cluster, axis=1)
             
+            # Add Cluster_Name column
+            hp_df['Cluster_Name'] = hp_df['Cluster'].map({
+                0: 'High Intent Buyers',
+                1: 'Returning Buyers',
+                2: 'Window Shoppers'
+            })
+            
             # Cluster definitions
             cluster_info = {
                 0: {"name": "🎯 High Intent Buyers", "color": "#4ECDC4", "desc": "High PageValue + High Purchase Probability"},
@@ -777,17 +778,9 @@ elif page == "🎯 Clustering":
                                 actual_purchase = cluster_data['Revenue'].apply(lambda x: x if isinstance(x, bool) else str(x) == 'True').mean() * 100
                                 st.metric("Actual Purchase Rate", f"{actual_purchase:.1f}%")
                         
-                        # Visitor Type breakdown
-                        if 'VisitorType' in cluster_data.columns:
-                            st.markdown("**Visitor Type Distribution:**")
-                            vt_counts = cluster_data['VisitorType'].value_counts()
-                            vt_pct = (vt_counts / len(cluster_data) * 100).round(1)
-                            vt_df = pd.DataFrame({'Count': vt_counts, 'Percentage': vt_pct.apply(lambda x: f"{x}%")})
-                            st.dataframe(vt_df, use_container_width=True)
-                        
                         # Sample customers
                         st.markdown("**Sample Customers (Top 5):**")
-                        display_cols = ['Session_ID', 'Purchase_Probability', 'PageValues', 'VisitorType', 'Month']
+                        display_cols = ['Session_ID', 'Purchase_Probability', 'PageValues', 'Cluster_Name', 'Month']
                         available_cols = [c for c in display_cols if c in cluster_data.columns]
                         st.dataframe(cluster_data[available_cols].head(5), use_container_width=True, hide_index=True)
             
@@ -796,14 +789,7 @@ elif page == "🎯 Clustering":
             # Export clustered data
             st.subheader("📥 Export Clustered Data")
             
-            export_df = hp_df.copy()
-            export_df['Cluster_Name'] = export_df['Cluster'].map({
-                0: 'High Intent Buyers',
-                1: 'Returning Buyers',
-                2: 'Window Shoppers'
-            })
-            
-            csv_export = export_df.to_csv(index=False)
+            csv_export = hp_df.to_csv(index=False)
             st.download_button(
                 label="📥 Download Clustered Customers (CSV)",
                 data=csv_export,
