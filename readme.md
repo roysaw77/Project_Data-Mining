@@ -101,11 +101,10 @@ Create a folder named screenshots in your project root, then save image files an
 
 ### Home / Overview
 ### Classification Dashboard
-![Classification Metrics](screenshots/classification-dashboard.png)
 ![Classfication upload data](image-1.png)
 Upload the CSV file in this section to generate purchase-intent predictions.
 ### High Potential Customers
-![High Potential Customers](![High Potential Customers](image.png))
+![High Potential Customers](![High Potential Customers](image.png)
 This section shows the purchase probability for each customer and helps users quickly identify the highest-intent sessions.
 
 ### Clustering Result
@@ -117,7 +116,7 @@ By uploading the CSV file, you can view a chart that shows how your customers ar
 This section shows which factors have the strongest impact on whether customers decide to buy.
 
 ### AI Analyst Chat
-![AI response](Screenshot 2026-04-14 174340.png)
+![ai text](<Screenshot 2026-04-14 174340.png>)
 Use the AI assistant to get insights from your data.
 ![AI Analyst](image-4.png)
 You can also ask the AI to explain trends or generate plots.
