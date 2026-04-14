@@ -1,5 +1,5 @@
 # Online Shoppers Purchase Intention Dashboard
-
+WEB  URL: https://project-data-mining-customer-intention.streamlit.app/
 This dashboard is designed to help non-technical users turn customer data into clear business insights without needing to write code.
 
 Target users:
@@ -122,19 +122,7 @@ Use the AI assistant to get insights from your data.
 You can also ask the AI to explain trends or generate plots.
 
 ## How to Run
-
-1. Activate your virtual environment.
-2. Install dependencies:
-
-```bash
-pip install streamlit pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn mlxtend pandasai litellm pandasai-litellm
-```
-
-3. Run the app:
-
-```bash
-streamlit run app.py
-```
+https://project-data-mining-customer-intention.streamlit.app/
 
 ## Notes
 
