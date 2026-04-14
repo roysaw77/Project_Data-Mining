@@ -1,10 +1,12 @@
-python version : 3.11
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
 pandasai
 pandasai-litellm
 litellm
 scikit-learn
-xgboost
+xgboost==1.7.6
 imbalanced-learn
 mlxtend
-pandas
-matplotlib
