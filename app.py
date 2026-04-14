@@ -703,16 +703,16 @@ elif page == "🎯 Clustering":
             
             # Add Cluster_Name column
             hp_df['Cluster_Name'] = hp_df['Cluster'].map({
-                0: 'High Intent Buyers',
+                2: 'High Intent Buyers',
                 1: 'Returning Buyers',
-                2: 'Window Shoppers'
+                0: 'Window Shoppers'
             })
             
             # Cluster definitions
             cluster_info = {
-                0: {"name": "🎯 High Intent Buyers", "color": "#4ECDC4", "desc": "High PageValue + High Purchase Probability"},
+                2: {"name": "🎯 High Intent Buyers", "color": "#4ECDC4", "desc": "High PageValue + High Purchase Probability"},
                 1: {"name": "🔄 Returning Buyers", "color": "#667eea", "desc": "Low PageValue + High Purchase Probability (know exactly what they want)"},
-                2: {"name": "👀 Window Shoppers", "color": "#FF6B6B", "desc": "High PageValue + Low Purchase Probability (browse a lot but don't convert)"}
+                0: {"name": "👀 Window Shoppers", "color": "#FF6B6B", "desc": "High PageValue + Low Purchase Probability (browse a lot but don't convert)"}
             }
             
             st.markdown("---")
@@ -994,7 +994,7 @@ elif page == "💬 AI Analyst":
                 try:
                     # Setup LLM and DataFrame
                     llm = LiteLLM(
-                        model="nvidia_nim/meta/llama3-70b-instruct",
+                        model="nvidia_nim/meta/llama-3.1-405b-instruct",
                         api_key="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",
                         stream=False,
                     )
@@ -1008,12 +1008,17 @@ elif page == "💬 AI Analyst":
                     # Get detailed analysis
                     analysis = completion(
                         model="nvidia_nim/google/gemma-2-27b-it",
-                        messages=[{"role": "user", "content": f"You are an expert business analyst. Dataset sample: {df_shoppers.head(5).to_dict()}. User question: {question}. Data answer: {pai_response}. Provide a concise business analysis."}],
+                        messages=[{"role": "user", "content": f"You are an expert business analyst. Dataset sample: {df_shoppers.head(5).to_dict()}. User question: {question}. Data answer: {pai_response.value}. Provide a concise business analysis."}],
                         api_key="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",
                     )
-                    
+                    response_pai = pai_response.value if hasattr(pai_response, "value") else str(pai_response)
                     response_text = analysis.choices[0].message.content
                     st.markdown(response_text)
+                    if("export" in response_pai):
+                        st.image(pai_response.value)
+                    else:
+                        st.markdown(response_pai)
+            
                     
                     # Add to chat history
                     st.session_state.messages.append({"role": "assistant", "content": response_text})

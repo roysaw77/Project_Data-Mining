@@ -1,13 +1,19 @@
 # Online Shoppers Purchase Intention Dashboard
 
-An interactive Streamlit dashboard for data mining on online shopping sessions.
-This app supports:
-- Exploratory data analysis
-- Purchase prediction with XGBoost
-- High-potential customer filtering
-- Customer segmentation clustering
-- Association rule mining
-- AI-powered business Q&A
+This dashboard is designed to help non-technical users turn customer data into clear business insights without needing to write code.
+
+Target users:
+- Business managers
+- Marketing teams
+- Sales and operations teams
+- Anyone who works with CSV files but does not have a data science background
+
+What the app does:
+- Upload customer session data in CSV format
+- View simple dashboard summaries and visual reports
+- Identify customers who are most likely to buy
+- Understand the key factors that influence purchase intent
+- Ask an AI assistant questions in plain language
 
 ## Main Application
 
@@ -34,10 +40,11 @@ The main app file is app.py.
 	- Trains XGBClassifier
 	- Returns model, evaluation metrics, confusion matrix, and feature importance
 
-Classification page output includes:
-- Accuracy, Precision, Recall, F1-Score, ROC-AUC
-- High-potential customer detection with probability threshold slider
-- CSV export of high-potential sessions
+What this means for non-technical users:
+- Classification is a simple upload-and-result function.
+- You upload a CSV file and the app estimates each session's purchase probability.
+- The dashboard highlights which customer sessions are highly intended to buy, shown as percentages.
+- You can set a threshold and export the high-potential customer list directly.
 
 ### 3) Clustering Analysis
 
@@ -50,6 +57,11 @@ Clustering page also supports upload of high-potential customer CSV and groups s
 - High Intent Buyers
 - Returning Buyers
 - Window Shoppers
+
+What this means for non-technical users:
+- Clustering shows customer groups visually.
+- It helps identify which group has the highest likelihood to buy.
+- This supports targeted campaigns and better segmentation decisions.
 
 ### 4) Association Rule Mining
 
@@ -65,6 +77,11 @@ Association Rules page shows:
 - Support, confidence, and lift comparisons
 - Feature ranking style interpretation
 
+What this means for non-technical users:
+- Association Rules show which columns are most important for purchase intent.
+- It explains what combinations of behavior are strongly linked to buying.
+- This helps teams focus on the most impactful business factors.
+
 ### 5) AI Business Analyst
 
 The AI Analyst page allows natural-language questions about the dataset.
@@ -73,27 +90,37 @@ Flow:
 - PandasAI generates a data-grounded response
 - LLM produces concise business interpretation
 
-## Screenshots Section (Add Your Function Screenshots Here)
+What this means for non-technical users:
+- The AI Business Analyst is a chatbot for data questions.
+- It uses a RAG-style approach with PandasAI to retrieve and analyze dataset information.
+- Users can ask for insights, summaries, and extracted information without SQL or coding.
+
+## Function Section (Add Your Function Screenshots Here)
 
 Create a folder named screenshots in your project root, then save image files and reference them like below.
 
 ### Home / Overview
-![Data Overview](screenshots/data-overview.png)
-
 ### Classification Dashboard
 ![Classification Metrics](screenshots/classification-dashboard.png)
-
+![Classfication upload data](image-1.png)
+Upload the CSV file in this section to generate purchase-intent predictions.
 ### High Potential Customers
-![High Potential Customers](screenshots/high-potential-customers.png)
+![High Potential Customers](![High Potential Customers](image.png))
+This section shows the purchase probability for each customer and helps users quickly identify the highest-intent sessions.
 
 ### Clustering Result
-![Clustering](screenshots/clustering-dashboard.png)
+![Clustering](image-2.png)
+By uploading the CSV file, you can view a chart that shows how your customers are distributed across different groups.
 
 ### Association Rules
-![Association Rules](screenshots/association-rules.png)
+![Association Rules](image-3.png)
+This section shows which factors have the strongest impact on whether customers decide to buy.
 
 ### AI Analyst Chat
-![AI Analyst](screenshots/ai-analyst.png)
+![AI response](Screenshot 2026-04-14 174340.png)
+Use the AI assistant to get insights from your data.
+![AI Analyst](image-4.png)
+You can also ask the AI to explain trends or generate plots.
 
 ## How to Run
 
